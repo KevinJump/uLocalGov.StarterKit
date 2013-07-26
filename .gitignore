@@ -30,12 +30,49 @@ web.config
 aspnet_client/
 data/
 install/
-umbraco/
+*/umbraco/Actions/
+*/umbraco/*.*
 umbraco_client/
 default.aspx
 global.asax
 
 */uSync.Archive/
+
+# so we can include famfam 
+# in umbraco/images/umbraco
+# ==============
+*/umbraco/Actions
+*/umbraco/Channels
+*/umbraco/Config
+*/umbraco/Controls
+*/umbraco/Create
+*/umbraco/Css
+*/umbraco/Dashboard
+*/umbraco/Developer
+*/umbraco/Dialogs
+# Images
+*/umbraco/Images/*.*
+*/umbraco/Images/Actions/
+*/umbraco/Images/Developer/
+*/umbraco/Images/Editor/
+*/umbraco/Images/PinnedIcons/
+*/umbraco/Images/SpeechBubble/
+*/umbraco/Images/Thumbnails/
+*/umbraco/Images/Tray/
+*/umbraco/Images/Umbraco/*.gif
+*/umbraco/Js
+*/umbraco/LiveEditing
+*/umbraco/Masterpages
+*/umbraco/Members
+*/umbraco/Plugins
+*/umbraco/Scripting
+*/umbraco/Search
+*/umbraco/Settings
+*/umbraco/Translation
+*/umbraco/Users
+*/umbraco/Webservices
+*/umbraco/Xslt
+
 
 # The Bin Folder for Umbraco 6.1.3
 # ================================
