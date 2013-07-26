@@ -35,6 +35,7 @@ umbraco_client/
 default.aspx
 global.asax
 
+*/uSync.Archive/
 
 # The Bin Folder for Umbraco 6.1.3
 # ================================
