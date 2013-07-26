@@ -1,0 +1,77 @@
+# Umbraco gitIgnore
+# Kevin Jump - consistently ignoring stuff since 1976
+#
+# This is a general + Umbraco ignore file.
+#
+# Gotten from bits of the internet 
+#   http://stackoverflow.com/questions/8527597/gitignore-file-syntax
+#   http://offroadcode.com/blog/2012/4/5/mercurial-ignore-file-for-umbraco/
+#
+
+# use glob syntax
+syntax: glob
+
+#
+# UMBRACO (V6.1.x)
+# ================
+#
+App_Browsers/
+App_Code/
+App_Data/ClientDependency/
+App_Data/ExamineIndexes/
+App_Data/umbraco.config
+App_Data/preview/
+App_Data/TEMP/
+aspnet_client/
+data/
+install/
+umbraco/
+umbraco_client/
+default.aspx
+
+
+# Visual Studio
+# ================
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
