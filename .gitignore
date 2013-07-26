@@ -12,27 +12,115 @@
 syntax: glob
 
 #
-# UMBRACO (V6.1.x)
+# UMBRACO (V6.1.3)
 # ================
-#
-App_Browsers/
-App_Code/
-App_Data/ClientDependency/
-App_Data/ExamineIndexes/
-App_Data/umbraco.config
-App_Data/preview/
-App_Data/TEMP/
-App_Data\Logs\
+
+web.config
+
+*/App_Browsers/
+# */App_Code/
+*/App_Data/ClientDependency/
+*/App_Data/ExamineIndexes/
+*/App_Data/umbraco.config
+*/App_Data/preview/
+*/App_Data/TEMP/
+*/App_Data/Logs/
+*/App_Data/packages/
+
 aspnet_client/
 data/
 install/
 umbraco/
 umbraco_client/
 default.aspx
+global.asax
 
 
-# Visual Studio
-# ================
+# The Bin Folder for Umbraco 6.1.3
+# ================================
+*/bin/amd64/
+*/bin/x86/
+businesslogic.dll
+businesslogic.xml
+ClientDependency.Core.dll
+ClientDependency.Core.Mvc.dll
+cms.dll
+cms.xml
+controls.dll
+controls.xml
+CookComputing.XmlRpcV2.dll
+Examine.dll
+HtmlAgilityPack.dll
+HtmlAgilityPack.xml
+ICSharpCode.SharpZipLib.dll
+interfaces.dll
+interfaces.xml
+log4net.dll
+Lucene.Net.dll
+Lucene.Net.xml
+Microsoft.ApplicationBlocks.Data.dll
+Microsoft.Web.Helpers.dll
+Microsoft.Web.Infrastructure.dll
+Microsoft.Web.Infrastructure.xml
+Microsoft.Web.Mvc.FixedDisplayModes.dll
+MiniProfiler.dll
+MiniProfiler.xml
+MySql.Data.dll
+Newtonsoft.Json.dll
+Newtonsoft.Json.xml
+Our.Umbraco.uGoLive.47x.dll
+Our.Umbraco.uGoLive.Checks.dll
+Our.Umbraco.uGoLive.dll
+SQLCE4Umbraco.dll
+SQLCE4Umbraco.XML
+System.Data.SqlServerCe.dll
+System.Data.SqlServerCe.Entity.dll
+System.Net.Http.dll
+System.Net.Http.Formatting.dll
+System.Net.Http.Formatting.xml
+System.Net.Http.WebRequest.dll
+System.Net.Http.WebRequest.xml
+System.Net.Http.xml
+System.Web.Helpers.dll
+System.Web.Helpers.xml
+System.Web.Http.dll
+System.Web.Http.WebHost.dll
+System.Web.Http.WebHost.xml
+System.Web.Http.xml
+System.Web.Mvc.dll
+System.Web.Mvc.xml
+System.Web.Razor.dll
+System.Web.Razor.xml
+System.Web.WebPages.Deployment.dll
+System.Web.WebPages.Deployment.xml
+System.Web.WebPages.dll
+System.Web.WebPages.Razor.dll
+System.Web.WebPages.Razor.xml
+System.Web.WebPages.xml
+TidyNet.dll
+Umbraco.Core.dll
+Umbraco.Core.xml
+umbraco.DataLayer.dll
+umbraco.DataLayer.xml
+umbraco.dll
+umbraco.editorControls.dll
+umbraco.editorControls.xml
+umbraco.MacroEngines.dll
+umbraco.MacroEngines.xml
+umbraco.macroRenderings.dll
+umbraco.macroRenderings.xml
+umbraco.providers.dll
+umbraco.providers.xml
+Umbraco.Web.UI.dll
+umbraco.xml
+umbraco.XmlSerializers.dll
+UmbracoExamine.dll
+UmbracoExamine.XML
+UrlRewritingNet.UrlRewriter.dll
+
+# ================================
+#    Visual Studio + Tools + OS
+# ================================
 *.[Oo]bj
 *.user
 *.aps
@@ -54,7 +142,6 @@ default.aspx
 *.sdf
 ipch/
 obj/
-[Bb]in
 [Dd]ebug*/
 [Rr]elease*/
 Ankh.NoLoad
@@ -76,3 +163,4 @@ _ReSharper*/
 #OS junk files
 [Tt]humbs.db
 *.DS_Store
+
