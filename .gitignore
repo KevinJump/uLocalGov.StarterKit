@@ -22,6 +22,7 @@ App_Data/ExamineIndexes/
 App_Data/umbraco.config
 App_Data/preview/
 App_Data/TEMP/
+App_Data/Logs/
 aspnet_client/
 data/
 install/
