@@ -2259,6 +2259,14 @@
     <Content Include="Umbraco_Client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="Umbraco_Client\CodeMirror\Js\Mode\Sieve\LICENSE" />
     <Content Include="Xslt\Web.config" />
+    <Content Include="Views\ulgDesign.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Views\ulgHomepage.cshtml" />
+    <Content Include="Views\ulgLandingPage.cshtml" />
+    <Content Include="Views\ulgMasterView.cshtml" />
+    <Content Include="Views\ulgSectionHomepage.cshtml" />
+    <Content Include="Views\ulgStandardPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgMasterView.cshtml";
+}
+
+	@section Styles {
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/layout.css" >
+	@Umbraco.Field("sectionStyle", recursive: true, insertBefore: "&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/", insertAfter: "&quot;&gt;")
+
+	}
+
+@section MetaData {
+	<!-- eGov Meta Data : Mandatory -->
+	<!-- this will make your html5 page invalid! -->
+    <meta name="DC.Subject" content="@Umbraco.Field("metaSubject")">
+    <meta name="DC.Date" content="@Umbraco.Field("updateDate", formatAsDate: true)" >
+    <meta name="DC.Creator" content="@Umbraco.Field("metaCreator", recursive: true)" >
+    <meta name="DC.Publisher" content="@Umbraco.Field("metaPublisher", recursive: true)" >
+    <meta name="DC.Title" content="@Umbraco.Field("title")" >
+    <!-- end eGov -->
+	
+	@RenderSection("MetaData",false)
+	
+	<meta name="robots" content="@Umbraco.Field("metaRobots", recursive: true)">
+}
+
+
+	<div class="container">
+		<div class="row">
+			<div class="span6">
+				<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
+			</div>				
+		</div>
+		<div class="row">
+			<div class="span12">
+				@*Replace with partial view *@
+				@Umbraco.RenderMacro("ulg.sitesections")
+	
+			</div>
+		</div>
+	</div>
+		
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				@if (Section.IsDefined("BreadCrumb")){
+				 @RenderSection("BreadCrumb",false)	
+					
+				}
+else {
+	@*default breadcrumb if one is not defined below, rewrite as partial view*@
+@Umbraco.RenderMacro("ulg.breadcrumb")	
+}
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		@RenderBody()
+	</div>
+	
+	<div class="container">
+		@RenderSection("Footer")
+	</div>
+
+		@section Scripts {
+			
+		@RenderSection("Scripts",false)	
+		}

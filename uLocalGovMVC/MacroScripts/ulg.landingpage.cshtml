@@ -1,0 +1,69 @@
+﻿@*
+ build the "straight to" and "more" links on a landing page.
+*@
+
+@inherits umbraco.MacroEngines.DynamicNodeContext
+              
+@{
+    int mainCount;
+    string mainName = "Straight To...";
+    string moreName = "More...";
+  
+    if ( !Int32.TryParse(@Parameter.mainCount, out mainCount)) { mainCount = 6; }
+    if ( !String.IsNullOrEmpty(@Parameter.mainSection) ) { mainName = @Parameter.mainName; }
+    if ( !String.IsNullOrEmpty(@Parameter.moreName) ) { moreName = @Parameter.moreName; }
+	
+    var grid = "span4" ;
+    int itemsPerRow = 3; 
+    if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) { 
+        grid = "span6" ;
+        itemsPerRow = 2;
+  }
+}
+
+<div class="row">
+	<div class="span12">
+    	<h2>@mainName</h2>
+	</div>
+</div>
+		
+<div class="row">
+@foreach (var item in @Model.Children.Where("!umbracoNaviHide").Take(mainCount))
+{
+    if ( @item.IsModZero(itemsPerRow) )
+    {
+        <div class="clearfix"></div>
+    }
+                
+    <div class="@grid">
+        <div class="landingItem">
+            <a class="landingLink" href="@item.Url">
+				<div class="icon48 @item.icon">&nbsp;</div>
+                <h3>@item.title</h3>
+                <span class="landingText">
+                    @item.summary 
+                </span>
+            </a>
+        </div>
+    </div>
+}
+</div>
+
+@if (@Model.Children.Where("!umbracoNaviHide").Count() > mainCount)
+{
+    <div class="row">
+        <div class="span12">
+            <h2>@moreName</h2>
+        </div>
+	</div>
+	<div class="row">
+        <div class="span12">
+            <ul class="moreLinks">
+                @foreach (var item in @Model.Children.Where("!umbracoNaviHide").Skip(mainCount))
+                {
+                    <li><a href="@item.Url">@item.title</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+}

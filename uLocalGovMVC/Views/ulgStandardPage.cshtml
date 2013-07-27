@@ -1,0 +1,45 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+	
+	
+}
+
+
+	<div class="row">
+		<div class="span3">
+			<div class="well hidden-phone">
+							@*rewrite as partial view *@
+                @Umbraco.RenderMacro("ulg.sidenavigation")
+		
+			</div>
+		</div>
+		<div class="span6">
+		
+				<div class="page-header">
+				<h1>@Umbraco.Field("title")</h1>
+				</div>
+					@Umbraco.Field("bodyText")
+				
+	
+		</div>
+		<div class="span3">
+			@*rewrite as partial view *@
+            @Umbraco.RenderMacro("ulg.relatedlinks")
+
+			[Contact]
+		</div>
+	</div>
+
+
+	
+			@section Footer {
+				
+				
+			}
+@section Scripts {
+	
+}

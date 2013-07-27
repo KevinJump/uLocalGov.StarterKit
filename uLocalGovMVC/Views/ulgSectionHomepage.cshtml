@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+	
+	
+}
+@section BreadCrumb {
+		<!-- homepage has no breadcrumb -->
+}
+
+<div class="row">
+		<div class="span8">
+			<div class="hero-unit">
+				<h2>@Umbraco.Field("sectionName") Section</h2>
+					@Umbraco.Field("bodyText")
+			</div>
+		</div>
+		<div class="span4">
+			<div class="well">
+				<h2>News...</h2>
+			</div>
+		</div>
+	</div>
+	@*rewrite as partial view*@
+@Umbraco.RenderMacro("ulg.landingpage")
+
+
+
+
+
+	
+			@section Footer {
+				
+				
+			}
+@section Scripts {
+	
+}

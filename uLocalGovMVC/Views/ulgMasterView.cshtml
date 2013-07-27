@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>
+		@Umbraco.Field("title") - 
+		@Umbraco.Field("siteName", recursive: true)	
+	</title>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/bootstrap-responsive.min.css" />
+	
+	<link rel="stylesheet" href="/css/font-awesome.min.css" />
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/css/font-awesome-ie7.min.css" />
+	<![endif]-->
+	
+	@RenderSection("Styles",false)
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	@RenderSection("MetaData",false)
+</head>
+<body>
+	@RenderBody()
+	
+	<!-- scripts at the bottom -->
+	<script src="/scripts/jquery-latest.min.js"></script>
+	<script src="/scripts/bootstrap.min.js"></script>
+	@RenderSection("Scripts",false)
+	
+		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', '@Umbraco.Field("analyticsCode", recursive: true)']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();		
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@using System.Collections 
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    Dictionary<string, string> tabs = new Dictionary<string,string>() ; 
+    
+    tabs.Add( "/", @Model.AncestorOrSelf().sectionName ) ; 
+    string currentRoot = Model.Url.Substring(0, Model.Url.IndexOf('/', 1)+1 );
+    foreach (var node in Model.XPath("//ulgSectionHomepage[umbracoNaviHide != 1]"))
+    {
+        tabs.Add(node.Url, node.sectionName);
+    }
+
+    if (!tabs.Keys.Contains(currentRoot))
+    {
+        currentRoot = "/";
+    }
+}
+<ul class="nav nav-tabs">
+@foreach (KeyValuePair<string, string> node in tabs)
+{
+    string active = "";
+    if (node.Key.CompareTo(currentRoot) == 0)
+    {
+        active = "active";
+    }
+    
+    <li class="@active">
+        <a href="@node.Key" class="@node.Key.Trim('/')">@node.Value</a>
+    </li>
+}
+    
+</ul>

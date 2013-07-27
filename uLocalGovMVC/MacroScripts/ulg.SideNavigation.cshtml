@@ -1,0 +1,26 @@
+﻿@*
+
+ a very basic side menu, left as an exercise for the reader.
+
+*@
+
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+<ul class="nav nav-list">
+	@foreach(var level in @Model.Ancestors().Where("Visible"))
+	{
+		<li><a href="@level.Url">@level.title</a></li>
+	}	
+	
+	<li class="divider"></li>
+    @foreach (var item in @Model.Parent.Children.Where("Visible"))
+    {
+        <li><a href="@item.Url">@item.title</a></li>
+    }
+
+	<li class="divider"></li>
+    @foreach (var item in @Model.Children.Where("Visible"))
+    {
+        <li><a href="@item.Url">@item.title</a></li>
+    }
+</ul>

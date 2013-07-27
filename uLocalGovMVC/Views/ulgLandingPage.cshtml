@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+	
+	
+}
+
+
+	<div class="row">
+		<div class="span12">
+			<h1>@Umbraco.Field("title")</h1>
+				@Umbraco.Field("bodyText")
+		</div>
+	</div>
+
+@*Rewrite as partial view *@
+@Umbraco.RenderMacro("ulg.landingpage",new { mainCount = @Umbraco.Field("mainItemCount") })
+
+	
+			@section Footer {
+				
+				
+			}
+@section Scripts {
+	
+}
