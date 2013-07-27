@@ -202,3 +202,11 @@ _ReSharper*/
 [Tt]humbs.db
 *.DS_Store
 
+#Nuget
+packages/*
+!packages/repositories.config
+
+#FamFamFam Icons
+
+#!uLocalGovMVC\Umbraco\Images\Umbraco\*.png
+
