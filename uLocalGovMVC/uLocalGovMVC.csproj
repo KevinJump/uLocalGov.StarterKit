@@ -425,6 +425,11 @@
     <Content Include="Config\umbracoSettings.config" />
     <Content Include="Config\UrlRewriting.config" />
     <Content Include="Config\xsltExtensions.config" />
+    <Content Include="MacroScripts\ulg.breadcrumb.cshtml" />
+    <Content Include="MacroScripts\ulg.landingpage.cshtml" />
+    <Content Include="MacroScripts\ulg.relatedlinks.cshtml" />
+    <Content Include="MacroScripts\ulg.SideNavigation.cshtml" />
+    <Content Include="MacroScripts\ulg.SiteSections.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Install\default.aspx" />
     <Content Include="Install\InstallerRestService.aspx" />
@@ -2267,13 +2272,13 @@
     <Content Include="Views\ulgMasterView.cshtml" />
     <Content Include="Views\ulgSectionHomepage.cshtml" />
     <Content Include="Views\ulgStandardPage.cshtml" />
+    <Content Include="Views\Partials\ulgBreadcrumb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
     <Folder Include="Controllers\" />
     <Folder Include="Css\" />
-    <Folder Include="MacroScripts\" />
     <Folder Include="Masterpages\" />
     <Folder Include="Media\" />
     <Folder Include="Models\" />

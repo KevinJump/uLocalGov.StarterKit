@@ -50,7 +50,8 @@
 				}
 else {
 	@*default breadcrumb if one is not defined below, rewrite as partial view*@
-@Umbraco.RenderMacro("ulg.breadcrumb")	
+        @Html.Partial("ulgBreadcrumb")
+@*Umbraco.RenderMacro("ulg.breadcrumb")	*@
 }
 			</div>
 		</div>
