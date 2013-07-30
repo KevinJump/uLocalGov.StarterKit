@@ -73,7 +73,6 @@ global.asax
 */umbraco/Webservices
 */umbraco/Xslt
 
-
 # The Bin Folder for Umbraco 6.1.3
 # ================================
 */bin/amd64/
