@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+	@*
+ build the "straight to" and "more" links on a landing page.
+*@
+
+              
+@{
+    int mainCount;
+    string mainName = "Straight To...";
+    string moreName = "More...";
+  
+    if ( !Int32.TryParse(ViewData["mainCount"].ToString(), out mainCount)) { mainCount = 6; }
+    if (ViewData["mainName"]!= null) { mainName = ViewData["mainName"].ToString(); }
+    if (ViewData["moreName"]!= null) { moreName = ViewData["moreName"].ToString(); }
+	
+    var grid = "span4" ;
+    int itemsPerRow = 3; 
+    if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) { 
+        grid = "span6" ;
+        itemsPerRow = 2;
+  }
+}
+
+<div class="row">
+	<div class="span12">
+    	<h2>@mainName</h2>
+	</div>
+</div>
+		
+<div class="row">
+@foreach (var item in Model.Content.Children().Where(x=>x.IsVisible()).Take(mainCount))
+{
+    if ( @item.IsModZero(itemsPerRow) )
+    {
+        <div class="clearfix"></div>
+    }
+                
+    <div class="@grid">
+        <div class="landingItem">
+            <a class="landingLink" href="@item.Url">
+				<div class="icon48 @item.GetPropertyValue("icon")">&nbsp;</div>
+                <h3>@item.GetPropertyValue("item")</h3>
+                <span class="landingText">
+                    @item.GetPropertyValue("summary")
+                </span>
+            </a>
+        </div>
+    </div>
+}
+</div>
+
+@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
+{
+    <div class="row">
+        <div class="span12">
+            <h2>@moreName</h2>
+        </div>
+	</div>
+	<div class="row">
+        <div class="span12">
+            <ul class="moreLinks">
+                @foreach (var item in @Model.Content.Children.Where(x=>x.IsVisible()).Skip(mainCount))
+                {
+                    <li><a href="@item.Url">@item.GetPropertyValue("title")</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+}

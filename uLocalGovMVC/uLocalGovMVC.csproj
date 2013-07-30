@@ -2315,6 +2315,7 @@
     <Content Include="Views\ulgStandardPage.cshtml" />
     <Content Include="Views\Partials\ulgBreadcrumb.cshtml" />
     <Content Include="Views\MacroPartials\ulgLandingPage.cshtml" />
+    <Content Include="Views\Partials\ulgLandingPagePartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
