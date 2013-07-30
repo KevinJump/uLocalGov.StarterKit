@@ -1,4 +1,6 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@using System.Linq;
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
 
 	@*
  build the "straight to" and "more" links on a landing page.
@@ -29,9 +31,11 @@
 </div>
 		
 <div class="row">
+
 @foreach (var item in Model.Content.Children().Where(x=>x.IsVisible()).Take(mainCount))
 {
-    if ( @item.IsModZero(itemsPerRow) )
+
+    if ( item.IsModZero(itemsPerRow) )
     {
         <div class="clearfix"></div>
     }
@@ -48,6 +52,7 @@
         </div>
     </div>
 }
+
 </div>
 
 @if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)

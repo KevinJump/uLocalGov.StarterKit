@@ -11,8 +11,8 @@
     string moreName = "More...";
   
     if ( !Int32.TryParse(Model.MacroParameters["mainCount"].ToString(), out mainCount)) { mainCount = 6; }
-    if (Model.MacroParameters["mainName"] != null) { mainName = Model.MacroParameters["mainName"].ToString(); }
-    if (Model.MacroParameters["moreName"] != null) { moreName = Model.MacroParameters["moreName"].ToString(); }
+    if (Model.MacroParameters.ContainsKey("mainName")) { mainName = Model.MacroParameters["mainName"].ToString(); }
+    if (Model.MacroParameters.ContainsKey("moreName")) { moreName = Model.MacroParameters["moreName"].ToString(); }
 	
     var grid = "span4" ;
     int itemsPerRow = 3; 

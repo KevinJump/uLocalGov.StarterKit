@@ -19,7 +19,7 @@
 @*Rewrite as partial view *@
 @Umbraco.RenderMacro("ulg.landingpage",new { mainCount = @Umbraco.Field("mainItemCount") })
 or direct to partial view
-@Html.Partial("ulgLandingPagePartial", new ViewDataDictionary() {{ "mainCount",@Umbraco.Field("mainItemCount")}})
+@Html.Partial("ulgLandingPagePartial",Model.Content,new ViewDataDictionary() {{ "mainCount",@Umbraco.Field("mainItemCount")}})
 
 	
 			@section Footer {
