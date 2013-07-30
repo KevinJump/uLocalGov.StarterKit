@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="35827b4e-de40-4413-b14c-f4a86f152aab" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1082" sortOrder="4" nodeName="Bins and Recycling" isDoc="" published="true">
-  <title>Bins &amp; Recycling</title>
+<ulgLandingPage guid="e74d7eda-302b-49a7-928b-4d4244181376" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1074" sortOrder="4" nodeName="Bins and Recycling" isDoc="" published="true">
+  <title>Bins and Recycling</title>
   <bodyText><![CDATA[]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
