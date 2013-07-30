@@ -191,6 +191,46 @@
     <Reference Include="TidyNet">
       <HintPath>..\packages\UmbracoCms.Core.6.1.3\lib\TidyNet.dll</HintPath>
     </Reference>
+    <Reference Include="uComponents.Controls, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.Core, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.DataTypes, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.DataTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.Installer, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.Installer.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.Legacy, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.Legacy.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.MacroEngines, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.MacroEngines.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.Mapping, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.Mapping.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.NotFoundHandlers, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.NotFoundHandlers.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.UI, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="uComponents.XsltExtensions, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\uComponents.5.5.0\lib\net40\uComponents.XsltExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="umbraco">
       <HintPath>..\packages\UmbracoCms.Core.6.1.3\lib\umbraco.dll</HintPath>
     </Reference>
@@ -1002,6 +1042,7 @@
     <Content Include="Umbraco\Plugins\Tinymce3\insertLink.aspx" />
     <Content Include="Umbraco\Plugins\Tinymce3\insertMacro.aspx" />
     <Content Include="Umbraco\Plugins\Tinymce3\tinymce3tinymceCompress.aspx" />
+    <Content Include="Umbraco\Plugins\uComponents\uComponentsInstaller.ascx" />
     <Content Include="Umbraco\Plugins\UGoLive\cog.png" />
     <Content Include="Umbraco\Plugins\UGoLive\cross.png" />
     <Content Include="Umbraco\Plugins\UGoLive\Dashboard.ascx" />
