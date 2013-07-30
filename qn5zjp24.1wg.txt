@@ -1,0 +1,55 @@
+﻿Merge branch 'master' of https://github.com/KevinJump/uLocalGov.StarterKit
+
+Conflicts:
+	uLocalGovMVC/Css/bootstrap-responsive.css
+	uLocalGovMVC/Css/bootstrap-responsive.min.css
+	uLocalGovMVC/Css/bootstrap.css
+	uLocalGovMVC/Css/bootstrap.min.css
+	uLocalGovMVC/Css/font-awesome-ie7.min.css
+	uLocalGovMVC/Css/font-awesome.css
+	uLocalGovMVC/Css/font-awesome.min.css
+	uLocalGovMVC/Css/layout.css
+	uLocalGovMVC/Css/layout.css.css
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 7 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	modified:   .gitignore
+#	modified:   uLocalGovMVC/Config/Dashboard.config
+#	new file:   uLocalGovMVC/Config/uSyncContent.config
+#	modified:   uLocalGovMVC/Css/bootstrap-responsive.css
+#	modified:   uLocalGovMVC/Css/bootstrap-responsive.min.css
+#	modified:   uLocalGovMVC/Css/bootstrap.css
+#	modified:   uLocalGovMVC/Css/bootstrap.min.css
+#	modified:   uLocalGovMVC/Css/font-awesome-ie7.min.css
+#	modified:   uLocalGovMVC/Css/font-awesome.css
+#	modified:   uLocalGovMVC/Css/font-awesome.min.css
+#	modified:   uLocalGovMVC/Css/layout.css
+#	modified:   uLocalGovMVC/Css/layout.css.css
+#	new file:   uLocalGovMVC/UserControls/uSync/uSyncTab.ascx
+#	new file:   uLocalGovMVC/bin/jumoo.usync.content.dll
+#	new file:   uLocalGovMVC/bin/jumoo.usync.usyncui.dll
+#	new file:   uLocalGovMVC/uSync/Content/_source.xml
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    uLocalGovMVC/web.backup.1374869457.config
+#
+
