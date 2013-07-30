@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgSectionHomepage guid="3395b16e-c1d5-4549-85c1-cf3fffe1b123" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" id="1079" sortOrder="1" nodeName="Council" isDoc="" published="true">
+  <title>Council</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <menuLength></menuLength>
+  <sectionName>Council</sectionName>
+  <sectionStyle>/css/council.css</sectionStyle>
+</ulgSectionHomepage>
