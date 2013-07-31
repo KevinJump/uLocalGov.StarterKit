@@ -41,7 +41,7 @@
 
 @foreach (var item in Model.Content.Children().Where(x=>x.IsVisible()).Take(mainCount))
 {
-        
+
     if ( item.IsModZero(itemsPerRow) )
     {
         @* if we are at the end of a row - clear to start the next *@
