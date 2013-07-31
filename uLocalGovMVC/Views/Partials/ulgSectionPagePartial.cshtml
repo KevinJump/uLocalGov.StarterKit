@@ -1,3 +1,79 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+﻿@using System.linq; 
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage 
 	
-@* renders out the sections on homepages & section pages *@
+@* 
+renders out the sections on homepages & section pages
+
+this is very similar to the LandingPagePartial - with two
+diffrences 
+
+1. this list will only render LandingPages
+2. the item html is a heading link follwed by a list of links
+ 
+*@
+
+@{
+    int mainCount;
+    string mainName = umbraco.library.GetDictionaryItem("MainSection");
+    string moreName = umbraco.library.GetDictionaryItem("MoreSection");
+
+    if (int.TryParse(ViewData["mainCount"].ToString(), out mainCount)) { mainCount = 6;  }
+    if (ViewData["mainName"] != null) { mainName = ViewData["mainName"].ToString(); }
+    if (ViewData["moreName"] != null) { moreName = ViewData["moreName"].ToString(); }
+
+    var grid = "span4";
+    int itemsPerRow = 3; 
+    if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) {
+        grid = "span6";
+        itemsPerRow = 2; 
+    }
+}
+
+<div class="row">
+    <div class="span12">
+        <h2>@mainName</h2>
+    </div>
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model.Content.Children().Where(x => x.IsVisible()).Take(mainCount))
+    {
+        if ( item.IsModZero(itemsPerRow) )
+        {
+            <div class="clearfix"></div>
+        }
+        
+        <div class="@grid">
+            <div class="landing-item">
+                <a class="landing-link" href="@item.Url">
+                    <h3>@item.GetProperty("title")</h3>
+                </a>
+                <span class="landing-list">
+                    <!-- from the mntp in the item -->
+                </span>
+            </div>
+        </div>
+    }
+</div>
+
+@if (@Model.Content.Children().Where(x => x.IsVisible()).Count() > mainCount)
+{
+    <div class="row">
+        <div class="span12">
+            <h2>@moreName</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <ul class="landing-more nav nav-pills">
+                @foreach (var item in @Model.Content.Children.Where(x => x.IsVisible()).Skip(mainCount))
+                {
+                    <li>
+                        <a href="@item.Url">@item.GetPropertyValue("title")</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}

@@ -8,14 +8,20 @@
 
               
 @{
+    @* setup parameters and default values *@
     int mainCount;
-    string mainName = "Straight To...";
-    string moreName = "More...";
+    string mainName = umbraco.library.GetDictionaryItem("MainSection");
+    string moreName = umbraco.library.GetDictionaryItem("MoreSection"); 
+        
   
     if ( !Int32.TryParse(ViewData["mainCount"].ToString(), out mainCount)) { mainCount = 6; }
     if (ViewData["mainName"]!= null) { mainName = ViewData["mainName"].ToString(); }
     if (ViewData["moreName"]!= null) { moreName = ViewData["moreName"].ToString(); }
 	
+    @*
+     setup row type, normally we have three items per line
+     but if we have 2 or 4 then we have 2 items per line
+    *@
     var grid = "span4" ;
     int itemsPerRow = 3; 
     if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) { 
@@ -24,6 +30,7 @@
   }
 }
 
+@* render the main section *@ 
 <div class="row">
 	<div class="span12">
     	<h2>@mainName</h2>
@@ -34,18 +41,20 @@
 
 @foreach (var item in Model.Content.Children().Where(x=>x.IsVisible()).Take(mainCount))
 {
-
+        
     if ( item.IsModZero(itemsPerRow) )
     {
+        @* if we are at the end of a row - clear to start the next *@
         <div class="clearfix"></div>
     }
-                
+
+    @* the landing item *@                
     <div class="@grid">
         <div class="landing-item">
             <a class="landing-link" href="@item.Url">
 				<i class="icon icon-large icon-@item.GetPropertyValue("relatedIcon")"></i>
                 <h3>@item.GetPropertyValue("title")</h3>
-                <span class="landingText">
+                <span class="landing-text">
                     @item.GetPropertyValue("summary")
                 </span>
             </a>
@@ -55,7 +64,11 @@
 
 </div>
 
-	@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
+@* 
+ if there are more elements we place them in the more list
+ at the bottom of the section 
+*@
+@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
 {
     <div class="row">
         <div class="span12">
