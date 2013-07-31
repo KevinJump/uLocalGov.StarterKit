@@ -3,10 +3,14 @@
     Layout = "ulgMasterView.cshtml";
 }
 
-	@section Styles {
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+@section Styles {
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/layout.css" >
-	@Umbraco.Field("sectionStyle", recursive: true, insertBefore: "&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/", insertAfter: "&quot;&gt;")
+	@Umbraco.Field(
+		"sectionStyle", 
+		recursive: true, 
+		insertBefore: "&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/", 
+		insertAfter: "&quot;&gt;")
 
 	}
 
@@ -25,47 +29,50 @@
 	<meta name="robots" content="@Umbraco.Field("metaRobots", recursive: true)">
 }
 
-
-	<div class="container">
-		<div class="row">
-			<div class="span6">
-				<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
-			</div>				
-		</div>
-		<div class="row">
-			<div class="span12">
-				@*Replace with partial view *@
-				@Umbraco.RenderMacro("ulg.sitesections")
-	
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="span6">
+			<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
+		</div>				
+	</div>
+	<div class="row">
+		<div class="span12">
+			@*Replace with partial view *@
+			@Umbraco.RenderMacro("ulg.sitesections")
 		</div>
 	</div>
+</div>
 		
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				@if (IsSectionDefined("BreadCrumb")){
-				 @RenderSection("BreadCrumb",false)	
-					
-				}
-else {
-	@*default breadcrumb if one is not defined below, rewrite as partial view*@
-        @Html.Partial("ulgBreadcrumb")
-@*Umbraco.RenderMacro("ulg.breadcrumb")	*@
-}
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			@if (IsSectionDefined("BreadCrumb")){
+				@RenderSection("BreadCrumb",false)	
+			}
+			else {
+				@*default breadcrumb if one is not defined below, rewrite as partial view*@
+				@Html.Partial("ulgBreadcrumb")
+				@*Umbraco.RenderMacro("ulg.breadcrumb")	*@
+			}
+		</div>
+	</div>
+</div>
+	
+<div class="container">
+	@RenderBody()
+</div>
+	
+<div class="container">
+	@RenderSection("Footer")
+	<div class="row">
+		<div class="span12">
+			<div class="well">
+				uLocalGovMVC Starterkit, 2013
 			</div>
 		</div>
 	</div>
-	
-	<div class="container">
-		@RenderBody()
-	</div>
-	
-	<div class="container">
-		@RenderSection("Footer")
-	</div>
+</div>
 
-		@section Scripts {
-			
-		@RenderSection("Scripts",false)	
-		}
+@section Scripts {
+	@RenderSection("Scripts",false)	
+}

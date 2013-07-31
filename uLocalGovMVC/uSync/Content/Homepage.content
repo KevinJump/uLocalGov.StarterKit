@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgHomepage guid="7c404265-7b1b-4f58-880b-c9872bb53b01" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" id="1072" sortOrder="0" nodeName="Homepage" isDoc="" published="true" updated="2013-07-31T02:54:56.2403981+01:00">
+<ulgHomepage guid="7c404265-7b1b-4f58-880b-c9872bb53b01" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" id="1072" sortOrder="0" nodeName="Homepage" isDoc="" published="true" updated="2013-07-31T15:24:52.9569683+01:00">
   <title>Council homepage</title>
   <bodyText><![CDATA[<p>This is the content for the council homepage</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -12,7 +12,7 @@
   <metaRobots><![CDATA[]]></metaRobots>
   <menuLength>3</menuLength>
   <sectionName>Residents</sectionName>
-  <sectionStyle>/css/residents.css</sectionStyle>
+  <sectionStyle>resident.css</sectionStyle>
   <siteName>Council Sitename</siteName>
   <analyticsCode></analyticsCode>
   <metaCreator></metaCreator>

@@ -41,8 +41,8 @@
     }
                 
     <div class="@grid">
-        <div class="landingItem">
-            <a class="landingLink" href="@item.Url">
+        <div class="landing-item">
+            <a class="landing-link" href="@item.Url">
 				<i class="icon icon-large icon-@item.GetPropertyValue("relatedIcon")"></i>
                 <h3>@item.GetPropertyValue("title")</h3>
                 <span class="landingText">
@@ -55,7 +55,7 @@
 
 </div>
 
-@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
+	@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
 {
     <div class="row">
         <div class="span12">
@@ -64,7 +64,7 @@
 	</div>
 	<div class="row">
         <div class="span12">
-            <ul class="moreLinks">
+            <ul class="landing-more nav nav-pills">
                 @foreach (var item in @Model.Content.Children.Where(x=>x.IsVisible()).Skip(mainCount))
                 {
                     <li><a href="@item.Url">@item.GetPropertyValue("title")</a></li>
