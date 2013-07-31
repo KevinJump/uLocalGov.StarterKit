@@ -39,7 +39,7 @@
 		
 <div class="row">
 
-@foreach (var item in Model.Content.Children().Where(x=>x.IsVisible()).Take(mainCount))
+@foreach (var item in Model.Content.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias != "ulgSectionHomepage").Take(mainCount))
 {
 
     if ( item.IsModZero(itemsPerRow) )
@@ -68,7 +68,7 @@
  if there are more elements we place them in the more list
  at the bottom of the section 
 *@
-@if (@Model.Content.Children().Where(x=>x.IsVisible()).Count() > mainCount)
+@if (@Model.Content.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias != "ulgSectionHomepage").Count() > mainCount)
 {
     <div class="row">
         <div class="span12">
@@ -78,7 +78,7 @@
 	<div class="row">
         <div class="span12">
             <ul class="landing-more nav nav-pills">
-                @foreach (var item in @Model.Content.Children.Where(x=>x.IsVisible()).Skip(mainCount))
+                @foreach (var item in @Model.Content.Children.Where(x => x.IsVisible() && x.DocumentTypeAlias != "ulgSectionHomepage").Skip(mainCount))
                 {
                     <li><a href="@item.Url">@item.GetPropertyValue("title")</a></li>
                 }

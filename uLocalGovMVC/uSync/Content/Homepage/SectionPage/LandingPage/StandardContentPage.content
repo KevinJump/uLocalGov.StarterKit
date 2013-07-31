@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="be45664c-5775-4f1d-acec-65bde718cf87" parentGUID="1e3c427d-e6d6-4219-8087-6e6f66099b0c" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1077" sortOrder="0" nodeName="Standard Content Page" isDoc="" published="true">
+  <title>Standard Content page</title>
+  <bodyText><![CDATA[<p>test </p>]]></bodyText>
+  <relatedIcon><![CDATA[ambulance]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>test summary</p>]]></summary>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedItems>
+    <links />
+  </relatedItems>
+</ulgContentPage>
