@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="1c80e98b-578b-45ee-9398-7ce3da1babb9" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1087" sortOrder="9" nodeName="Jobs and Training" isDoc="" published="true">
-  <title>Jobs &amp; Training</title>
+<ulgLandingPage guid="1c80e98b-578b-45ee-9398-7ce3da1babb9" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1083" sortOrder="9" nodeName="Jobs and Training" isDoc="" published="true" updated="2013-07-31T02:56:01.6491393+01:00">
+  <title>Jobs &amp;amp; Training</title>
   <bodyText><![CDATA[]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
