@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgLandingPage guid="a446e522-4cd3-4a7c-992b-9fc696acbb56" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1092" sortOrder="14" nodeName="Health and Social Care" isDoc="" published="true" updated="2013-08-01T20:31:35.5975782+01:00">
+  <title>Health &amp; Social Care</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <mainItemCount></mainItemCount>
+  <menuItemCount></menuItemCount>
+</ulgLandingPage>
