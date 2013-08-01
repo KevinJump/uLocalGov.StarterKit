@@ -1,0 +1,38 @@
+﻿@using System.Linq 
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@*
+ displays the contact links on a page
+*@
+
+@{
+    if ( Model.Content.HasProperty("Contact") && Model.Content.HasValue("Contact") ) 
+    {
+        var Contact = Umbraco.TypedContent(Model.Content.GetPropertyValue("Contact"));
+        
+        if ( Contact != null )
+        {
+         <div class="contact-details well">
+             <h2>Contact Us</h2>
+             <ul class="nav nav-list">
+                 
+                 @if ( Contact.HasValue("emailAddress") ) 
+                 {
+                    <li><a href="@Contact.Url#email">e-mail</a></li>
+                 }
+                 
+                 @if ( Contact.HasValue("telephone") )
+                 {
+                     <li><a href="@Contact.Url#phone">telephone</a></li>
+                 }
+
+                 @if ( Contact.HasValue("address") ) 
+                 {
+                     <li><a href="@Contact.Url#address">by post</a></li>
+                 }
+                 
+             </ul>
+         </div>   
+        }
+    }
+}

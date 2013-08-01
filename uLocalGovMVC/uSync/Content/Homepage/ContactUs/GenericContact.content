@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContactPage guid="c93bd46a-f995-4286-abeb-71ab2b47ce77" parentGUID="e9b721e8-3826-4e72-9ecc-ed30d4e6ed65" nodeTypeAlias="ulgContactPage" templateAlias="" id="1096" sortOrder="0" nodeName="Generic Contact" isDoc="" published="true" updated="2013-08-01T11:47:00.6824599+01:00">
+  <title>Contact Details</title>
+  <bodyText><![CDATA[<p>this is the generic contact page.</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <telephone>0151 123 4567</telephone>
+  <emailAddress>info@jumoo.co.uk</emailAddress>
+  <address><![CDATA[Jumoo Towers
+1 High Street
+Cityville]]></address>
+</ulgContactPage>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" parentGUID="e74d7eda-302b-49a7-928b-4d4244181376" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1092" sortOrder="0" nodeName="What goes in my bin?" isDoc="" published="true" updated="2013-07-31T02:55:33.3325197+01:00">
+<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" parentGUID="e74d7eda-302b-49a7-928b-4d4244181376" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1092" sortOrder="0" nodeName="What goes in my bin?" isDoc="" published="true" updated="2013-08-01T11:42:13.1400134+01:00">
   <title>What goes in my bin</title>
   <bodyText><![CDATA[<p>Content here about what goes in a bin.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -13,4 +13,5 @@
   <relatedItems>
     <links />
   </relatedItems>
+  <contact>1096</contact>
 </ulgContentPage>
