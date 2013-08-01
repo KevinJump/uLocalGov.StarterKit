@@ -13,22 +13,22 @@
         if ( Contact != null )
         {
          <div class="contact-details well">
-             <h2>Contact Us</h2>
+             <h2>@umbraco.library.GetDictionaryItem("Contact Us")</h2>
              <ul class="nav nav-list">
                  
                  @if ( Contact.HasValue("emailAddress") ) 
                  {
-                    <li><a href="@Contact.Url#email">e-mail</a></li>
+                    <li><a href="@Contact.Url#email">@umbraco.library.GetDictionaryItem("eMail")</a></li>
                  }
                  
                  @if ( Contact.HasValue("telephone") )
                  {
-                     <li><a href="@Contact.Url#phone">telephone</a></li>
+                     <li><a href="@Contact.Url#phone">@umbraco.library.GetDictionaryItem("Telephone")</a></li>
                  }
 
                  @if ( Contact.HasValue("address") ) 
                  {
-                     <li><a href="@Contact.Url#address">by post</a></li>
+                     <li><a href="@Contact.Url#address">@umbraco.library.GetDictionaryItem("Address")</a></li>
                  }
                  
              </ul>
