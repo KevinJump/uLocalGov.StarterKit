@@ -2317,6 +2317,7 @@
     <Content Include="Views\MacroPartials\ulgLandingPage.cshtml" />
     <Content Include="Views\Partials\ulgLandingPagePartial.cshtml" />
     <Content Include="Views\Partials\ulgContactLinks.cshtml" />
+    <Content Include="Views\Partials\ulgRelatedLinks.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

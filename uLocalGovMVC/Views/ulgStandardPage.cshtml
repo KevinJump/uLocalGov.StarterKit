@@ -27,8 +27,8 @@
 	
 		</div>
 		<div class="span3">
-			@*rewrite as partial view *@
-            @Umbraco.RenderMacro("ulg.relatedlinks")
+			@Html.Partial("ulgRelatedLinks")
+
             @Html.Partial("ulgContactLinks")  			
 		</div>
 	</div>
