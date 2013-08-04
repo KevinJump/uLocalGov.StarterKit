@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+	
+	
+}
+
+
+	<div class="row">
+		<div class="span8">
+		
+				<div class="page-header">
+				<h1>@Umbraco.Field("title")</h1>
+				</div>
+					@Umbraco.Field("bodyText")
+				
+	
+		</div>
+					</div>
+					
+					<div class="row">
+						<div class="span12">
+	
+							@Html.Partial("ulgAZIndex")
+                            @Html.Action("DisplayAZEntries", "SiteNavigationSurface")
+	
+							
+	</div>
+</div>
+
+	
+			@section Footer {
+				
+				
+			}
+@section Scripts {
+	
+}

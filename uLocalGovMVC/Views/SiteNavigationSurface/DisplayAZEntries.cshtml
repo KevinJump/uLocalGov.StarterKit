@@ -1,0 +1,20 @@
+﻿@model uLocalGovMVC.Models.ViewModels.AZEntriesViewModel
+
+	<h2>@Model.CurrentLetter</h2>
+	
+@if (Model.HasEntries){
+  	<ul class="az-result">
+		@foreach (var pageKey in Model.AZPages){	
+			<li><a href="@pageKey.Value">@pageKey.Key</a></li>
+        } 
+	</ul> 
+}
+else {
+    
+ <p>No entries in the A-Z for '@Model.CurrentLetter'</p>	  
+
+}
+
+			
+		
+

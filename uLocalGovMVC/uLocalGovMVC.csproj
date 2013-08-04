@@ -278,9 +278,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\SurfaceControllers\SiteNavigationSurfaceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ViewModels\AZEntriesViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2318,15 +2320,16 @@
     <Content Include="Views\Partials\ulgLandingPagePartial.cshtml" />
     <Content Include="Views\Partials\ulgContactLinks.cshtml" />
     <Content Include="Views\Partials\ulgRelatedLinks.cshtml" />
+    <Content Include="Views\Partials\ulgAZIndex.cshtml" />
+    <Content Include="Views\SiteNavigationSurface\DisplayAZEntries.cshtml" />
+    <Content Include="Views\ulgAZEntriesPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Plugins\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Css\" />
     <Folder Include="Masterpages\" />
     <Folder Include="Media\" />
-    <Folder Include="Models\" />
     <Folder Include="UserControls\" />
   </ItemGroup>
   <ItemGroup>
