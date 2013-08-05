@@ -6,12 +6,12 @@
 	@{
      // change this to be the location of your a-z page...
         string pathToAZIndexPage = "/a-z/";
-		if (!String.IsNullOrEmpty(ViewData["PathToAZIndexPage"]){
-			pathToAZIndexPage = ViewData["PathToAZIndexPage"]
+		if (ViewData["PathToAZIndexPage"]!= null){
+			pathToAZIndexPage = ViewData["PathToAZIndexPage"].ToString();
 		}
      string customCssClass = "";
-			if (!String.IsNullOrEmpty(ViewData["CustomCssClass"]){
-			customCssClass = ViewData["CustomCssClass"]
+			if (ViewData["CustomCssClass"]!= null){
+			customCssClass = ViewData["CustomCssClass"].ToString();
 		}	
 			
 			
