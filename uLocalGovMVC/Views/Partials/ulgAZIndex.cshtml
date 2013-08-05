@@ -6,7 +6,15 @@
 	@{
      // change this to be the location of your a-z page...
         string pathToAZIndexPage = "/a-z/";
-     
+		if (!String.IsNullOrEmpty(ViewData["PathToAZIndexPage"]){
+			pathToAZIndexPage = ViewData["PathToAZIndexPage"]
+		}
+     string customCssClass = "";
+			if (!String.IsNullOrEmpty(ViewData["CustomCssClass"]){
+			customCssClass = ViewData["CustomCssClass"]
+		}	
+			
+			
      // get the letters
 		string[] letters = new string[] {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
 	
@@ -15,7 +23,7 @@
 	
 	}	
 	
-<nav class="azindex">
+<nav class="azindex @customCssClass">
 <ul class="az">	
 	@foreach(var letter in letters){
 		var selectedClass = "";
@@ -26,3 +34,4 @@
 	}		
 	</ul>	
 </nav>
+		<div class="clearfix"></div>
