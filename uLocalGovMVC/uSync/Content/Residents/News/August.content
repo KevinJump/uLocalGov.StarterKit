@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgNewsList guid="23ae66e4-2789-4c0f-8e37-46b933bc0776" parentGUID="1c6642ed-f251-4a98-88fb-7c7364bcb4d8" nodeTypeAlias="ulgNewsList" templateAlias="" id="1113" sortOrder="0" nodeName="August" isDoc="" published="true" updated="2013-08-05T23:11:57.3431736+01:00">
+  <title>News in August</title>
+  <bodyText><![CDATA[<p>August News</p>]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+</ulgNewsList>
