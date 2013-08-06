@@ -1,0 +1,103 @@
+﻿@using System.Linq;
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@* mega-menus - drop down menu bar with a feature element
+   so you can pull out important things.
+
+*@
+
+@{
+    @* get to the root of the site *@
+    var root = Model.Content.AncestorOrSelf();     
+    
+    @* if we are inside another site section, we make that the root *@
+    if ( Model.Content.AncestorOrSelf("ulgSectionHomepage") != null)
+    {
+        root = Model.Content.AncestorOrSelf("ulgSectionHomepage");
+    }
+
+    int menuLength = 6;
+    if (root.HasValue("menuLength")) 
+    {
+        menuLength = int.Parse(root.GetPropertyValue("menuLength").ToString());  
+    }
+}
+
+<ul class="nav nav-pills">
+
+    @* build the main menu bar (up to the more element..) *@
+    @foreach (var item in root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Take(menuLength))
+    {
+        <li class="menu-drop">
+            <a href="@item.Url">@item.GetPropertyValue("title")</a>
+            @BuildSubMenu(item) 
+        </li>        
+    }
+
+    @* the more element for the rest of the menu *@
+
+    @if (@root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Count() > menuLength)
+    {
+        <li class="menu-drop menu-more"> <a href="#">More...</a>
+            <div class="menu-drop">
+                <ul>
+                    @foreach (var moreItem in @root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Skip(menuLength))
+                    {
+                        <li>
+                            <a href="@moreItem.Url">@moreItem.GetPropertyValue("title")</a>
+                        </li>
+                    } 
+                </ul>
+            </div>
+        </li>
+    }
+</ul>
+
+
+@*
+ builds a sub menu : with the top (n) down one site and 3 featured
+ items on the right.
+*@
+@helper BuildSubMenu(IPublishedContent node)
+{
+    int itemCount = 4;
+    if ( node.HasValue("menuItemCount")) 
+    {
+      itemCount = int.Parse(node.GetPropertyValue("menuItemCount").ToString());   
+    }
+    
+    var items = node.Children().Where( x => x.IsVisible() ).Take(itemCount) ;
+    if ( items.Count() > 0 )
+    {
+        <div class="menu-drop">
+            <ul>
+                @foreach(var item in items)
+                {
+                    <li>
+                        <a href="@item.Url">@item.GetPropertyValue("title")</a>
+                    </li>
+                }
+            </ul>
+
+            @{
+                var featuredItems = node.Children.Where("featureInMenu").Take(3);
+            }
+
+            @if ( featuredItems.Count() > 0 )
+            {
+                <ul class="menu-featured">
+                    <li>
+                        @foreach(var feature in featuredItems)
+                        {
+                            <a href="@feature.Url">
+                   				<i class="icon icon-large icon-@feature.GetPropertyValue("relatedIcon")"></i>
+                                <span class="feature-title">@feature.GetPropertyValue("title")</span>
+                                <span class="feature-text">@feature.GetPropertyValue("summary")</span>
+                            </a>
+                        }
+                    </li>
+                </ul>
+            }
+        </div>
+    }
+}

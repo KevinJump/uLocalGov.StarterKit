@@ -2323,6 +2323,7 @@
     <Content Include="Views\Partials\ulgAZIndex.cshtml" />
     <Content Include="Views\SiteNavigationSurface\DisplayAZEntries.cshtml" />
     <Content Include="Views\ulgAZEntriesPage.cshtml" />
+    <Content Include="Views\Partials\ulgMegaMenuPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
