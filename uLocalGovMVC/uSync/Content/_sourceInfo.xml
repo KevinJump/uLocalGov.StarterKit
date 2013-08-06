@@ -29,5 +29,10 @@
     <info guid="1c6642ed-f251-4a98-88fb-7c7364bcb4d8" name="2013" parent="1111" />
     <info guid="23ae66e4-2789-4c0f-8e37-46b933bc0776" name="August" parent="1112" />
     <info guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" name="Mayor Opens Thing" parent="1113" />
+    <info guid="7410826a-4090-4efd-9cbc-ca82727f7e41" name="News" parent="1072" />
+    <info guid="d0d9fb60-676c-4fb4-8782-c6f146a28a46" name="2013" parent="1112" />
+    <info guid="1bbfb959-2670-4884-87f2-91581899204f" name="August" parent="1113" />
+    <info guid="b8483f98-42d4-43a5-b4cb-a9e0abeca07f" name="Mayor Opens Thing" parent="1114" />
+    <info guid="6579417c-cbc1-4bd2-a814-1b7cf4f2b0af" name="2014" parent="1112" />
   </content>
 </usync.data>

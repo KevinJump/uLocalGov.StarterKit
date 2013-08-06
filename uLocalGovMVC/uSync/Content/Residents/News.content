@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgNewsList" templateAlias="" id="1111" sortOrder="20" nodeName="News" isDoc="" published="true" updated="2013-08-05T23:11:20.859428+01:00">
+<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgNewsList" templateAlias="" id="1112" sortOrder="23" nodeName="News" isDoc="" published="true" updated="2013-08-06T12:00:48.7368174+01:00">
   <title>News</title>
   <bodyText><![CDATA[<p>This is the news homepage</p>]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
