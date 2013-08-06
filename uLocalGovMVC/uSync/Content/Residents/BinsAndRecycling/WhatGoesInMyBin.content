@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" parentGUID="e74d7eda-302b-49a7-928b-4d4244181376" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1092" sortOrder="0" nodeName="What goes in my bin?" isDoc="" published="true" updated="2013-08-01T20:20:22.4065641+01:00">
+<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" parentGUID="e74d7eda-302b-49a7-928b-4d4244181376" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1092" sortOrder="0" nodeName="What goes in my bin?" isDoc="" published="true" updated="2013-08-06T12:50:00.5796531+01:00">
   <title>What goes in my bin</title>
   <bodyText><![CDATA[<p>Content here about what goes in a bin.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -7,13 +7,14 @@
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[<p>things that go into the bin.</p>]]></summary>
   <relatedIcon><![CDATA[info-sign]]></relatedIcon>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
   <relatedItems>
     <links>
-      <link title="Homepage" link="7C404265-7B1B-4F58-880B-C9872BB53B01" type="internal" newwindow="0" />
-      <link title="Libraries" link="09FB40E8-D494-400E-9380-48DC1DDBF32F" type="internal" newwindow="0" />
+      <link title="Homepage" link="1000" type="internal" newwindow="0" />
+      <link title="Libraries" link="1000" type="internal" newwindow="0" />
     </links>
   </relatedItems>
   <contact>C93BD46A-F995-4286-ABEB-71AB2B47CE77</contact>

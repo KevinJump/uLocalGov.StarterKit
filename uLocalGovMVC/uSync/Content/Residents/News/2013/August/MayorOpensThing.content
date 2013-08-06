@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsItem guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" parentGUID="23ae66e4-2789-4c0f-8e37-46b933bc0776" nodeTypeAlias="ulgNewsItem" templateAlias="" id="1114" sortOrder="0" nodeName="Mayor Opens Thing" isDoc="" published="true" updated="2013-08-05T23:13:11.9352121+01:00">
+<ulgNewsItem guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" parentGUID="1bbfb959-2670-4884-87f2-91581899204f" nodeTypeAlias="ulgNewsItem" templateAlias="" id="1115" sortOrder="0" nodeName="Mayor Opens Thing" isDoc="" published="true" updated="2013-08-06T12:50:38.4188174+01:00">
   <title>Mayor Opens Thing</title>
   <bodyText><![CDATA[<p>The Mayor has opened a thing, look at his/her smiling face...</p>]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
@@ -15,10 +15,7 @@
   <relatedImage></relatedImage>
   <articleDate>2013-08-05T00:00:00</articleDate>
   <newsLocation>
-    <XPathCheckBoxList>
-      <nodeId>7C404265-7B1B-4F58-880B-C9872BB53B01</nodeId>
-      <nodeId>B47FE9AC-4801-4517-B5A2-6609C1CE5E81</nodeId>
-    </XPathCheckBoxList>
+    <XPathCheckBoxList />
   </newsLocation>
-  <newsTopics><![CDATA[Mayor]]></newsTopics>
+  <newsTopics><![CDATA[]]></newsTopics>
 </ulgNewsItem>
