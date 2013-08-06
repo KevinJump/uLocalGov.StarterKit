@@ -1,9 +1,9 @@
 ﻿@using System.Linq;
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
-@* mega-menus - drop down menu bar with a feature element
-   so you can pull out important things.
-
+@*
+ mega-menus - drop down menu bar with a feature element
+ so you can pull out important things.
 *@
 
 @{
@@ -23,12 +23,12 @@
     }
 }
 
-<ul class="nav nav-pills">
+<ul class="nav nav-pills mega-menu">
 
     @* build the main menu bar (up to the more element..) *@
     @foreach (var item in root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Take(menuLength))
     {
-        <li class="menu-drop">
+        <li>
             <a href="@item.Url">@item.GetPropertyValue("title")</a>
             @BuildSubMenu(item) 
         </li>        
@@ -38,7 +38,7 @@
 
     @if (@root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Count() > menuLength)
     {
-        <li class="menu-drop menu-more"> <a href="#">More...</a>
+        <li class="menu-more"> <a href="#">More...</a>
             <div class="menu-drop">
                 <ul>
                     @foreach (var moreItem in @root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Skip(menuLength))
