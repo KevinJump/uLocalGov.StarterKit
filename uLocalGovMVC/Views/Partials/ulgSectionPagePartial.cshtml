@@ -21,16 +21,16 @@ diffrences
     if (ViewData["mainName"] != null) { mainName = ViewData["mainName"].ToString(); }
     if (ViewData["moreName"] != null) { moreName = ViewData["moreName"].ToString(); }
 
-    var grid = "span4";
+    var grid = "col-lg-4";
     int itemsPerRow = 3; 
     if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) {
-        grid = "span6";
+        grid = "col-lg-6";
         itemsPerRow = 2; 
     }
 }
 
 <div class="row">
-    <div class="span12">
+    <div class="col-lg-12">
         <h2>@mainName</h2>
     </div>
 </div>
@@ -60,12 +60,12 @@ diffrences
 @if (@Model.Content.Children().Where(x => x.IsVisible()).Count() > mainCount)
 {
     <div class="row">
-        <div class="span12">
+        <div class="col-lg-12">
             <h2>@moreName</h2>
         </div>
     </div>
     <div class="row">
-        <div class="span12">
+        <div class="col-lg-12">
             <ul class="landing-more nav nav-pills">
                 @foreach (var item in @Model.Content.Children.Where(x => x.IsVisible()).Skip(mainCount))
                 {

@@ -9,7 +9,7 @@
         @* For each page in the ancestors collection which have been ordered by Level (so we start with the highest top node first) *@
         @foreach (var page in Model.Content.Ancestors().OrderBy("Level"))
         {
-            <li><a href="@page.Url">@page.GetPropertyValue("title")</a> <span class="divider">/</span></li>
+            <li><a href="@page.Url">@page.GetPropertyValue("title")</a></li>
 	}
 
         @* Display the current page as the last item in the list *@

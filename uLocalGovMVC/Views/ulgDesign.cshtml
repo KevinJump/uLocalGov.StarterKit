@@ -31,10 +31,10 @@
 
 <div class="container">
 	<div class="row">
-		<div class="span6">
+		<div class="col-lg-6">
 			<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
 		</div>				
-        <div class="span6">
+        <div class="col-lg-6">
             <div class="pull-right search-box">
                 <form class="form-search" method="get" action="/search">
                     <input type="text" class="input-medium search-query" name="q">
@@ -44,7 +44,7 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="span12">
+		<div class="col-lg12">
 			@*Replace with partial view *@
 			@Umbraco.RenderMacro("ulg.sitesections")
 		</div>
@@ -53,7 +53,7 @@
 		
 <div class="container">
     <div class="row">
-        <div class="span12">
+        <div class="col-lg-12">
             @Html.Partial("ulgMegaMenuPartial") 
         </div>
     </div>
@@ -62,7 +62,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="span12">
+		<div class="col-lg-12">
 			@if (IsSectionDefined("BreadCrumb")){
 				@RenderSection("BreadCrumb",false)	
 			}

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSystemPage guid="0b35d65b-7231-4637-990d-403d0903c9f8" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSearchPage" id="1118" sortOrder="21" nodeName="Search" isDoc="" published="false" updated="2013-08-07T10:53:47.4586414+01:00">
+<ulgSystemPage guid="0b35d65b-7231-4637-990d-403d0903c9f8" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSearchPage" id="1118" sortOrder="21" nodeName="Search" isDoc="" published="true" updated="2013-08-07T11:02:03.564017+01:00">
   <title>Search</title>
   <bodyText><![CDATA[<p>this is the search page, currently it is running the internal umbraco examine search - but i think examine search indexes need configuring for bodyText?</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
