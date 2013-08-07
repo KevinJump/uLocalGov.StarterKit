@@ -53,13 +53,36 @@
         margin: 0;
     }
 
+    .menu-drop a {
+        display: block;
+        padding: 10px 8px;
+        margin: 0;
+        line-height: 1.1em;
+    }
+
 
 .menu-more {
     padding-right: 20px;
 }
 
+    .menu-more ul {
+        width: auto;
+    }
+
 .menu-featured {
     float: left;
 }
+
+    .menu-featured .icon {
+        float:left;
+        padding: 0.4em;
+        font-size: 2em;
+    }
+
+    .menu-featured featured-text, .menu-featured featured-title {
+        margin-left: 52px;
+        display: block; 
+
+    }
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

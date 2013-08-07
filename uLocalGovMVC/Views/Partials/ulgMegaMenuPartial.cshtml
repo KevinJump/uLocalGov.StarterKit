@@ -28,7 +28,7 @@
     @* build the main menu bar (up to the more element..) *@
     @foreach (var item in root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Take(menuLength))
     {
-        <li>
+        <li class="mega-item">
             <a href="@item.Url">@item.GetPropertyValue("title")</a>
             @BuildSubMenu(item) 
         </li>        
@@ -38,7 +38,7 @@
 
     @if (@root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Count() > menuLength)
     {
-        <li class="menu-more"> <a href="#">More...</a>
+        <li class="mega-item menu-more"> <a href="#">More...</a>
             <div class="menu-drop">
                 <ul>
                     @foreach (var moreItem in @root.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgLandingPage").Skip(menuLength))
