@@ -1,0 +1,31 @@
+﻿@using Examine 
+
+@{
+    var searchTerm = Request.QueryString["q"];
+}
+
+<h2>Search results for @searchTerm</h2>
+
+<ul class="search-results">
+@foreach (Examine.SearchResult results in ExamineManager.Instance.Search(searchTerm, true))
+{
+    <li>
+        <a href="@umbraco.library.NiceUrl(results.Id)">
+            @results.Fields["title"]
+        </a>
+        <span class="search-score">(@results.Score)</span>
+        @*
+        <div>
+            @if (results.Fields["bodyText"].Length > 100)
+            {
+                @results.Fields["bodyText"].Substring(0, 100);
+            }
+            else {
+                @results.Fields["bodyText"];
+            }
+        </div>
+        *@
+    </li>
+}
+</ul>
+            

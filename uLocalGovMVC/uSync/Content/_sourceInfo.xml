@@ -34,5 +34,6 @@
     <info guid="1bbfb959-2670-4884-87f2-91581899204f" name="August" parent="1113" />
     <info guid="b8483f98-42d4-43a5-b4cb-a9e0abeca07f" name="Mayor Opens Thing" parent="1114" />
     <info guid="6579417c-cbc1-4bd2-a814-1b7cf4f2b0af" name="2014" parent="1112" />
+    <info guid="0b35d65b-7231-4637-990d-403d0903c9f8" name="Search" parent="1072" />
   </content>
 </usync.data>

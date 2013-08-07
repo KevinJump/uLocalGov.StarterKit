@@ -34,6 +34,14 @@
 		<div class="span6">
 			<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
 		</div>				
+        <div class="span6">
+            <div class="pull-right search-box">
+                <form class="form-search" method="get" action="/search">
+                    <input type="text" class="input-medium search-query" name="q">
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+        </div>
 	</div>
 	<div class="row">
 		<div class="span12">
