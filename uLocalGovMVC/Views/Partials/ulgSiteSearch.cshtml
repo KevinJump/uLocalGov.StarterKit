@@ -1,10 +1,15 @@
 ﻿@using Examine 
+@using Examine.SearchCriteria;
 
 @{
     var searchTerm = Request.QueryString["q"];
+	 var Searcher = ExamineManager.Instance.SearchProviderCollection["WebsiteSearcher"];
+  var searchCriteria = Searcher.CreateSearchCriteria(BooleanOperation.Or);
+  var query = searchCriteria.Field("title",searchTerm).Or().Field("bodyText",searchTerm).Compile();
+var searchResults = Searcher.Search(query);
 }
 
-<h2>Search results for @searchTerm</h2>
+<h2>Search results for searchResults</h2>
 
 <ul class="search-results">
 @foreach (Examine.SearchResult results in ExamineManager.Instance.Search(searchTerm, true))

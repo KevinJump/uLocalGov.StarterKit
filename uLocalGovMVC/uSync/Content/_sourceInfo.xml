@@ -36,5 +36,7 @@
     <info guid="6579417c-cbc1-4bd2-a814-1b7cf4f2b0af" name="2014" parent="1112" />
     <info guid="0b35d65b-7231-4637-990d-403d0903c9f8" name="Search" parent="1072" />
     <info guid="7b062c94-bdd8-44e9-a79e-d95589850600" name="uLocalGov" parent="1072" />
+    <info guid="805b08bf-dc58-4c15-b892-872829e62abb" name="Search" parent="1062" />
+    <info guid="9bd13564-8709-4576-805e-ebd4e7778354" name="uLocalGov" parent="1062" />
   </content>
 </usync.data>

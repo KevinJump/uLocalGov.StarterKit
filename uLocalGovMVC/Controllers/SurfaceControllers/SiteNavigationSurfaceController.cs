@@ -18,7 +18,7 @@ namespace uLocalGovMVC.Controllers.SurfaceControllers
     {
         //
         // GET: /SiteNavigationSurface/
-
+          [ChildActionOnly]
         public ActionResult DisplayAZEntries(string letter)
         {
         // Lets Get all Pages and put their 'title' and 'url' in a sorted dictionary Then for each page, go through it's alternative A-Z entries and add them too Then cache the final SortedDictionary dependant on the umbraco.config cache file on disk
