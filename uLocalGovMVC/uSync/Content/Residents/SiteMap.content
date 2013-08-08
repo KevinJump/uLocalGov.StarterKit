@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgSystemPage guid="fda2dc24-54f2-479e-975e-b6f8f4500d80" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSiteMapPage" id="1119" sortOrder="23" nodeName="Site Map" isDoc="" published="true" updated="2013-08-08T00:54:03.179457+01:00">
+  <title>Site Map</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+</ulgSystemPage>

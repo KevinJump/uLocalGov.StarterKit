@@ -38,5 +38,6 @@
     <info guid="7b062c94-bdd8-44e9-a79e-d95589850600" name="uLocalGov" parent="1072" />
     <info guid="805b08bf-dc58-4c15-b892-872829e62abb" name="Search" parent="1062" />
     <info guid="9bd13564-8709-4576-805e-ebd4e7778354" name="uLocalGov" parent="1062" />
+    <info guid="fda2dc24-54f2-479e-975e-b6f8f4500d80" name="Site Map" parent="1062" />
   </content>
 </usync.data>

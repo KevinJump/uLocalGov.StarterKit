@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@{
+    Layout = null;
+    var parent = Model.Previous().AncestorOrSelf(1);
+
+ 
+    if(@parent.Name== "Residents")
+    {
+		
+		<div class="sitemap"> 
+			 @ListChildNodes(@Model.AncestorOrSelf());
+	
+</div>	
+    }
+}
+ 
+@helper ListChildNodes(IPublishedContent startNode)
+{
+    	string[] allowedDocTypes = new string[] {"ulgContentPage", "ulgLandingPage", "ulgSectionPage", "ulgHomePage"};
+    const int maxLevelForSiteMap = 3;
+    var childNodes = startNode.Children.Where(x => x.IsVisible() && allowedDocTypes.Contains(x.DocumentTypeAlias));
+	 if (childNodes.Any()){
+	<ul>
+    @foreach (var node in childNodes )    {
+                <li>
+          <a href="@node.Url">@node.GetPropertyValue("title")</a>
+					@if (node.Level <= maxLevelForSiteMap){
+          @ListChildNodes(node)
+					}
+                </li>
+            }
+   </ul>
+		
+	}
+		
+		
+      
+    }
+     
+}
