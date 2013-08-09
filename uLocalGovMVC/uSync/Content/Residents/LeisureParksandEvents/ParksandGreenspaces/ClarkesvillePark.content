@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgVenuePage guid="2a730bce-e530-4b62-a0b7-acc1cd9244a8" parentGUID="1608ff23-7f77-4d3b-bb37-93a49177aae0" nodeTypeAlias="ulgVenuePage" templateAlias="" id="1135" sortOrder="0" nodeName="Clarkesville Park" isDoc="" published="true" updated="2013-08-09T01:39:21.7633318+01:00">
+  <title></title>
+  <bodyText><![CDATA[]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <venueAddress><![CDATA[]]></venueAddress>
+  <venueLocation><![CDATA[]]></venueLocation>
+  <googleEventCalendarId></googleEventCalendarId>
+  <venueImage></venueImage>
+  <imageCarousel><![CDATA[]]></imageCarousel>
+</ulgVenuePage>

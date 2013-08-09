@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgVenueLandingPage guid="1608ff23-7f77-4d3b-bb37-93a49177aae0" parentGUID="c53fa68b-4bb4-48ce-bc5d-b0beef421a73" nodeTypeAlias="ulgVenueLandingPage" templateAlias="ulgVenueHomepage" id="1134" sortOrder="0" nodeName="Parks and Greenspaces" isDoc="" published="true" updated="2013-08-09T01:38:47.3547806+01:00">
+  <title>Parks and Greenspaces</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <mainItemCount></mainItemCount>
+  <menuItemCount></menuItemCount>
+</ulgVenueLandingPage>
