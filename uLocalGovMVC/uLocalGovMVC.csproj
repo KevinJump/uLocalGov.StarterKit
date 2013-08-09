@@ -2336,6 +2336,12 @@
   <ItemGroup>
     <Content Include="Views\ulgSearchPage.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgSiteMap.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgHomepageNews.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

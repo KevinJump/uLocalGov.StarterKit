@@ -1,0 +1,52 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Eksponent.CropUp;
+@*Need to get all news on site ordered by date, promoted to the current site node, what about stickyness ?*@
+
+@{
+    
+    var allNews = Umbraco.TypedContentAtXPath("//ulgNewsItem").Where(x=>x.IsVisible() && x.GetPropertyValue<DateTime>("articleDate") < DateTime.Now && x.GetPropertyValue<string>("newsLocation").Split(new Char[]{','}, StringSplitOptions.RemoveEmptyEntries).Contains(Model.Content.Id.ToString()) ).OrderByDescending(x=>x.GetPropertyValue<DateTime>("articleDate")).Take(5);
+  
+    
+}
+
+@if (allNews.Any()){
+    <div class="news">
+    @foreach (IPublishedContent newsItem in allNews)
+{
+        bool hasImage = false;
+        string imageUrl = String.Empty;
+        string imageAltText = String.Empty;
+        DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
+ if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
+      {
+       var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage")); 
+       hasImage = true;
+       imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
+      imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
+     
+  
+     if (String.IsNullOrEmpty(imageAltText)){
+      imageAltText = mediaItem.Name;         
+     }
+     if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage")){
+         imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="homepagenews", CropMode=CropUpMode.BestFit });
+     }
+ 
+    }   
+    
+      <div class="thumbnail">     
+    @if(hasImage){
+        <a href="@newsItem.Url"><img src="@imageUrl" alt="@imageAltText" /></a>
+    } 
+        <div class="caption">
+            <span class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</span>
+            <h3><a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h3>
+            <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") <a href="@newsItem.Url">Read on...</a></span>   
+        </div>
+     </div>     
+
+
+
+}
+    </div>
+}
