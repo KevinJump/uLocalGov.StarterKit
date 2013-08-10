@@ -30,6 +30,7 @@ web.config
 aspnet_client/
 data/
 install/
+Media/
 */umbraco/Actions/
 */umbraco/*.*
 umbraco_client/
