@@ -11,8 +11,10 @@
 
 @if (allNews.Any()){
     <div class="news">
+        <ul class="bxslider">
     @foreach (IPublishedContent newsItem in allNews)
 {
+      
         bool hasImage = false;
         string imageUrl = String.Empty;
         string imageAltText = String.Empty;
@@ -33,7 +35,7 @@
      }
  
     }   
-    
+    <li>
       <div class="thumbnail">     
     @if(hasImage){
         <a href="@newsItem.Url"><img src="@imageUrl" alt="@imageAltText" /></a>
@@ -44,9 +46,10 @@
             <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") <a href="@newsItem.Url">Read on...</a></span>   
         </div>
      </div>     
-
+        </li>
 
 
 }
+            </ul>
     </div>
 }

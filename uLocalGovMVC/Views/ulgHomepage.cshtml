@@ -5,7 +5,7 @@
 
 @section MetaData {
 	
-	
+	<link type="text/css" href="/scripts/libs/bxslider/jquery.bxslider.css" rel="stylesheet" />
 }
 @section BreadCrumb {
 		<!-- homepage has no breadcrumb -->
@@ -21,8 +21,7 @@
 	</div>
 	<div class="col-lg-4">
 		<div class="well">
-			<h2>News...</h2>
-			@Html.Partial("ulgHomepageNews")
+				@Html.Partial("ulgHomepageNews")
 		</div>
 	</div>
 </div>
@@ -41,5 +40,15 @@
 }
 
 @section Scripts {
-	
-}
+	<script type="text/javascript" src="/scripts/libs/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $('.bxslider').bxSlider({
+            infiniteLoop: false,
+            controls: true
+        });
+    });
+    </script>
+    }
