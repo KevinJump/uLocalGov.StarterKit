@@ -1,0 +1,46 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	@using Eksponent.CropUp
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+	
+	
+}
+
+
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="well hidden-phone">
+							 @*rewrite as partial view *@
+                @Umbraco.RenderMacro("ulg.sidenavigation")
+		
+			</div>
+		</div>
+		<div class="col-lg-6">
+		
+				<div class="page-header">
+				<h1>@Umbraco.Field("title")</h1>
+				</div>					
+					@Umbraco.Field("bodyText")
+					@Html.Partial("ulgNewsList")
+				
+	
+		</div>
+		<div class="col-lg-3">
+			@Html.Partial("ulgRelatedLinks")
+
+            @Html.Partial("ulgContactLinks")  			
+		</div>
+	</div>
+
+
+	
+			@section Footer {
+				
+				
+			}
+@section Scripts {
+	
+}

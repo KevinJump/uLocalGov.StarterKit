@@ -1,0 +1,60 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Eksponent.CropUp;
+@*Need to get all news on site ordered by date, promoted to the current site node, what about stickyness ?*@
+
+@{
+    
+    var newsList = Model.Content.Descendants().Where(x=>x.IsVisible()&& x.DocumentTypeAlias == "ulgNewsItem").OrderByDescending(x=>x.GetPropertyValue<DateTime>("articleDate"));
+  
+    
+}
+
+@if (newsList.Any()){
+    <div class="news">
+        <ul class="bxslider">
+    @foreach (IPublishedContent newsItem in newsList)
+{
+      
+        bool hasImage = false;
+        string imageUrl = String.Empty;
+        string imageAltText = String.Empty;
+        DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
+ if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
+      {
+       var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage")); 
+       hasImage = true;
+       imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
+      imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
+     
+  
+     if (String.IsNullOrEmpty(imageAltText)){
+      imageAltText = mediaItem.Name;         
+     }
+     if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage")){
+         imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="squarethumb", CropMode=CropUpMode.BestFit });
+     }
+ 
+    }   
+    <li>
+      <div class="thumbnail">     
+    @if(hasImage){
+        <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" /></a>
+    } 
+        <div class="caption">
+            <span class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</span>
+            <h3><a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h3>
+            <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") </span>   
+        </div>
+     </div>     
+<div class="clearfix"></div>
+				</li>
+
+
+}
+            </ul>
+    </div>
+}
+else{
+<p>No news is good news</p>	
+	
+}

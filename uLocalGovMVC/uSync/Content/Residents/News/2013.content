@@ -1,14 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="1c6642ed-f251-4a98-88fb-7c7364bcb4d8" parentGUID="7410826a-4090-4efd-9cbc-ca82727f7e41" nodeTypeAlias="ulgNewsList" templateAlias="" id="1113" sortOrder="0" nodeName="2013" isDoc="" published="true" updated="2013-08-06T12:50:13.0753678+01:00">
-  <title>2013</title>
-  <bodyText><![CDATA[<p>News in 2013</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-  <metaDescription></metaDescription>
-  <metaSubject><![CDATA[]]></metaSubject>
-  <metaRobots><![CDATA[]]></metaRobots>
+<ulgNewsList guid="1c6642ed-f251-4a98-88fb-7c7364bcb4d8" id="1112" nodeName="2013" isDoc="" updated="2013-08-10T22:20:07.532374+01:00" parentGUID="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="0" published="true">
+  <title>
+    <title>2013</title>
+  </title>
+  <bodyText>
+    <bodyText><![CDATA[<p>News in 2013</p>]]></bodyText>
+  </bodyText>
+  <relatedIcon>
+    <relatedIcon><![CDATA[]]></relatedIcon>
+  </relatedIcon>
+  <umbracoNaviHide>
+    <umbracoNaviHide>0</umbracoNaviHide>
+  </umbracoNaviHide>
+  <hideFromAZ>
+    <hideFromAZ>0</hideFromAZ>
+  </hideFromAZ>
+  <featureInMenu>
+    <featureInMenu>0</featureInMenu>
+  </featureInMenu>
+  <summary>
+    <summary><![CDATA[]]></summary>
+  </summary>
+  <alternativeAZEntries>
+    <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  </alternativeAZEntries>
+  <metaDescription>
+    <metaDescription></metaDescription>
+  </metaDescription>
+  <metaSubject>
+    <metaSubject><![CDATA[]]></metaSubject>
+  </metaSubject>
+  <metaRobots>
+    <metaRobots><![CDATA[]]></metaRobots>
+  </metaRobots>
 </ulgNewsList>
