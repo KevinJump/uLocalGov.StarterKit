@@ -1,27 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Image guid="c5d80454-9875-4aba-bf7f-4953f11c6310" id="1136" nodeName="Onestopshop" isDoc="" updated="2013-08-10T09:35:04.147Z" parentGUID="d504afdf-c1f4-4adf-870e-5d19c87ae0df" mediaTypeAlias="Image" path="-1,1118,1136">
-  <umbracoFile>
     <umbracoFile>/media/1002/onestopshop.jpg</umbracoFile>
-  </umbracoFile>
-  <umbracoWidth>
     <umbracoWidth>1632</umbracoWidth>
-  </umbracoWidth>
-  <umbracoHeight>
     <umbracoHeight>1224</umbracoHeight>
-  </umbracoHeight>
-  <umbracoBytes>
     <umbracoBytes>396617</umbracoBytes>
-  </umbracoBytes>
-  <umbracoExtension>
     <umbracoExtension>jpg</umbracoExtension>
-  </umbracoExtension>
-  <imageCrop>
     <imageCrop><![CDATA[{"default":{"manual":false,"box":[0,0,1,1],"gravity":[0.5409746766090393,0.48551860451698303]},"croppings":{"squarethumb":{"box":[0.085,0,0.8325,0.9966666666666667],"manual":true},"homepagenews":{"box":[0,0.27,1,0.6466666666666666],"manual":true},"newsarticle":{"box":[0,0.041768604516983034,1,0.930657493405872]},"carousel":{"box":[0,0.2733333333333333,1,0.6733333333333333],"manual":true}}}]]></imageCrop>
-  </imageCrop>
-  <doNotCropThisImage>
     <doNotCropThisImage>0</doNotCropThisImage>
-  </doNotCropThisImage>
-  <alternativeText>
     <alternativeText>One stop shop sign</alternativeText>
-  </alternativeText>
 </Image>
