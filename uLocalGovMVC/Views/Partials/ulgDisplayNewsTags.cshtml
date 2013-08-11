@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+	
+	@if(Model.HasValue("newsTopics")){
+						<div class="well">
+							<h3>Tags</h3>						
+							<ul class="unstyled">							
+							@foreach (var tag in Model.GetPropertyValue<string>("newsTopics").Split(',')){
+							<li><i class="icon icon-tag"></i> @tag</li>
+							
+							}
+</ul>
+							
+							
+							
+							
+							</div>}

@@ -10,8 +10,10 @@
 }
 
 @if (newsList.Any()){
-    <div class="news">
-        <ul class="bxslider">
+	
+	<ul class="media-list">
+	
+
     @foreach (IPublishedContent newsItem in newsList)
 {
       
@@ -34,25 +36,27 @@
          imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="squarethumb", CropMode=CropUpMode.BestFit });
      }
  
-    }   
-    <li>
-      <div class="thumbnail">     
+    }  
+	
+ 	<li class="media">
+  
     @if(hasImage){
-        <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" /></a>
+        <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" class="media-object" /></a>
     } 
-        <div class="caption">
-            <span class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</span>
-            <h3><a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h3>
-            <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") </span>   
+        <div class="media-body">
+           
+            <h4 class="media-heading"><small class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</small> <a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h4>
+			 <div class="media">
+            <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") </span>
+				</div>
         </div>
-     </div>     
-<div class="clearfix"></div>
-				</li>
+
+		</li>
 
 
 }
             </ul>
-    </div>
+ 
 }
 else{
 <p>No news is good news</p>	
