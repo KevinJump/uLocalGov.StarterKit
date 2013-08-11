@@ -1,36 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1111" nodeName="News" isDoc="" updated="2013-08-10T22:20:20.2479379+01:00" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="23" published="true">
-  <title>
     <title>News</title>
-  </title>
-  <bodyText>
     <bodyText><![CDATA[<p>This is the news homepage</p>]]></bodyText>
-  </bodyText>
-  <relatedIcon>
     <relatedIcon><![CDATA[]]></relatedIcon>
-  </relatedIcon>
-  <umbracoNaviHide>
     <umbracoNaviHide>0</umbracoNaviHide>
-  </umbracoNaviHide>
-  <hideFromAZ>
     <hideFromAZ>0</hideFromAZ>
-  </hideFromAZ>
-  <featureInMenu>
     <featureInMenu>0</featureInMenu>
-  </featureInMenu>
-  <summary>
     <summary><![CDATA[]]></summary>
-  </summary>
-  <alternativeAZEntries>
     <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-  </alternativeAZEntries>
-  <metaDescription>
     <metaDescription></metaDescription>
-  </metaDescription>
-  <metaSubject>
     <metaSubject><![CDATA[]]></metaSubject>
-  </metaSubject>
-  <metaRobots>
     <metaRobots><![CDATA[]]></metaRobots>
-  </metaRobots>
 </ulgNewsList>
