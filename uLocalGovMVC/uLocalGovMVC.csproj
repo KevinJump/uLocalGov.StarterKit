@@ -2351,6 +2351,24 @@
   <ItemGroup>
     <Content Include="Views\ulgNewsItemPage.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgDisplayNewsTags.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgNewsArchive.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgNewsList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgNewsListPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgVenueHomepage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgVenuePage.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

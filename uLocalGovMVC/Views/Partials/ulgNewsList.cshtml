@@ -48,7 +48,8 @@
             <h4 class="media-heading"><small class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</small> <a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h4>
 			 <div class="media">
             <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") </span>
-				</div>
+			@Html.Partial("ulgDisplayNewsTags",newsItem, new ViewDataDictionary{{"customCssClass","inline"}})
+             </div>
         </div>
 
 		</li>
