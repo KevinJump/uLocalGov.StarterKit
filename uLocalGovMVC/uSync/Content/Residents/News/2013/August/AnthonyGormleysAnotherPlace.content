@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsItem guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" parentGUID="23ae66e4-2789-4c0f-8e37-46b933bc0776" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" id="1114" sortOrder="0" nodeName="Anthony Gormley's Another Place" isDoc="" published="true" updated="2013-08-09T14:58:31.6398726+01:00">
+<ulgNewsItem guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" id="1115" nodeName="Anthony Gormley's Another Place" isDoc="" updated="2013-08-12T11:42:43.2338541+01:00" parentGUID="1bbfb959-2670-4884-87f2-91581899204f" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="0" published="true">
   <title>Anthony Gormley's Another Place</title>
   <bodyText><![CDATA[<p id="yui_3_7_3_3_1376003206703_1452">Another Place is a piece of modern sculpture by Antony Gormley.</p>
 <p id="yui_3_7_3_3_1376003206703_1454">The sculpture consists of 100 cast iron figures which face out to sea, spread over a 2 mile (3.2 km) stretch of the beach. Each figure is 189 cm tall (nearly 6 feet 2½ inches) and weighs around 650 kg (over 1400 lb).</p>
 <p id="yui_3_7_3_3_1376003206703_1456">In common with most of Gormley's work, the figures are cast replicas of the artist's own body. As the tides ebb and flow, the figures are revealed and submerged by the sea. The figures were cast by Joseph and Jesse Siddons Foundry in West Bromwich.</p>
 <p id="yui_3_7_3_3_1376003206703_1522">Another Place was first exhibited on the beach of Cuxhaven, Germany in 1997 and after that in Stavanger in Norway and De Panne in Belgium.</p>]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
   <newsSummary>Anthony Gormley's Another Place Unveiled</newsSummary>
-  <relatedImage>1123</relatedImage>
+  <relatedImage>DB5FA7FF-5B84-4585-B394-2C5A695B294E</relatedImage>
   <articleDate>2013-08-01T00:00:00</articleDate>
-  <newsLocation><![CDATA[7C404265-7B1B-4F58-880B-C9872BB53B01]]></newsLocation>
-  <newsTopics><![CDATA[Mayor]]></newsTopics>
+  <newsLocation><![CDATA[1A0C452F-C2B5-4D8F-8A13-999F8A5D8B1F]]></newsLocation>
+  <newsTopics><![CDATA[]]></newsTopics>
 </ulgNewsItem>

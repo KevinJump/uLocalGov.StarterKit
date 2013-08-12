@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContactPage guid="c93bd46a-f995-4286-abeb-71ab2b47ce77" parentGUID="e9b721e8-3826-4e72-9ecc-ed30d4e6ed65" nodeTypeAlias="ulgContactPage" templateAlias="" id="1096" sortOrder="0" nodeName="Generic Contact" isDoc="" published="true" updated="2013-08-01T11:47:00.6824599+01:00">
-  <title>Contact Details</title>
-  <bodyText><![CDATA[<p>this is the generic contact page.</p>]]></bodyText>
+<ulgContactPage guid="c93bd46a-f995-4286-abeb-71ab2b47ce77" id="1096" nodeName="Generic Contact" isDoc="" updated="2013-08-12T12:26:03.0555554+01:00" parentGUID="e9b721e8-3826-4e72-9ecc-ed30d4e6ed65" nodeTypeAlias="ulgContactPage" templateAlias="ulgContactPage" sortOrder="0" published="true">
+  <title>General Contact</title>
+  <bodyText><![CDATA[<p>This is a generic contact page, you might have contact pages for each service you offer, the aim of a contact page is two fold.</p>
+<p>First it removes email addresses from your website, meaning you can control contact,and second it centralizes contact methods so you can mesure how contact is coming in from your website.</p>
+<h3>Have you tried?</h3>
+<p>You can use this page to signpost people to areas of the site that might answer their questions for them. This will help reduce contact. </p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <hideFromAZ>0</hideFromAZ>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
   <relatedIcon><![CDATA[]]></relatedIcon>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
