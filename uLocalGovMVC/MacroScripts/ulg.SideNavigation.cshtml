@@ -6,19 +6,19 @@
 
 @inherits umbraco.MacroEngines.DynamicNodeContext
 
-<ul class="nav nav-list">
+<ul class="nav nav-stacked nav-pills">
 	@foreach(var level in @Model.Ancestors().Where("Visible"))
 	{
 		<li><a href="@level.Url">@level.title</a></li>
 	}	
-	
-	<li class="divider"></li>
+
+    <li class="divider"></li>
     @foreach (var item in @Model.Parent.Children.Where("Visible"))
     {
         <li><a href="@item.Url">@item.title</a></li>
     }
 
-	<li class="divider"></li>
+    <li class="divider"></li>
     @foreach (var item in @Model.Children.Where("Visible"))
     {
         <li><a href="@item.Url">@item.title</a></li>
