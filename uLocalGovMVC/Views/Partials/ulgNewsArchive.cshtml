@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+	@{
+		
+        var newsFolders = Model.Content.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgNewsList").OrderBy(x=>x.SortOrder);
+		
+		if (!newsFolders.Any()){
+            newsFolders = Model.Content.Parent.Children().Where(x => x.IsVisible() && x.DocumentTypeAlias == "ulgNewsList").OrderBy(x => x.SortOrder);   
+            
+        }
+		
+	}
+
+
+@if (newsFolders.Any())
+{
+    <h2>News Archive</h2>
+    <ul class="newsFolders">
+        
+        @foreach(var newsFolder in newsFolders){
+            var selectedClass = "";
+            if (newsFolder.Id == Model.Content.Id)
+            {
+                selectedClass = "selected active current";
+            }
+            
+        <li class="@selectedClass"><a href="@newsFolder.Url">@newsFolder.GetPropertyValue("title")</a></li>
+
+
+
+        }
+
+    </ul>
+
+
+
+
+
+
+
+
+
+}
