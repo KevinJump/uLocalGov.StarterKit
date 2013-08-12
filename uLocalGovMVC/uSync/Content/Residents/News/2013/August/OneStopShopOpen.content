@@ -1,21 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsItem guid="23083fe6-216a-4de5-b023-1030f0a7ab79" id="1137" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-12T00:05:02.2732749+01:00" parentGUID="23ae66e4-2789-4c0f-8e37-46b933bc0776" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
-  <title>
-    <title>Open all hours...</title>
-  </title>
-    <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
-    <relatedIcon><![CDATA[]]></relatedIcon>
-    <umbracoNaviHide>0</umbracoNaviHide>
-    <hideFromAZ>0</hideFromAZ>
-    <featureInMenu>0</featureInMenu>
-    <summary><![CDATA[]]></summary>
-    <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-    <metaDescription></metaDescription>
-    <metaSubject><![CDATA[]]></metaSubject>
-    <metaRobots><![CDATA[]]></metaRobots>
-    <newsSummary>A new One Stop Shop for council services has opened</newsSummary>
-    <relatedImage>1136</relatedImage>
-    <articleDate>2013-08-08T00:00:00</articleDate>
-    <newsLocation><![CDATA[1062]]></newsLocation>
-    <newsTopics><![CDATA[Services,OneStopShops]]></newsTopics>
+<ulgNewsItem guid="23083fe6-216a-4de5-b023-1030f0a7ab79" id="1131" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-12T08:58:04.2175644+01:00" parentGUID="1bbfb959-2670-4884-87f2-91581899204f" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
+  <title>Open all hours...</title>
+  <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <newsSummary>A new One Stop Shop for council services has opened</newsSummary>
+  <relatedImage>C5D80454-9875-4ABA-BF7F-4953F11C6310</relatedImage>
+  <articleDate>2013-08-08T00:00:00</articleDate>
+  <newsLocation><![CDATA[]]></newsLocation>
+  <newsTopics><![CDATA[]]></newsTopics>
 </ulgNewsItem>
