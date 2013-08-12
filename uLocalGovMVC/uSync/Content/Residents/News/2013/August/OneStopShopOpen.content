@@ -3,49 +3,19 @@
   <title>
     <title>Open all hours...</title>
   </title>
-  <bodyText>
     <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
-  </bodyText>
-  <relatedIcon>
     <relatedIcon><![CDATA[]]></relatedIcon>
-  </relatedIcon>
-  <umbracoNaviHide>
     <umbracoNaviHide>0</umbracoNaviHide>
-  </umbracoNaviHide>
-  <hideFromAZ>
     <hideFromAZ>0</hideFromAZ>
-  </hideFromAZ>
-  <featureInMenu>
     <featureInMenu>0</featureInMenu>
-  </featureInMenu>
-  <summary>
     <summary><![CDATA[]]></summary>
-  </summary>
-  <alternativeAZEntries>
     <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-  </alternativeAZEntries>
-  <metaDescription>
     <metaDescription></metaDescription>
-  </metaDescription>
-  <metaSubject>
     <metaSubject><![CDATA[]]></metaSubject>
-  </metaSubject>
-  <metaRobots>
     <metaRobots><![CDATA[]]></metaRobots>
-  </metaRobots>
-  <newsSummary>
     <newsSummary>A new One Stop Shop for council services has opened</newsSummary>
-  </newsSummary>
-  <relatedImage>
     <relatedImage>1136</relatedImage>
-  </relatedImage>
-  <articleDate>
     <articleDate>2013-08-08T00:00:00</articleDate>
-  </articleDate>
-  <newsLocation>
     <newsLocation><![CDATA[1062]]></newsLocation>
-  </newsLocation>
-  <newsTopics>
     <newsTopics><![CDATA[Services,OneStopShops]]></newsTopics>
-  </newsTopics>
 </ulgNewsItem>
