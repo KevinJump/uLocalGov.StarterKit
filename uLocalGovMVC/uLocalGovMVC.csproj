@@ -493,6 +493,7 @@
     <Content Include="Scripts\libs\bootstrap.min.js" />
     <Content Include="Scripts\libs\jquery-1.10.2.min.js" />
     <Content Include="Scripts\libs\jquery.hoverIntent.minified.js" />
+    <Content Include="Scripts\ulgGoogleMapFunctions.js" />
     <Content Include="Scripts\ulgMegaMenu.js" />
     <Content Include="Umbraco\Actions\delete.aspx" />
     <Content Include="Umbraco\Actions\editContent.aspx" />
@@ -2374,6 +2375,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\ulgContactPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Partials\ulgVenueList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgLatestNewsRssFeed.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

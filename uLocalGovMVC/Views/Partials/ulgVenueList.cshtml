@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+	
+@foreach (var venue in Model.Content.Children().Where(x=>x.IsVisible() && x.DocumentTypeAlias == "VenuePage"))
+  {
+   <li class="venueMapPoint" title="@venue.GetPropertyValue("title")" data-venueUrl="@venue.Url" data-venueType="@venue.GetPropertyValue("venueType").ToString().Replace(" ","-")" data-venueLatLng="@venue.GetPropertyValue("venueLocation")" data-venueTitle="@venue.GetPropertyValue("title")" data-venueAddress="@venue.GetPropertyValue("venueAddress")">@venue.GetPropertyValue("title")</li>
+  }
+
+
+}

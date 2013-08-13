@@ -10,14 +10,8 @@
 
 
 	<div class="row">
-		<div class="col-lg-3">
-			<div class="well hidden-phone">
-							@*rewrite as partial view  *@
-                @Umbraco.RenderMacro("ulg.sidenavigation")
-		
-			</div>
-		</div>
-		<div class="col-lg-6">
+
+		<div class="col-lg-8">
 		
 				<div class="page-header">
 				<h1>@Umbraco.Field("title")</h1>
@@ -26,9 +20,11 @@
 				
 	
 		</div>
-		<div class="col-lg-3">
-			@Html.Partial("ulgRelatedLinks")
+		<div class="col-lg-4">
+			<div id="map_canvas" style="width:auto;height:570px;"  title='Google map of venues' data-location="@Umbraco.Field("mapCentreAndZoom")" data-mapzoom="@Umbraco.Field("mapCentreAndZoom")">
+   @Html.Partial("ulgVenueList")
 
+			@Html.Partial("ulgRelatedLinks")
             @Html.Partial("ulgContactLinks")  			
 		</div>
 	</div>
@@ -40,5 +36,12 @@
 				
 			}
 @section Scripts {
-	
+	   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="/scripts/ulgGoogleMapFunctions.js"></script>
+	<script type="text/javascript">
+  $(document).ready(function() {
+
+  LoadGoogleMapsApiWithCallBack('AddVenuesToGoogleMap');
+});
+  </script>
 }
