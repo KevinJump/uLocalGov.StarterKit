@@ -40,15 +40,9 @@
 }
 
 @section Scripts {
-	<script type="text/javascript" src="/scripts/libs/bxslider/jquery.bxslider.min.js"></script>
-<script type="text/javascript">
-
-    $(document).ready(function(){
-
-        $('.bxslider').bxSlider({
-            infiniteLoop: false,
-            controls: true
-        });
-    });
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            interval: 2000
+        })
     </script>
-    }
+}

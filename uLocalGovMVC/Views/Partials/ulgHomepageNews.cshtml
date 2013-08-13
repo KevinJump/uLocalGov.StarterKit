@@ -9,47 +9,61 @@
     
 }
 
-@if (allNews.Any()){
-    <div class="news">
-        <ul class="bxslider">
-    @foreach (IPublishedContent newsItem in allNews)
+@if (allNews.Any())
 {
-      
-        bool hasImage = false;
-        string imageUrl = String.Empty;
-        string imageAltText = String.Empty;
-        DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
- if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
-      {
-       var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage")); 
-       hasImage = true;
-       imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
-      imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
-     
-  
-     if (String.IsNullOrEmpty(imageAltText)){
-      imageAltText = mediaItem.Name;         
-     }
-     if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage")){
-         imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="homepagenews", CropMode=CropUpMode.BestFit });
-     }
- 
-    }   
-    <li>
-      <div class="thumbnail">     
-    @if(hasImage){
-        <a href="@newsItem.Url"><img src="@imageUrl" alt="@imageAltText" /></a>
-    } 
-        <div class="caption">
-            <span class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</span>
-            <h3><a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h3>
-            <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") <a href="@newsItem.Url">Read on...</a></span>   
+    <div class="news">
+        <div id="carousel-news" class="carousel slide">
+            <div class="carousel-inner">
+            @foreach(IPublishedContent newsItem in allNews) 
+            {
+                bool hasImage = false ; 
+                string imageUrl = String.Empty ; 
+                string imageAltText = String.Empty ;
+                DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
+                
+                if ( newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
+                {
+                    var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage"));
+                    hasImage = true ; 
+                    imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
+                    imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
+
+                    if (String.IsNullOrEmpty(imageAltText))
+                    {
+                        imageAltText = mediaItem.Name;
+                    }
+                    
+                    if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage"))
+                    {
+                        imageUrl = CropUp.GetUrl(imageUrl, new ImageSizeArguments{ CropAlias="homepagenews", CropMode=CropUpMode.BestFit });
+                    }
+
+                    
+                }
+                String first = @newsItem.IsFirst() ? "active" : ""; 
+                
+                <div class="item @first">
+                    @if (hasImage) {
+                        <a href="@newsItem.Url">
+                            <img src="@imageUrl" alt="@imageAltText" />
+                        </a>
+                    }
+                    <div class="carousel-caption">
+                        <h3><a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h3>
+                        <p>@newsItem.GetPropertyValue("newsSummary") 
+                            <a href="@newsItem.Url">Read on...</a>
+                        </p>
+                    </div>
+                </div>
+            }
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-news" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-news" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
         </div>
-     </div>     
-        </li>
-
-
-}
-            </ul>
     </div>
-}
+}   
