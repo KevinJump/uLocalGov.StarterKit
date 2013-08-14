@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+	@{
+if (Model.Content.HasProperty("serviceAlert") && Model.Content.HasValue("serviceAlert"))
+{
+    IEnumerable<int> ids = Model.Content.GetPropertyValue<string>("serviceAlert").Split(new Char[] {','}, StringSplitOptions.RemoveEmptyEntries).Select(x=>Int32.Parse(x));
+  
+    var serviceAlerts = Umbraco.TypedContent(ids).Where(x=>x!= null && x.IsVisible());
+
+        if (serviceAlerts.Any()){
+    
+	foreach (var alert in serviceAlerts.Where(x=>x.IsVisible())) {
+	
+    var  alertTypeClass = (String.IsNullOrEmpty(alert.GetPropertyValue<String>("alertType"))) ? "" : "alert alert-" + alert.GetPropertyValue<String>("alertType");
+
+<div class="container">
+      <div class="row-fluid">
+        <div class="span12">
+			<div class="serviceAlert @alert.GetPropertyValue("customCssClass") @alertTypeClass">			  		
+				<h1>@alert.GetPropertyValue("title")</h1>
+				@Html.Raw(alert.GetPropertyValue<string>("bodyText"))
+  			</div>
+		</div>
+	</div>
+</div>	
+}
+
+}
+}
+
+
+}
