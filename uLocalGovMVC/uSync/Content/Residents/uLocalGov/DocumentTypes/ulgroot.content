@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="b428d7cb-f116-430a-a2b8-db6714775f57" id="1154" nodeName="ulg.root" isDoc="" updated="2013-08-15T11:22:45.177071+01:00" parentGUID="dec31910-f1bf-4d5a-9d88-fb87ec01f2e5" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
+  <title>DocType: ulg.Root</title>
+  <bodyText><![CDATA[<p>The root document type, </p>
+<p>it is always good practice to create a root document type - this allows you to add a property to all of your document types right across your site.</p>
+<p>in most cases the root document type will contain no properties at the begging of a project but it gives you the flexiblity to add some later.</p>
+<p> </p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>the Root of all document types</p>]]></summary>
+  <relatedIcon><![CDATA[sitemap]]></relatedIcon>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

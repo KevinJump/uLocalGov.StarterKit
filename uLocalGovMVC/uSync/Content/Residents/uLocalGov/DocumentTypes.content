@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgLandingPage guid="dec31910-f1bf-4d5a-9d88-fb87ec01f2e5" id="1153" nodeName="Document Types" isDoc="" updated="2013-08-15T11:15:50.5253543+01:00" parentGUID="7b062c94-bdd8-44e9-a79e-d95589850600" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="1" published="true">
+  <title>Document Types </title>
+  <bodyText><![CDATA[<p>The document types define the layout of the content and how the site is presented</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <hideFromAZ>0</hideFromAZ>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>how the Document types define the site</p>]]></summary>
+  <relatedIcon><![CDATA[file-alt]]></relatedIcon>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <mainItemCount></mainItemCount>
+  <menuItemCount></menuItemCount>
+</ulgLandingPage>
