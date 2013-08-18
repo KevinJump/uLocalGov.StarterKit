@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="09fb40e8-d494-400e-9380-48dc1ddbf32f" id="1200" nodeName="Libraries" isDoc="" updated="2013-08-18T20:46:16.9296898+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
+<ulgLandingPage guid="09fb40e8-d494-400e-9380-48dc1ddbf32f" id="1200" nodeName="Libraries" isDoc="" updated="2013-08-18T21:10:08.4195663+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
   <title>Libraries</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
+  <relatedIcon><![CDATA[book]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Books, Computers and Family History</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="f4dcae43-0a9a-4be0-8ab7-d0c0d75f5db5" id="1186" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T20:47:01.1282178+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="8" published="true">
+<ulgLandingPage guid="f4dcae43-0a9a-4be0-8ab7-d0c0d75f5db5" id="1186" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T21:18:42.3489614+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="8" published="true">
   <title>Births, marriages and deaths</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
+  <relatedIcon><![CDATA[certificate]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Certificates, wedding arrangements, what to do.</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>

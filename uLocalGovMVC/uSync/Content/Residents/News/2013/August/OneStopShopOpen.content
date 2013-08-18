@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsItem guid="23083fe6-216a-4de5-b023-1030f0a7ab79" id="1212" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-18T08:33:29.6331246+01:00" parentGUID="149c17dd-8b1f-4b4f-b82a-9b481dba3c20" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
+<ulgNewsItem guid="23083fe6-216a-4de5-b023-1030f0a7ab79" id="1205" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-18T21:04:35.0394981+01:00" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
   <title>Open all hours...</title>
   <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -10,6 +10,6 @@
   <newsSummary>A new One Stop Shop for council services has opened</newsSummary>
   <relatedImage>C5D80454-9875-4ABA-BF7F-4953F11C6310</relatedImage>
   <articleDate>2013-08-08T00:00:00</articleDate>
-  <newsLocation><![CDATA[7C404265-7B1B-4F58-880B-C9872BB53B01]]></newsLocation>
+  <newsLocation><![CDATA[7C404265-7B1B-4F58-880B-C9872BB53B01,B47FE9AC-4801-4517-B5A2-6609C1CE5E81,3395B16E-C1D5-4549-85C1-CF3FFFE1B123,B8D149B7-2583-4C3E-B0E0-8C8B4E0E2859]]></newsLocation>
   <newsTopics><![CDATA[]]></newsTopics>
 </ulgNewsItem>

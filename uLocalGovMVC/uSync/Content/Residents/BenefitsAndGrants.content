@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="f446a473-e81c-45e5-8f2c-fd801b09b077" id="1182" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T20:46:52.6897352+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="7" published="true">
+<ulgLandingPage guid="f446a473-e81c-45e5-8f2c-fd801b09b077" id="1182" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T21:18:07.5529712+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="7" published="true">
   <title>Benefits and Grants</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
+  <relatedIcon><![CDATA[money]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Housing Benefit, Council Tax Discounts, and other things</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>

@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="23ae66e4-2789-4c0f-8e37-46b933bc0776" id="1113" nodeName="August" isDoc="" updated="2013-08-10T21:56:26.1602809+01:00" parentGUID="1c6642ed-f251-4a98-88fb-7c7364bcb4d8" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="0" published="true">
-    <title>News in August</title>
-    <bodyText><![CDATA[<p>August News</p>]]></bodyText>
-    <relatedIcon><![CDATA[]]></relatedIcon>
-    <umbracoNaviHide>0</umbracoNaviHide>
-    <hideFromAZ>0</hideFromAZ>
-    <featureInMenu>0</featureInMenu>
-    <summary><![CDATA[]]></summary>
-    <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-    <metaDescription></metaDescription>
-    <metaSubject><![CDATA[]]></metaSubject>
-    <metaRobots><![CDATA[]]></metaRobots>
+<ulgNewsList guid="23ae66e4-2789-4c0f-8e37-46b933bc0776" id="1203" nodeName="August" isDoc="" updated="2013-08-18T21:03:59.7374789+01:00" parentGUID="34724e12-997b-4449-a959-6cec062156a0" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="0" published="true">
+  <title>News in August</title>
+  <bodyText><![CDATA[<p>August News</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
 </ulgNewsList>

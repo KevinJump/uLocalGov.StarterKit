@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="19fc4d7d-33e0-46ca-b10a-a64cb0878850" id="1155" nodeName="ulg.CoreContent" isDoc="" updated="2013-08-15T11:27:38.0288212+01:00" parentGUID="dec31910-f1bf-4d5a-9d88-fb87ec01f2e5" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
-  <title>DocType: ulg.CoreContent</title>
+<ulgContentPage guid="19fc4d7d-33e0-46ca-b10a-a64cb0878850" id="1214" nodeName="CoreContent" isDoc="" updated="2013-08-18T21:24:35.3521521+01:00" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+  <title>CoreContent</title>
   <bodyText><![CDATA[<p>Core content node, </p>
 <p>A bit like the Root node, this node serves more as a placehoder, so should never really be used to create a page. </p>
 <p>it contains the properties that are common across all content. this includes the page title, and actual page content. </p>
 <p>as well as the information on every page, such as summary and icon that is used for pages when they are placed on landing pages throughout the site. </p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[asterisk]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>All Content nodes come from here...</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedItems>
     <links />
   </relatedItems>
