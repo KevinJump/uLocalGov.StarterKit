@@ -1,7 +1,11 @@
 /*
  * this is where the design lives
  */
-
+body {
+	font-size: 19px;
+	font-family: 'Calibri' ;	
+		
+	}
 
 /* landing pages */
 .landing-item {
@@ -59,9 +63,6 @@
     width: 200px;
 }
 
-.menu-more {
-    width: 160px;
-}
 
 .menu-drop {
     display: none;
@@ -122,6 +123,10 @@
 .search-box {
     margin-top: 2em;
 }
+
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="7b062c94-bdd8-44e9-a79e-d95589850600" id="1210" nodeName="uLocalGov" isDoc="" updated="2013-08-18T21:09:00.4456785+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="18" published="true">
+<ulgLandingPage guid="7b062c94-bdd8-44e9-a79e-d95589850600" id="1210" nodeName="uLocalGov" isDoc="" updated="2013-08-18T21:09:00.447Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="18" published="true">
   <title>Starter Kit</title>
   <bodyText><![CDATA[<p>The starter kit has been designed to give a flavour of how Umbraco can be used to deliver a local government style website; as such it contains some of the basic building blocks you might expect on a local government site.</p>
 <p>This section of the site serves as the documentation and an example of how the site might work.</p>]]></bodyText>

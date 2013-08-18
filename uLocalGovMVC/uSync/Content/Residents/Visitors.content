@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" id="1218" nodeName="Visitors" isDoc="" updated="2013-08-18T20:46:16.8686863+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
+<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" id="1218" nodeName="Visitors" isDoc="" updated="2013-08-18T20:46:16.867Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
   <title>Visitors</title>
   <bodyText><![CDATA[<p>Tourism / Visitors</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
