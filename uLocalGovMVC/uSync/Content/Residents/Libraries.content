@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="09fb40e8-d494-400e-9380-48dc1ddbf32f" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1085" sortOrder="6" nodeName="Libraries" isDoc="" published="true" updated="2013-07-31T02:55:43.9311259+01:00">
+<ulgLandingPage guid="09fb40e8-d494-400e-9380-48dc1ddbf32f" id="1193" nodeName="Libraries" isDoc="" updated="2013-08-18T08:26:37.3543714+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="13" published="true">
   <title>Libraries</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

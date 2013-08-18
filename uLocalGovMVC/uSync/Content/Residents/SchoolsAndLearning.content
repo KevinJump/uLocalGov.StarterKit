@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="1513c292-d88e-417e-ac2b-d458bb66659f" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" id="1089" sortOrder="8" nodeName="Schools and Learning" isDoc="" published="true" updated="2013-08-07T10:28:37.7952936+01:00">
+<ulgLandingPage guid="1513c292-d88e-417e-ac2b-d458bb66659f" id="1197" nodeName="Schools and Learning" isDoc="" updated="2013-08-18T08:26:37.3914067+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="17" published="true">
   <title>Schools and Learning</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" id="1090" sortOrder="2" nodeName="Visitors" isDoc="" published="true" updated="2013-07-31T02:55:17.043588+01:00">
+<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" id="1221" nodeName="Visitors" isDoc="" updated="2013-08-18T08:26:37.246267+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
   <title>Visitors</title>
   <bodyText><![CDATA[<p>Tourism / Visitors</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
   <menuLength></menuLength>
   <sectionName>Visitors</sectionName>
   <sectionStyle>/css/visitors.css</sectionStyle>

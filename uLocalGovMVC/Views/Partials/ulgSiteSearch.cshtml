@@ -16,7 +16,12 @@ var searchResults = Searcher.Search(query);
 {
     <li>
         <a href="@umbraco.library.NiceUrl(results.Id)">
+		@if( results.Fields.ContainsKey("title")){
             @results.Fields["title"]
+		}
+	else {
+	@("missing title")	
+	}
         </a>
         <span class="search-score">(@results.Score)</span>
         @*

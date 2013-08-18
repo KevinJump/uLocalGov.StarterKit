@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="3395b16e-c1d5-4549-85c1-cf3fffe1b123" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" id="1078" sortOrder="1" nodeName="Council" isDoc="" published="true" updated="2013-07-31T02:55:10.8702349+01:00">
+<ulgSectionHomepage guid="3395b16e-c1d5-4549-85c1-cf3fffe1b123" id="1205" nodeName="Council" isDoc="" updated="2013-08-18T08:26:37.2342559+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="1" published="true">
   <title>Council</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
   <menuLength></menuLength>
   <sectionName>Council</sectionName>
   <sectionStyle>/css/council.css</sectionStyle>

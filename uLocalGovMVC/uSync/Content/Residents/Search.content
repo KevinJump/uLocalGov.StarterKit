@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSystemPage guid="0b35d65b-7231-4637-990d-403d0903c9f8" parentGUID="7c404265-7b1b-4f58-880b-c9872bb53b01" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSearchResults" id="1115" sortOrder="21" nodeName="Search" isDoc="" published="true" updated="2013-08-08T00:22:45.8985994+01:00">
+<ulgSystemPage guid="0b35d65b-7231-4637-990d-403d0903c9f8" id="1198" nodeName="Search" isDoc="" updated="2013-08-18T08:26:37.4084232+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSearchResults" sortOrder="19" published="true">
   <title>Search</title>
   <bodyText><![CDATA[<p>this is the search page, currently it is running the internal umbraco examine search - but i think examine search indexes need configuring for bodyText?</p>]]></bodyText>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
 </ulgSystemPage>

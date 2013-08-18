@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1112" nodeName="News" isDoc="" updated="2013-08-12T11:16:31.6619653+01:00" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="23" published="true">
+<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1208" nodeName="News" isDoc="" updated="2013-08-18T08:26:37.4004153+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="18" published="true">
   <title>News</title>
   <bodyText><![CDATA[<p>This is the news homepage</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
 </ulgNewsList>

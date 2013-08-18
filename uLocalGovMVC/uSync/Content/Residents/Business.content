@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="b47fe9ac-4801-4517-b5a2-6609c1ce5e81" parentGUID="afeecec1-5e94-430a-9089-d8ac0d49c3f3" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" id="1076" sortOrder="0" nodeName="Business" isDoc="" published="true" updated="2013-07-31T02:55:06.2159687+01:00">
+<ulgSectionHomepage guid="b47fe9ac-4801-4517-b5a2-6609c1ce5e81" id="1203" nodeName="Business" isDoc="" updated="2013-08-18T08:26:37.2192419+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="0" published="true">
   <title>Business</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[<p>All things businessy</p>]]></summary>
-  <relatedIcon><![CDATA[credit-card]]></relatedIcon>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[credit-card]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>All things businessy</p>]]></summary>
   <menuLength></menuLength>
   <sectionName>Business</sectionName>
   <sectionStyle>/css/business.css</sectionStyle>
