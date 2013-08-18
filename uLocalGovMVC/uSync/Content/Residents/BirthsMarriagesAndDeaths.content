@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="f4dcae43-0a9a-4be0-8ab7-d0c0d75f5db5" id="1184" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T08:26:37.2772979+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="5" published="true">
-  <title>Births, marriages &amp;amp;amp; deaths</title>
+<ulgLandingPage guid="f4dcae43-0a9a-4be0-8ab7-d0c0d75f5db5" id="1186" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T20:47:01.1282178+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="8" published="true">
+  <title>Births, marriages and deaths</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
@@ -11,6 +11,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

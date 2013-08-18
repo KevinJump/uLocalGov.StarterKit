@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="c53fa68b-4bb4-48ce-bc5d-b0beef421a73" id="1192" nodeName="Leisure, Parks and Events" isDoc="" updated="2013-08-18T08:26:37.3443618+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="12" published="true">
+<ulgLandingPage guid="c53fa68b-4bb4-48ce-bc5d-b0beef421a73" id="1197" nodeName="Leisure, Parks and Events" isDoc="" updated="2013-08-18T20:46:16.8996881+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="3" published="true">
   <title>Leisure, Parks and Events</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -11,6 +11,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

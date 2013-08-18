@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1208" nodeName="News" isDoc="" updated="2013-08-18T08:26:37.4004153+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="18" published="true">
+<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1201" nodeName="News" isDoc="" updated="2013-08-18T20:46:17.3637146+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="23" published="true">
   <title>News</title>
   <bodyText><![CDATA[<p>This is the news homepage</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -11,4 +11,5 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
 </ulgNewsList>

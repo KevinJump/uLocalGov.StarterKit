@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="cb00b3b2-d8f2-4e40-a36c-89a2f14fce67" id="1190" nodeName="Housing" isDoc="" updated="2013-08-18T08:26:37.3253437+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="10" published="true">
+<ulgLandingPage guid="cb00b3b2-d8f2-4e40-a36c-89a2f14fce67" id="1195" nodeName="Housing" isDoc="" updated="2013-08-18T20:46:17.1857045+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="15" published="true">
   <title>Housing</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -11,6 +11,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

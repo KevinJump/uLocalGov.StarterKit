@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSystemPage guid="fda2dc24-54f2-479e-975e-b6f8f4500d80" id="1199" nodeName="Site Map" isDoc="" updated="2013-08-18T08:26:37.4264401+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSiteMapPage" sortOrder="21" published="true">
+<ulgSystemPage guid="fda2dc24-54f2-479e-975e-b6f8f4500d80" id="1180" nodeName="Site Map" isDoc="" updated="2013-08-18T20:46:17.3207122+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSiteMapPage" sortOrder="21" published="true">
   <title>Site Map</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -11,4 +11,5 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
 </ulgSystemPage>

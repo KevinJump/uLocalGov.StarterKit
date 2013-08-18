@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="3395b16e-c1d5-4549-85c1-cf3fffe1b123" id="1205" nodeName="Council" isDoc="" updated="2013-08-18T08:26:37.2342559+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="1" published="true">
+<ulgSectionHomepage guid="3395b16e-c1d5-4549-85c1-cf3fffe1b123" id="1191" nodeName="Council" isDoc="" updated="2013-08-18T20:46:16.8386846+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="1" published="true">
   <title>Council</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -11,6 +11,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <menuLength></menuLength>
   <sectionName>Council</sectionName>
   <sectionStyle>/css/council.css</sectionStyle>

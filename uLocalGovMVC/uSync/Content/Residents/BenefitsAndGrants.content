@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="f446a473-e81c-45e5-8f2c-fd801b09b077" id="1183" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T08:26:37.2662871+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
-  <title>Benefits &amp;amp;amp; Grants</title>
+<ulgLandingPage guid="f446a473-e81c-45e5-8f2c-fd801b09b077" id="1182" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T20:46:52.6897352+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="7" published="true">
+  <title>Benefits and Grants</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
@@ -11,6 +11,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>
