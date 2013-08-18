@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" id="1221" nodeName="Visitors" isDoc="" updated="2013-08-18T08:26:37.246267+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
+<ulgSectionHomepage guid="7ee6c677-3058-48f6-9af0-87cd813d54a3" id="1221" nodeName="Visitors" isDoc="" updated="2013-08-18T22:42:23.7240955+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
   <title>Visitors</title>
   <bodyText><![CDATA[<p>Tourism / Visitors</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>

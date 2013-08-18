@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgHomepage guid="7c404265-7b1b-4f58-880b-c9872bb53b01" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" id="1072" sortOrder="0" nodeName="Residents" isDoc="" published="true" updated="2013-08-07T11:47:11.6779123+01:00">
+<ulgHomepage guid="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" id="1181" nodeName="Residents" isDoc="" updated="2013-08-18T22:41:14.7211189+01:00" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" sortOrder="0" published="true">
   <title>uLocalGov MVC</title>
-  <bodyText><![CDATA[<p>Welcome to the uLocalGov starter kit, this site has been designed to help you get an understanding of how umbraco could be used in a local goverment environment.</p>
-<p><a href="/{localLink:7B062C94-BDD8-44E9-A79E-D95589850600}" title="uLocalGov" class="btn btn-primary btn-lg">Learn More »</a></p>]]></bodyText>
+  <bodyText><![CDATA[<p>Welcome to the uLocalGov starter kit, this site has been designed to help you get an understanding of how umbraco could be used in a local goverment environment...</p>
+<p><a href="/{localLink:1000}" title="uLocalGov" class="btn btn-primary btn-lg">Learn More »</a></p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[<p>This is a summary</p>]]></summary>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>This is a summary</p>]]></summary>
   <menuLength>6</menuLength>
   <sectionName>Residents</sectionName>
   <sectionStyle>resident.css</sectionStyle>

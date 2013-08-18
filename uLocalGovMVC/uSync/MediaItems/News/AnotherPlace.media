@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Image guid="db5fa7ff-5b84-4585-b394-2c5a695b294e" id="1123" nodeName="Another Place" isDoc="" updated="2013-08-09T00:03:47.373Z" parentGUID="d504afdf-c1f4-4adf-870e-5d19c87ae0df" mediaTypeAlias="Image" path="-1,1118,1123">
-    <umbracoFile>/media/1001/another-place.jpg</umbracoFile>
-    <umbracoWidth>2592</umbracoWidth>
-    <umbracoHeight>1944</umbracoHeight>
-    <umbracoBytes>1172810</umbracoBytes>
-    <umbracoExtension>jpg</umbracoExtension>
-    <imageCrop><![CDATA[{"default":{"manual":false,"box":[0,0,1,1],"gravity":[0.4766429662704468,0.5440501570701599]},"croppings":{"squarethumb":{"box":[0.05,0,0.7975,0.9966666666666667],"manual":true},"homepagenews":{"box":[0,0.15333333333333332,1,0.53],"manual":true},"newsarticle":{"box":[0,0.03333333333333333,1,0.9233333333333333],"manual":true},"carousel":{"box":[0,0.18333333333333332,1,0.5833333333333334],"manual":true}}}]]></imageCrop>
-    <doNotCropThisImage></doNotCropThisImage>
-    <alternativeText>Anthony Gormley's Another Place</alternativeText>
+<Image guid="db5fa7ff-5b84-4585-b394-2c5a695b294e" id="1123" nodeName="Another Place" isDoc="" updated="2013-08-18T22:45:27.0232096+01:00" parentGUID="d504afdf-c1f4-4adf-870e-5d19c87ae0df" mediaTypeAlias="Image" path="-1,1118,1123">
+  <umbracoFile>/media/1059/another-place.jpg</umbracoFile>
+  <umbracoWidth>2592</umbracoWidth>
+  <umbracoHeight>1944</umbracoHeight>
+  <umbracoBytes>1172810</umbracoBytes>
+  <umbracoExtension>jpg</umbracoExtension>
+  <imageCrop><![CDATA[{"default":{"manual":true,"box":[0,0,1,1],"gravity":[0.47664296627044678,0.54405015707015991]},"croppings":{}}]]></imageCrop>
+  <doNotCropThisImage>0</doNotCropThisImage>
+  <alternativeText>Anthony Gormley's Another Place.</alternativeText>
 </Image>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="ea1a92ee-dced-4f33-848e-02010c338b92" id="1152" nodeName="Template Structure" isDoc="" updated="2013-08-15T11:16:55.9980991+01:00" parentGUID="7b062c94-bdd8-44e9-a79e-d95589850600" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+<ulgContentPage guid="6fb423ae-74bd-4e52-adef-31acdf927e8c" id="1220" nodeName="Template Structure" isDoc="" updated="2013-08-18T22:45:00.707293+01:00" parentGUID="2b7957f6-28ff-4ca7-8498-04b94f978b19" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
   <title>Template Structure</title>
   <bodyText><![CDATA[<p>The template structure has been built to make the starter kit as flexible as possilbe. </p>
 <p>in esscense there are three levels to the templates in this kit</p>
@@ -11,14 +11,15 @@
 <p>Page Templates</p>
 <p>below the design live are the majority of page templates, these templates define how each page is layed out how the core elements of the content are presented on the page.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[<p>how the template structure works. </p>]]></summary>
-  <relatedIcon><![CDATA[building]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedIcon><![CDATA[building]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>how the template structure works. </p>]]></summary>
   <relatedItems>
     <links />
   </relatedItems>

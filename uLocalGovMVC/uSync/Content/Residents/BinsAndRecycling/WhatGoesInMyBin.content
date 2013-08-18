@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" parentGUID="e74d7eda-302b-49a7-928b-4d4244181376" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" id="1092" sortOrder="0" nodeName="What goes in my bin?" isDoc="" published="true" updated="2013-08-06T13:06:20.7117135+01:00">
+<ulgContentPage guid="6586c7b0-1aa0-408b-9a91-3868f95c7aa8" id="1202" nodeName="What goes in my bin?" isDoc="" updated="2013-08-18T22:42:34.5166138+01:00" parentGUID="3c4b5db0-5054-40bd-b653-b5b2d1a04d1d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
   <title>What goes in my bin</title>
   <bodyText><![CDATA[<p>Content here about what goes in a bin.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
-  <hideFromAZ>0</hideFromAZ>
-  <featureInMenu>1</featureInMenu>
-  <summary><![CDATA[<p>things that go into the bin.</p>]]></summary>
-  <relatedIcon><![CDATA[info-sign]]></relatedIcon>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedIcon><![CDATA[info-sign]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>1</featureInMenu>
+  <summary><![CDATA[<p>things that go into the bin.</p>]]></summary>
   <relatedItems>
     <links>
       <link title="Homepage" link="1000" type="internal" newwindow="0" />
       <link title="Libraries" link="1000" type="internal" newwindow="0" />
     </links>
   </relatedItems>
-  <contact>C93BD46A-F995-4286-ABEB-71AB2B47CE77</contact>
+  <contact>1000</contact>
 </ulgContentPage>
