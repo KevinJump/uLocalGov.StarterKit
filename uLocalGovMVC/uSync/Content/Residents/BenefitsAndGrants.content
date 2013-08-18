@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="f446a473-e81c-45e5-8f2c-fd801b09b077" id="1182" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T21:18:07.553Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="7" published="true">
+  <title>Benefits and Grants</title>
+=======
 <ulgLandingPage guid="4570ec58-9609-4f51-b674-3321eca8e2e3" id="1183" nodeName="Benefits and Grants" isDoc="" updated="2013-08-18T22:42:37.0409529+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
   <title>Benefits &amp;amp;amp; Grants</title>
+>>>>>>> reset of content and media files
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+  <relatedIcon><![CDATA[money]]></relatedIcon>
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[]]></relatedIcon>
+>>>>>>> reset of content and media files
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Housing Benefit, Council Tax Discounts, and other things</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

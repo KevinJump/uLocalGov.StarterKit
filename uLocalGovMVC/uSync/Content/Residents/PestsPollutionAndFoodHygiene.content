@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="e7ab867e-fdef-4b71-962c-636a390dce17" id="1207" nodeName="Pests, pollution and food hygiene" isDoc="" updated="2013-08-18T20:47:43.72Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="17" published="true">
+=======
 <ulgLandingPage guid="da515b92-cc09-45cd-8ea7-5f226343550c" id="1195" nodeName="Pests, pollution and food hygiene" isDoc="" updated="2013-08-18T22:43:35.3886683+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="15" published="true">
+>>>>>>> reset of content and media files
   <title>Pests, pollution and food hygiene</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -12,6 +16,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

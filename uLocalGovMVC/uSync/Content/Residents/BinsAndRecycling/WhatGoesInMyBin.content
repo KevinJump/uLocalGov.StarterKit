@@ -1,17 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgContentPage guid="99e91094-57a9-4a07-ab43-f326bc51134f" id="1185" nodeName="What goes in my bin?" isDoc="" updated="2013-08-18T20:40:31.7609473+01:00" parentGUID="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+=======
 <ulgContentPage guid="6586c7b0-1aa0-408b-9a91-3868f95c7aa8" id="1202" nodeName="What goes in my bin?" isDoc="" updated="2013-08-18T22:42:34.5166138+01:00" parentGUID="3c4b5db0-5054-40bd-b653-b5b2d1a04d1d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+>>>>>>> reset of content and media files
   <title>What goes in my bin</title>
   <bodyText><![CDATA[<p>Content here about what goes in a bin.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
+>>>>>>> reset of content and media files
   <relatedIcon><![CDATA[info-sign]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>1</featureInMenu>
   <summary><![CDATA[<p>things that go into the bin.</p>]]></summary>
+<<<<<<< HEAD
+  <serviceAlert><![CDATA[7848B344-4158-449F-94B2-C51F9BBE28B9]]></serviceAlert>
+=======
+>>>>>>> reset of content and media files
   <relatedItems>
     <links>
       <link title="Homepage" link="1000" type="internal" newwindow="0" />

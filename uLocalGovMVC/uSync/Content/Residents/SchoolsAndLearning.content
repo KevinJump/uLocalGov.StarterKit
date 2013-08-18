@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="1513c292-d88e-417e-ac2b-d458bb66659f" id="1209" nodeName="Schools and Learning" isDoc="" updated="2013-08-18T20:46:17.14Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="13" published="true">
+=======
 <ulgLandingPage guid="efae26a7-5e2a-46e7-9b4b-376259382adc" id="1197" nodeName="Schools and Learning" isDoc="" updated="2013-08-18T22:43:41.3398503+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="17" published="true">
+>>>>>>> reset of content and media files
   <title>Schools and Learning</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -12,6 +16,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

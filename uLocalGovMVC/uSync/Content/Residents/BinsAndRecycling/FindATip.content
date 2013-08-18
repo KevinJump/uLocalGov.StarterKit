@@ -1,17 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgContentPage guid="6fc867fc-c88e-4330-8543-621011aac8f5" id="1184" nodeName="Find a tip" isDoc="" updated="2013-08-18T21:21:33.8977735+01:00" parentGUID="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
+  <title>Find a recycling centre</title>
+=======
 <ulgContentPage guid="dc9e0c5b-2fd1-490d-88c2-7dd6f1f45af5" id="1201" nodeName="Find a tip" isDoc="" updated="2013-08-18T22:42:31.9467832+01:00" parentGUID="3c4b5db0-5054-40bd-b653-b5b2d1a04d1d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
   <title>Find a recycling centre or tip</title>
+>>>>>>> reset of content and media files
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+  <relatedIcon><![CDATA[lightbulb]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>Find the tip and when it's open</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+>>>>>>> reset of content and media files
   <relatedItems>
     <links>
       <link title="Crime and Emergencies" link="1000" type="internal" newwindow="0" />

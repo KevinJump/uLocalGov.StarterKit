@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="a59e3e6d-ded4-4165-8f45-31823ae7e8fb" id="1193" nodeName="Crime and Emergencies" isDoc="" updated="2013-08-18T20:47:21.68Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="12" published="true">
+  <title>Crime and Emergencies</title>
+=======
 <ulgLandingPage guid="b9dfcf88-e0db-4fa1-9f3b-899bfba786ec" id="1188" nodeName="Crime and Emergencies" isDoc="" updated="2013-08-18T22:42:47.2296964+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="8" published="true">
   <title>Crime &amp;amp;amp; Emergencies</title>
+>>>>>>> reset of content and media files
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
@@ -12,6 +17,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

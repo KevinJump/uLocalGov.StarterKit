@@ -1,17 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="35827b4e-de40-4413-b14c-f4a86f152aab" id="1183" nodeName="Bins and Recycling" isDoc="" updated="2013-08-18T21:15:57.883Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="5" published="true">
+=======
 <ulgLandingPage guid="3c4b5db0-5054-40bd-b653-b5b2d1a04d1d" id="1200" nodeName="Bins and Recycling" isDoc="" updated="2013-08-18T22:42:26.4979614+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="3" published="true">
+>>>>>>> reset of content and media files
   <title>Bins and Recycling</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <serviceAlert><![CDATA[7848B344-4158-449F-94B2-C51F9BBE28B9]]></serviceAlert>
-  <relatedIcon><![CDATA[]]></relatedIcon>
+  <relatedIcon><![CDATA[trash]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Collection Dates, what you can put in the bin, and bulky item collections</p>]]></summary>
+  <serviceAlert><![CDATA[7848B344-4158-449F-94B2-C51F9BBE28B9]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

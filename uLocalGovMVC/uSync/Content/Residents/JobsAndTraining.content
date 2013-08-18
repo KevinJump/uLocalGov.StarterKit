@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="1c80e98b-578b-45ee-9398-7ce3da1babb9" id="1196" nodeName="Jobs and Training" isDoc="" updated="2013-08-18T20:47:13.21Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="10" published="true">
+  <title>Jobs and Training</title>
+=======
 <ulgLandingPage guid="d472d575-f010-48ff-af7f-bc44dde0d0a7" id="1191" nodeName="Jobs and Training" isDoc="" updated="2013-08-18T22:42:55.7210744+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="11" published="true">
   <title>Jobs &amp;amp;amp; Training</title>
+>>>>>>> reset of content and media files
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
@@ -12,6 +17,7 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

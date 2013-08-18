@@ -1,17 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="09fb40e8-d494-400e-9380-48dc1ddbf32f" id="1200" nodeName="Libraries" isDoc="" updated="2013-08-18T21:10:08.42Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
+=======
 <ulgLandingPage guid="cfa837b5-324b-4da4-8b21-f6cc814734e6" id="1193" nodeName="Libraries" isDoc="" updated="2013-08-18T22:43:29.7203377+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="13" published="true">
+>>>>>>> reset of content and media files
   <title>Libraries</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+  <relatedIcon><![CDATA[book]]></relatedIcon>
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[]]></relatedIcon>
+>>>>>>> reset of content and media files
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Books, Computers and Family History</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

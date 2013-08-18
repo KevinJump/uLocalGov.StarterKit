@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/root.content
+<ulgContentPage guid="b428d7cb-f116-430a-a2b8-db6714775f57" id="1216" nodeName="root" isDoc="" updated="2013-08-18T21:25:48.5423383+01:00" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="4" published="true">
+  <title>Root</title>
+=======
 <ulgContentPage guid="236475b8-73a0-4c3e-b040-61fded6f0704" id="1219" nodeName="ulg.root" isDoc="" updated="2013-08-18T22:44:57.4527767+01:00" parentGUID="3924c4f0-82fa-4884-a796-9461dd685308" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="4" published="true">
   <title>DocType: ulg.Root</title>
+>>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgroot.content
   <bodyText><![CDATA[<p>The root document type, </p>
 <p>it is always good practice to create a root document type - this allows you to add a property to all of your document types right across your site.</p>
 <p>in most cases the root document type will contain no properties at the begging of a project but it gives you the flexiblity to add some later.</p>
@@ -9,12 +14,20 @@
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/root.content
+  <relatedIcon><![CDATA[cog]]></relatedIcon>
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[sitemap]]></relatedIcon>
+>>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgroot.content
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[<p>the Root of all document types</p>]]></summary>
+<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/root.content
+  <serviceAlert><![CDATA[]]></serviceAlert>
+=======
+>>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgroot.content
   <relatedItems>
     <links />
   </relatedItems>

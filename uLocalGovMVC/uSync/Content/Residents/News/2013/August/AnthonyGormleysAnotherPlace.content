@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgNewsItem guid="99870a1d-f1ab-4a69-b204-b9f386fb14dd" id="1204" nodeName="Anthony Gormley's Another Place" isDoc="" updated="2013-08-18T21:04:26.6520184+01:00" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="0" published="true">
+=======
 <ulgNewsItem guid="116b0c7b-b10f-4208-bcd2-99c5df954c0f" id="1211" nodeName="Anthony Gormley's Another Place" isDoc="" updated="2013-08-18T22:43:51.7189666+01:00" parentGUID="149c17dd-8b1f-4b4f-b82a-9b481dba3c20" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="0" published="true">
+>>>>>>> reset of content and media files
   <title>Anthony Gormley's Another Place</title>
   <bodyText><![CDATA[<p id="yui_3_7_3_3_1376003206703_1452">Another Place is a piece of modern sculpture by Antony Gormley.</p>
 <p id="yui_3_7_3_3_1376003206703_1454">The sculpture consists of 100 cast iron figures which face out to sea, spread over a 2 mile (3.2 km) stretch of the beach. Each figure is 189 cm tall (nearly 6 feet 2½ inches) and weighs around 650 kg (over 1400 lb).</p>

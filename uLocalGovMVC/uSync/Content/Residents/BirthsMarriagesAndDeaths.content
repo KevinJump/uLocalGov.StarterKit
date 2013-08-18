@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgLandingPage guid="f4dcae43-0a9a-4be0-8ab7-d0c0d75f5db5" id="1186" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T22:07:43.4021801+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="9" published="true">
+  <title>Births, marriages and deaths</title>
+=======
 <ulgLandingPage guid="505d1d0a-d6f9-475f-bebb-fec679558c31" id="1184" nodeName="Births, marriages and deaths" isDoc="" updated="2013-08-18T22:42:39.4673117+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="5" published="true">
   <title>Births, marriages &amp;amp;amp; deaths</title>
+>>>>>>> reset of content and media files
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+  <relatedIcon><![CDATA[certificate]]></relatedIcon>
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedIcon><![CDATA[]]></relatedIcon>
+>>>>>>> reset of content and media files
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <summary><![CDATA[<p>Certificates, wedding arrangements, what to do.</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

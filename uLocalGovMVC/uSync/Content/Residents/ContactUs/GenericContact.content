@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<ulgContactPage guid="c93bd46a-f995-4286-abeb-71ab2b47ce77" id="1190" nodeName="Generic Contact" isDoc="" updated="2013-08-18T20:17:05.4035082+01:00" parentGUID="934a8adb-bef9-4e0e-9964-5e1c171d642f" nodeTypeAlias="ulgContactPage" templateAlias="ulgContactPage" sortOrder="0" published="true">
+=======
 <ulgContactPage guid="776aa5a2-fe91-4c25-9e5d-a704f9052520" id="1204" nodeName="Generic Contact" isDoc="" updated="2013-08-18T22:44:34.6073214+01:00" parentGUID="1f1e90f0-6df6-44e1-a682-3f0814bb43bc" nodeTypeAlias="ulgContactPage" templateAlias="ulgContactPage" sortOrder="0" published="true">
+>>>>>>> reset of content and media files
   <title>General Contact</title>
   <bodyText><![CDATA[<p>This is a generic contact page, you might have contact pages for each service you offer, the aim of a contact page is two fold.</p>
 <p>First it removes email addresses from your website, meaning you can control contact,and second it centralizes contact methods so you can mesure how contact is coming in from your website.</p>
@@ -9,12 +13,19 @@
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
+<<<<<<< HEAD
+=======
   <serviceAlert><![CDATA[]]></serviceAlert>
+>>>>>>> reset of content and media files
   <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
+<<<<<<< HEAD
+  <serviceAlert><![CDATA[]]></serviceAlert>
+=======
+>>>>>>> reset of content and media files
   <telephone>0151 123 4567</telephone>
   <emailAddress>info@jumoo.co.uk</emailAddress>
   <address><![CDATA[Jumoo Towers

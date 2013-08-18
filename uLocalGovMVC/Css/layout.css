@@ -1,14 +1,43 @@
 /*
  * this is where the design lives
  */
-
+body {
+	font-size: 19px;
+	font-family: 'Calibri' ;	
+		
+	}
 
 /* landing pages */
+.landing-item {
+	margin: 1em 0;
+	padding: 1em 0;
+	height: 150px;
+	border-radius: 6px;
+}
+		
+.landing-item:hover { 
+	background-color: #f2f2f2;
+}
+
 .landing-item .icon {
 	float: left;
 	padding: .4em;
 	font-size: 2.2em;
+	color: #888;
 }
+
+.landing-item h3 {
+	color: #222;
+	font-weight: bold;
+}
+	
+
+.landing-text {
+	display: block;
+	padding-left: 4.8em;
+}
+		
+.landing-item a:hover { text-decoration: none; }
 
 /* ------------ Navigation ------------- */
 .nav .divider {
@@ -34,9 +63,6 @@
     width: 200px;
 }
 
-.menu-more {
-    width: 160px;
-}
 
 .menu-drop {
     display: none;
@@ -97,5 +123,15 @@
 .search-box {
     margin-top: 2em;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
