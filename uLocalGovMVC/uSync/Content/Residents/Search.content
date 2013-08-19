@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgSystemPage guid="7e84224c-639b-4bda-abdd-aa13cb22f115" id="1179" nodeName="Search" isDoc="" updated="2013-08-18T20:46:17.297Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSearchResults" sortOrder="20" published="true">
+  <title>Search</title>
+  <bodyText><![CDATA[<p>this is the search page, currently it is running the internal umbraco examine search - but i think examine search indexes need configuring for bodyText?</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+</ulgSystemPage>

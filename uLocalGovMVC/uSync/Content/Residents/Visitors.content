@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgSectionHomepage guid="ac3e0086-0383-4cd6-b4f0-26d983f591d6" id="1218" nodeName="Visitors" isDoc="" updated="2013-08-18T20:46:16.867Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
+  <title>Visitors</title>
+  <bodyText><![CDATA[<p>Tourism / Visitors</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <menuLength></menuLength>
+  <sectionName>Visitors</sectionName>
+  <sectionStyle>/css/visitors.css</sectionStyle>
+</ulgSectionHomepage>

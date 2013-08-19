@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgSectionHomepage guid="7eb54657-572a-443f-8cd2-0a6d0611bda4" id="1187" nodeName="Business" isDoc="" updated="2013-08-18T20:46:16.803Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="0" published="true">
+  <title>Business</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[credit-card]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>All things businessy</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <menuLength></menuLength>
+  <sectionName>Business</sectionName>
+  <sectionStyle>/css/business.css</sectionStyle>
+</ulgSectionHomepage>

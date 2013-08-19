@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgNewsItem guid="91962d08-f9a0-46ff-bca0-5f53bca17316" id="1205" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-18T21:04:35.04Z" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
+  <title>Open all hours...</title>
+  <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <customCssClass></customCssClass>
+  <newsSummary>A new One Stop Shop for council services has opened</newsSummary>
+  <relatedImage>B709EEC4-6BA8-4D51-BAC1-A884A388A75A</relatedImage>
+  <articleDate>2013-08-08T00:00:00</articleDate>
+  <newsLocation><![CDATA[FF62208A-0459-4253-B06C-1871694C5CAC,7EB54657-572A-443F-8CD2-0A6D0611BDA4,7DF5A3B1-C26C-46FD-8F2E-F3A8E31DFF8E,AC3E0086-0383-4CD6-B4F0-26D983F591D6]]></newsLocation>
+  <newsTopics><![CDATA[]]></newsTopics>
+</ulgNewsItem>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="b2be23ec-b5c5-4e4b-9b4e-1a93b841904a" id="1217" nodeName="Template Structure" isDoc="" updated="2013-08-18T21:29:48.247Z" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+  <title>Template Structure</title>
+  <bodyText><![CDATA[<p>The template structure has been built to make the starter kit as flexible as possilbe. </p>
+<p>in esscense there are three levels to the templates in this kit</p>
+<p>ulgMasterView</p>
+<p>the maste view template is at the root of the kit it defines the core of what the site is built upon. in the case of this starterkit it is bootstrap 3. which provides a framework for layout navigation and other elements - giving a kick start to any design. </p>
+<p>by seperating this from the design the theory is it is easier to replace or upgrade the frameworks you are using without completely having to change the design.</p>
+<p>ulgDesign</p>
+<p>the design template defines the core layout and design of the site, this is where the global headers and footers are placed as is things like search and meta data that is consistant across the site</p>
+<p>Page Templates</p>
+<p>below the design live are the majority of page templates, these templates define how each page is layed out how the core elements of the content are presented on the page.</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[building]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>how the template structure works. </p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgLandingPage guid="ec985b1a-381b-4433-9bb4-af7342283601" id="1188" nodeName="Consumer advice" isDoc="" updated="2013-08-18T20:46:17.093Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="11" published="true">
+  <title>Consumer advice</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <mainItemCount></mainItemCount>
+  <menuItemCount></menuItemCount>
+</ulgLandingPage>

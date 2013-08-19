@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="827780e7-e2b7-4edb-a14b-7041b62b6846" id="1212" nodeName="News Doctypes" isDoc="" updated="2013-08-18T20:17:19.747Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
+  <title>News Doctypes</title>
+  <bodyText><![CDATA[<p>How the news works. </p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[quote-right]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>How News is built</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

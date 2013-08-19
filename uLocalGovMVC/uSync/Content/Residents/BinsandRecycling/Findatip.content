@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="3711cf5c-eab9-4114-a7c4-410dae29b332" id="1184" nodeName="Find a tip" isDoc="" updated="2013-08-19T10:05:41.4904266+01:00" parentGUID="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
+  <title>Find a recycling centre</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[lightbulb]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>Find the tip and when it's open</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links>
+      <link title="Crime and Emergencies" link="1000" type="internal" newwindow="0" />
+      <link title="Planning" link="1000" type="internal" newwindow="0" />
+    </links>
+  </relatedItems>
+  <contact>F24E402D-0404-4C82-A835-E0B43D1D7D9F</contact>
+</ulgContentPage>

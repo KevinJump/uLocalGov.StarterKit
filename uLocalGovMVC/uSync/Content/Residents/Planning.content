@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgLandingPage guid="04dfaafc-9e44-4500-8ed7-06569d248485" id="1208" nodeName="Planning" isDoc="" updated="2013-08-18T20:46:17.163Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="14" published="true">
+  <title>Planning</title>
+  <bodyText><![CDATA[]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <mainItemCount></mainItemCount>
+  <menuItemCount></menuItemCount>
+</ulgLandingPage>

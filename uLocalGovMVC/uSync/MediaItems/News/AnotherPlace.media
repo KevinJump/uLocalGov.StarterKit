@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Image guid="55de1401-2e76-42dd-9657-33c60c240318" id="1137" nodeName="Another Place" isDoc="" updated="2013-08-11T10:48:49.997Z" parentGUID="ec29c433-9314-4023-87b1-780518885323" mediaTypeAlias="Image" path="-1,1136,1137">
+  <umbracoFile>/media/1003/another-place.jpg</umbracoFile>
+  <umbracoWidth>2592</umbracoWidth>
+  <umbracoHeight>1944</umbracoHeight>
+  <umbracoBytes>1172810</umbracoBytes>
+  <umbracoExtension>jpg</umbracoExtension>
+  <alternativeText></alternativeText>
+  <imageCrop><![CDATA[]]></imageCrop>
+</Image>

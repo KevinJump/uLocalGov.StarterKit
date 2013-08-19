@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="02c3ad08-1e2a-4bec-8bd8-82e27b6b1415" id="1215" nodeName="LandingPage" isDoc="" updated="2013-08-18T21:25:14.857Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
+  <title>Landing Pages</title>
+  <bodyText><![CDATA[<p>(ulg.LandingPage)</p>
+<p>Navigational Links</p>
+<p>Landing pages for the bulk of the site navigation for the site. </p>
+<p>the theory is these pages are often the pages where users will "Land "on you site. the provide quick and easy view of the information in an area of the site.</p>
+<p>Landing pages have two core areas Stright to.. and More.. </p>
+<p>the Straight to section contains the links to the most commonly used pages on the site . the More section contains everything else.</p>
+<p>The order of the links on the page is controlled via the order the pages apear in the navigation tree in umbraco.</p>
+<p>You can change this in the back end by clicking on the landing page node and selecting sort - this will change the order. </p>
+<p>the Landing info tab allows you to change the number of items that appear in the main section, the default is 6, but sometimes you may wish to change this (for example if you have 7 items, it is better to have all show up in the main section then have only one in the more section)</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[plane]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>Naivgation elements</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

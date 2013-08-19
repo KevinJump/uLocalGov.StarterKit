@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="5b5f45cd-f629-4c20-8ba7-ca104cd9b175" id="1214" nodeName="CoreContent" isDoc="" updated="2013-08-18T21:24:35.353Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+  <title>CoreContent</title>
+  <bodyText><![CDATA[<p>Core content node, </p>
+<p>A bit like the Root node, this node serves more as a placehoder, so should never really be used to create a page. </p>
+<p>it contains the properties that are common across all content. this includes the page title, and actual page content. </p>
+<p>as well as the information on every page, such as summary and icon that is used for pages when they are placed on landing pages throughout the site. </p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[asterisk]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>All Content nodes come from here...</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>
