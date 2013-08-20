@@ -2382,6 +2382,17 @@
   <ItemGroup>
     <Content Include="Views\ulgLatestNewsRssFeed.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgSections.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgSystemPages.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ulgSideNavPages.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
