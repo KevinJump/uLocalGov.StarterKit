@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Image guid="55de1401-2e76-42dd-9657-33c60c240318" id="1137" nodeName="Another Place" isDoc="" updated="2013-08-20T10:49:23.8503849+01:00" parentGUID="ec29c433-9314-4023-87b1-780518885323" mediaTypeAlias="Image" path="-1,1136,1137">
-  <umbracoFile>/media/1017/another-place.jpg</umbracoFile>
+<Image guid="55de1401-2e76-42dd-9657-33c60c240318" id="1137" nodeName="Another Place" isDoc="" updated="2013-08-20T15:45:47.9925796+01:00" parentGUID="ec29c433-9314-4023-87b1-780518885323" mediaTypeAlias="Image" path="-1,1136,1137">
+  <umbracoFile>/media/1049/another-place.jpg</umbracoFile>
   <umbracoWidth>2592</umbracoWidth>
   <umbracoHeight>1944</umbracoHeight>
   <umbracoBytes>1172810</umbracoBytes>
   <umbracoExtension>jpg</umbracoExtension>
-  <alternativeText></alternativeText>
-  <imageCrop><![CDATA[]]></imageCrop>
+  <alternativeText>a place</alternativeText>
+  <imageCrop><![CDATA[{"default":{"manual":true,"box":[0,0,1,1],"gravity":[0.47664296627044678,0.54405015707015991]},"croppings":{}}]]></imageCrop>
 </Image>

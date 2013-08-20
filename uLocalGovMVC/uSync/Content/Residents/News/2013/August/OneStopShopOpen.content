@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsItem guid="91962d08-f9a0-46ff-bca0-5f53bca17316" id="1205" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-20T10:36:28.0060091+01:00" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
+<ulgNewsItem guid="91962d08-f9a0-46ff-bca0-5f53bca17316" id="1205" nodeName="One Stop Shop Open" isDoc="" updated="2013-08-20T15:45:06.3922002+01:00" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="1" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Open all hours...</title>
   <bodyText><![CDATA[<p>A new One Stop Shop for council services has opened ...</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
