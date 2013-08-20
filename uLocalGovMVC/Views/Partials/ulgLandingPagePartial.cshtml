@@ -22,10 +22,10 @@
      setup row type, normally we have three items per line
      but if we have 2 or 4 then we have 2 items per line
     *@
-    var grid = "col-lg-4" ;
+    var grid = "col-lg-4 col-md-6" ;
     int itemsPerRow = 3; 
     if ( (mainCount % 2 == 0) && (mainCount < 6 ) ) { 
-        grid = "col-lg-6" ;
+        grid = "col-lg-6 col-md-6" ;
         itemsPerRow = 2;
   }
 }
@@ -45,7 +45,7 @@
     if ( item.IsModZero(itemsPerRow) )
     {
         @* if we are at the end of a row - clear to start the next *@
-        <div class="clearfix"></div>
+        
     }
 
     @* the landing item *@                

@@ -31,10 +31,10 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-6">
+		<div class="col-sm-6">
 			<h1><a href="/">@Umbraco.Field("siteName", recursive: true)</a></h1>
 		</div>				
-        <div class="col-lg-6">
+        <div class="col-sm-6">
             <div class="pull-right search-box">
                 <form class="form-search" method="get" action="/search">
                     <input type="text" class="input-medium search-query" name="q">
@@ -54,7 +54,9 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            @Html.Partial("ulgMegaMenuPartial") 
+            <div class="visible-lg visible-md">
+                @Html.Partial("ulgMegaMenuPartial") 
+            </div>
         </div>
     </div>
 </div>
