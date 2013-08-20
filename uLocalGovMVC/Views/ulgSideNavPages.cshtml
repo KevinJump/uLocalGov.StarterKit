@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+    @RenderSection("MetaData", false) 
+}
+
+<div class="row">
+    <div class="col-lg-3">
+        <div class="well visible-lg">
+            @Umbraco.RenderMacro("ulg.sidenavigation")
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+
+        @RenderBody() 
+
+    </div>
+
+    <div class="col-lg-3">
+
+        @Html.Partial("ulgRelatedLinks")
+
+        @Html.Partial("ulgContactLinks") 
+
+        @RenderSection("AltSection", false)
+    </div>
+
+</div>
+
+
+
+
+@section Scripts {
+    @RenderSection("Scripts", false) 
+}
+
+@section Footer {
+
+}

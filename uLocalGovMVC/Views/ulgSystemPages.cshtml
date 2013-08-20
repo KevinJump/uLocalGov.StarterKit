@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+    @RenderSection("MetaData", false) 
+}
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="page-header">
+            <h1>@Umbraco.Field("title")</h1>
+        </div>
+        <div class="content" id="content">
+            @Umbraco.Field("bodyText")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        @RenderBody()
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", false) 
+}
+
+@section Footer {
+}

@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "ulgDesign.cshtml";
+}
+
+@section MetaData {
+    @RenderSection("MetaData",false) 
+}
+
+@section BreadCrumb {
+    <!-- no breadcrumb --> 
+}
+
+@RenderBody() 
+    
+@section Footer {
+    @RenderSection("Footer",false) 
+}      
+
+@section Scripts {
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+    @RenderSection("Scripts",false) 
+}
