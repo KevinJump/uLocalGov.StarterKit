@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="b2be23ec-b5c5-4e4b-9b4e-1a93b841904a" id="1217" nodeName="Templates" isDoc="" updated="2013-08-20T13:07:30.9223783+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+  <title>Template Structure</title>
+  <bodyText><![CDATA[<p>In Umbraco the templates control the layout and html used within the site, often you will have a template for each type of page your site has.</p>
+<p>In order to reduce the amount of duplication and changes you need to make it is often advisable to use a nested template structure, so each page template inherits certain things from its parent.</p>
+<p>This allows you to define things like logo’s menus and master style sheets at one level and have everything below that level inherits those items.</p>
+<p>The templates in this starter kit are described below</p>
+<h3>Bootstrap at the Root</h3>
+<p>At the top most level the ulgMasterView template defines what’s in the core of every page. This starter kit is built upon the top of Bootstrap so the ulgMasterView is built to be the core bootstrap elements needed on all pages of the site</p>
+<h3>Design</h3>
+<p>The only template (at this time) to inherit from the master is ulgDesign, which contains the design of the site.</p>
+<p>Keeping the design and the core bootstrap features separate allows (in theory) for you to swap out elements such as the version of bootstrap without having to make fundamental changes to the design elements of your site.</p>
+<h3>Pages types</h3>
+<p>Underneath the design the templates are in groups depending on their layout and behaviour, the main groups are</p>
+<ul>
+<li><span style="line-height: 1.428571429;">Sections (ulgSections) main sections of the site – this includes the homepage</span></li>
+<li><span style="line-height: 1.428571429;">Side Navigation (ulgSideNavPages) – pages that have the side navigation</span></li>
+<li><span style="line-height: 1.428571429;">System Pages (ulgSystemPages) – pages that perform part of the core system functionality, i.e az, search, sitemap</span></li>
+</ul>
+<p>You don’t have to separate out the pages at this level, it depends very much on the design, if for example you chose not to have the left hand navigation then the layouts would in all likelihood be much simpler and not require this extra level of separation</p>
+<h3>Pages</h3>
+<p>In each page group there are a number of page templates – these templates render the actual page, and are usually mapped as the default template for a specific document type, because most of the layout has been defined on the parent page templates these templates can be very simple and concentrate on delivering the content to the page.</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[building]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>how the template structure works. </p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

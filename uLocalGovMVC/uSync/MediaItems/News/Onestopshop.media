@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Image guid="b709eec4-6ba8-4d51-bac1-a884a388a75a" id="1138" nodeName="Onestopshop" isDoc="" updated="2013-08-11T10:48:50.507Z" parentGUID="ec29c433-9314-4023-87b1-780518885323" mediaTypeAlias="Image" path="-1,1136,1138">
-  <umbracoFile>/media/1004/onestopshop.jpg</umbracoFile>
+<Image guid="b709eec4-6ba8-4d51-bac1-a884a388a75a" id="1138" nodeName="Onestopshop" isDoc="" updated="2013-08-20T10:49:24.5634257+01:00" parentGUID="ec29c433-9314-4023-87b1-780518885323" mediaTypeAlias="Image" path="-1,1136,1138">
+  <umbracoFile>/media/1018/onestopshop.jpg</umbracoFile>
   <umbracoWidth>1632</umbracoWidth>
   <umbracoHeight>1224</umbracoHeight>
   <umbracoBytes>396617</umbracoBytes>

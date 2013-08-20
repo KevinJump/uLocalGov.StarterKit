@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="9fefe4cb-e9ea-4edb-abb9-fef11b37ef19" id="1243" nodeName="Partial Views" isDoc="" updated="2013-08-20T13:13:56.4094269+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+  <title>Partial Views</title>
+  <bodyText><![CDATA[<p>When functionality is repeated across the site, it can be taken out of templates and moved into Partial Views – these partial views are repeatable chunks of code that can be placed within templates to achieve a specific goal.</p>
+<h3>Mega menu</h3>
+<p>The MegaMenu partial view (ulgMegaMenuPartial.html) renders the menu across the top of the site. The dropdowns highlight the pages underneath a section and featured items.</p>
+<p>The MegaMenu partial, has the following logic.</p>
+<ol>
+<li><span style="line-height: 1.428571429;">Got to the parent section (either a section page or the homepage) for this page</span></li>
+<li><span style="line-height: 1.428571429;">Enumerate all pages in the section</span></li>
+<ol>
+<li><span style="line-height: 1.428571429;">Order is determined by the sort order in Umbraco – meaning you can change the order by sorting the content in the Umbraco back end.</span></li>
+<li><span style="line-height: 1.428571429;">Visible() only returns page that don’t have umbracoNaviHide set or that the user has permission to see</span></li>
+</ol>
+<li><span style="line-height: 1.428571429;">Create a list from the pages</span></li>
+<ol>
+<li><span style="line-height: 1.428571429;">For each item, enumerate the top X (default 6) items and put them in the drop down.</span></li>
+<li><span style="line-height: 1.428571429;">Find the first 3 items which “featured in menu” set and put them in the featured section</span></li>
+</ol>
+<li><span style="line-height: 1.428571429;">When the menu gets to the pre-defined length (which is set on section) – put all other items in the more drop down.</span></li>
+</ol>
+<h3>Contact Details</h3>
+<p>Throughout the uLocalGov starter kit, contact details have been moved out of content and into a contact us section. This allows for greater control over how users can contact the council, and allows for tracking of contact.</p>
+<p>The main partial view for contact is ulgContactLinks. Given a contact node, it renders out the links for telephone, email and address into the side section of a page.</p>
+<p>When a user clicks on telephone they are taken to the contact page with the number on it, by handling contact this way, it can be measured from each page.</p>
+<h3>News</h3>
+<p>The news is a basic set of Partial views to render news on the homepage (ulgHomepageNews) and list news on a news archive (ulNewsList)</p>
+<h3>Landing Page Lists</h3>
+<p>Landing pages form the back bone of the navigation of the site. a basic landing page consists of a number of ‘straight to…’ links for popular items with the remaining items being placed I the ‘more…’ section</p>
+<p>The number of items in the straight to is controlled in the landing page</p>
+<p>Links are rendered in their Umbraco sort order – changing the order of nodes inside Umbraco changes this order</p>
+<p>The “Straight To” and ”More…” text is set in dictionary items. Allowing you to change it once throughout the site (and have it in welsh)</p>]]></bodyText>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <relatedIcon><![CDATA[cog]]></relatedIcon>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <summary><![CDATA[<p>Repeatable code used across the site</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links>
+      <link title="Templates" link="B2BE23EC-B5C5-4E4B-9B4E-1A93B841904A" type="internal" newwindow="0" />
+    </links>
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="5b5f45cd-f629-4c20-8ba7-ca104cd9b175" id="1214" nodeName="CoreContent" isDoc="" updated="2013-08-18T21:24:35.353Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+<ulgContentPage guid="5b5f45cd-f629-4c20-8ba7-ca104cd9b175" id="1214" nodeName="CoreContent" isDoc="" updated="2013-08-19T10:03:21.58Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
   <title>CoreContent</title>
   <bodyText><![CDATA[<p>Core content node, </p>
 <p>A bit like the Root node, this node serves more as a placehoder, so should never really be used to create a page. </p>

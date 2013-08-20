@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="761ddc2a-f978-49ab-a0b6-e3076354370f" id="1213" nodeName="Content Page" isDoc="" updated="2013-08-18T21:24:53.96Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+<ulgContentPage guid="761ddc2a-f978-49ab-a0b6-e3076354370f" id="1213" nodeName="Content Page" isDoc="" updated="2013-08-19T10:03:21.447Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
   <title>Content Page</title>
   <bodyText><![CDATA[<p>Standard page of content</p>
 <p>This page is a ContentPage, as are all pages where there is just a need for some standard content. </p>

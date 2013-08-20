@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgNewsList guid="34724e12-997b-4449-a959-6cec062156a0" id="1202" nodeName="2013" isDoc="" updated="2013-08-18T21:01:13.003Z" parentGUID="0cae5e65-0b1e-4a9f-a4a5-81512df63bf9" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="0" published="true">
+<ulgNewsList guid="34724e12-997b-4449-a959-6cec062156a0" id="1202" nodeName="2013" isDoc="" updated="2013-08-19T10:03:19.803Z" parentGUID="0cae5e65-0b1e-4a9f-a4a5-81512df63bf9" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="0" published="true">
   <title>2013</title>
   <bodyText><![CDATA[<p>News in 2013</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>

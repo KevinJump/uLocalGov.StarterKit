@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="09b88d91-9d56-48f6-9826-c0cfe6b85858" id="1192" nodeName="Council Tax" isDoc="" updated="2013-08-18T21:17:05.763Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="6" published="true">
+<ulgLandingPage guid="09b88d91-9d56-48f6-9826-c0cfe6b85858" id="1192" nodeName="Council Tax" isDoc="" updated="2013-08-19T10:03:18.4Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="6" published="true">
   <title>Council Tax</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>

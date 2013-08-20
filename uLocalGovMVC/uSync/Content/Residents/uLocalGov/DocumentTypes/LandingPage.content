@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="02c3ad08-1e2a-4bec-8bd8-82e27b6b1415" id="1215" nodeName="LandingPage" isDoc="" updated="2013-08-18T21:25:14.857Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
+<ulgContentPage guid="02c3ad08-1e2a-4bec-8bd8-82e27b6b1415" id="1215" nodeName="LandingPage" isDoc="" updated="2013-08-19T10:03:21.77Z" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
   <title>Landing Pages</title>
   <bodyText><![CDATA[<p>(ulg.LandingPage)</p>
 <p>Navigational Links</p>

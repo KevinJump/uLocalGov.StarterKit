@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContactPage guid="f24e402d-0404-4c82-a835-e0b43d1d7d9f" id="1190" nodeName="Generic Contact" isDoc="" updated="2013-08-18T20:20:47.293Z" parentGUID="934a8adb-bef9-4e0e-9964-5e1c171d642f" nodeTypeAlias="ulgContactPage" templateAlias="ulgContactPage" sortOrder="0" published="true">
+<ulgContactPage guid="f24e402d-0404-4c82-a835-e0b43d1d7d9f" id="1190" nodeName="Generic Contact" isDoc="" updated="2013-08-19T10:03:18.047Z" parentGUID="934a8adb-bef9-4e0e-9964-5e1c171d642f" nodeTypeAlias="ulgContactPage" templateAlias="ulgContactPage" sortOrder="0" published="true">
   <title>General Contact</title>
   <bodyText><![CDATA[<p>This is a generic contact page, you might have contact pages for each service you offer, the aim of a contact page is two fold.</p>
 <p>First it removes email addresses from your website, meaning you can control contact,and second it centralizes contact methods so you can mesure how contact is coming in from your website.</p>
