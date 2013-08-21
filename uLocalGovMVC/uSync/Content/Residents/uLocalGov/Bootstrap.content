@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="272e9adc-ca55-447e-9dfb-238e14572316" id="1244" nodeName="Bootstrap" isDoc="" updated="2013-08-20T13:16:43.3929778+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
-  <title>Bootstrap / Icons</title>
-  <bodyText><![CDATA[<p>The uLocalGov package has been built upon the latest version of bootstrap (v3). This allows for a simple grid layout and consistent look and feel across the site.</p>
-<p>Little has been done to augment the bootstrap kit, allowing you to apply your site design directly over the top of the starter kit. </p>]]></bodyText>
+<ulgContentPage guid="272e9adc-ca55-447e-9dfb-238e14572316" id="1244" nodeName="Bootstrap" isDoc="" updated="2013-08-21T12:36:09.8999429+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
+  <title>Bootstrap / Icons</title>
+  <bodyText><![CDATA[<p>The uLocalGov package has been built upon the latest version of <a href="http://getbootstrap.com">bootstrap</a> (v3). This allows for a simple grid layout and consistent look and feel across the site.</p>
+<p>Little has been done to augment the bootstrap framework, allowing you to apply your site design directly over the top of the starter kit. </p>]]></bodyText>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[bold]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[bold]]></relatedIcon>
   <summary><![CDATA[<p>Core of styles and icons within the starterkit</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedItems>
-    <links />
+    <links>
+      <link title="Bootstrap" link="http://getbootstrap.com/" type="external" newwindow="0" />
+    </links>
   </relatedItems>
-  <contact></contact>
+  <contact>F24E402D-0404-4C82-A835-E0B43D1D7D9F</contact>
 </ulgContentPage>

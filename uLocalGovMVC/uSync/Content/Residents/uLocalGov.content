@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="66112467-cfe9-439f-b489-5d7e94fa5f6d" id="1210" nodeName="uLocalGov" isDoc="" updated="2013-08-20T13:04:20.2464723+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="18" published="true">
+<ulgLandingPage guid="66112467-cfe9-439f-b489-5d7e94fa5f6d" id="1210" nodeName="uLocalGov" isDoc="" updated="2013-08-21T12:45:09.1237848+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="3" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Starter Kit</title>
   <bodyText><![CDATA[<p>The uLocalGovMVC starter kit has been built to show how Umbraco can be used to deliver a local government style.</p>
 <p>It contains the basic building blocks for any information rich website where finding things is often half the challenge.</p>
 <p>This section of the kit serves as the documentation for the kit and a demonstration of how the parts fit together.</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[magnet]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[magnet]]></relatedIcon>
+  <summary><![CDATA[<p>Starter kit documentation and guides</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>

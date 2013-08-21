@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="a5a30180-069d-40ba-919d-80879546e899" id="1196" nodeName="Jobs and Training" isDoc="" updated="2013-08-19T10:03:18.933Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="10" published="true">
+<ulgLandingPage guid="a5a30180-069d-40ba-919d-80879546e899" id="1196" nodeName="Jobs and Training" isDoc="" updated="2013-08-21T12:23:31.0135371+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="11" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Jobs and Training</title>
   <bodyText><![CDATA[]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

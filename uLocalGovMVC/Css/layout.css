@@ -51,8 +51,9 @@ body {
 
 /* widths - these need to be %ed */
 .menu-drop {
-    width: 360px;
+    width: 380px;
     z-index: 1000; 
+	font-size: 0.85em;
 }
 
 .menu-drop ul {
@@ -60,7 +61,8 @@ body {
 }
 
 .menu-drop ul.menu-featured {
-    width: 200px;
+    width: 220px;
+	
 }
 
 
@@ -68,7 +70,7 @@ body {
     display: none;
     position: absolute;
     top: 40px;
-    background-color: #fcfcfc;
+    background-color: #FCFCFC;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     box-shadow: 3px 3px 4px #ddd;
@@ -94,7 +96,15 @@ body {
         line-height: 1.1em;
     }
 
-
+.feature-title {
+    display: block;
+    padding-left: 70px;
+    font-size: 1.1em;
+}
+.feature-text {
+    display: block;
+    padding-left: 70px;
+}
 .menu-more {
     padding-right: 20px;
 }
@@ -105,6 +115,10 @@ body {
 
 .menu-featured {
     float: left;
+}
+
+.menu-featured a { 
+	color: #85AACA;
 }
 
     .menu-featured .icon {
@@ -123,6 +137,46 @@ body {
 .search-box {
     margin-top: 2em;
 }
+
+
+/* ----------- news ----------------*/
+.news h2 {
+		margin: 0;
+	}
+
+.news h2 a { 
+	color: #333; 
+		}
+
+
+.news .carousel-caption 
+{
+	font-size: 0.7em;
+	background-color: #222;
+	
+	width: 100%;
+	
+	right: 0;
+	left: 0;
+	bottom: 0;
+	
+	padding-bottom: 0;
+	padding-top: 0;
+	
+	opacity: 0.9;
+}
+
+.news h3 { 
+	margin-top: 0.2em;
+	}
+
+.news-image {
+	margin: 0.5em;
+		}
+
+
+
+
 
 
 

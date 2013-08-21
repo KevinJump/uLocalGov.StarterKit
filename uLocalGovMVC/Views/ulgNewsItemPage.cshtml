@@ -1,5 +1,4 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-	@using Eksponent.CropUp
 @{
     Layout = "ulgSideNavPages.cshtml";
 }
@@ -25,13 +24,11 @@
 if (String.IsNullOrEmpty(imageAltText)){
     imageAltText = mediaItem.Name;         
 }
-if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage")){
-    imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="newsarticle", CropMode=CropUpMode.BestFit });
-}
  
 }   
 @if (hasImage){
-	<div class="pull-left"><img src="@imageUrl" alt="@imageAltText" width="300px" height="200px"/></div>
+	<div class="pull-left">
+		<img src="@imageUrl" alt="@imageAltText" width="300px" height="200px" class="thumbnail news-image"/></div>
 }		
 
 @Umbraco.Field("bodyText")

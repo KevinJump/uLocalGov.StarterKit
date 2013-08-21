@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="d963452b-1d2d-4884-bdb2-d5dde7ff37f8" id="1209" nodeName="Schools and Learning" isDoc="" updated="2013-08-19T10:03:20.787Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="13" published="true">
+<ulgLandingPage guid="d963452b-1d2d-4884-bdb2-d5dde7ff37f8" id="1209" nodeName="Schools and Learning" isDoc="" updated="2013-08-21T12:23:31.081541+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="14" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Schools and Learning</title>
   <bodyText><![CDATA[]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

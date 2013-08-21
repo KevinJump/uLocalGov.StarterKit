@@ -2393,6 +2393,12 @@
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\uLocalGov.PackageActions\uLocalGov.PackageActions.csproj">
+      <Project>{a2b242f1-8fd7-42bf-a241-da185d9988ab}</Project>
+      <Name>uLocalGov.PackageActions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

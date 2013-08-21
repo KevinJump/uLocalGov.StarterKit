@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" id="1183" nodeName="Bins and Recycling" isDoc="" updated="2013-08-19T10:03:17.067Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="5" published="true">
-  <title>Bins and Recycling</title>
-  <bodyText><![CDATA[]]></bodyText>
+<ulgLandingPage guid="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" id="1183" nodeName="Bins and Recycling" isDoc="" updated="2013-08-21T13:07:48.2285211+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="6" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
+  <title>Bins and Recycling</title>
+  <bodyText><![CDATA[<p>Information about your bins; when they get collected and what you can put in them.</p>
+<p>Information on how to recycling things, and how best to get rid of that old sofa </p>]]></bodyText>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[trash]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[<p>Collection Dates, what you can put in the bin, and bulky item collections</p>]]></summary>
+  <relatedIcon><![CDATA[trash]]></relatedIcon>
+  <summary><![CDATA[<p>Collection Dates, what you can put in the bin, and bulky items</p>]]></summary>
   <serviceAlert><![CDATA[109324DB-186E-4A4D-8446-5C073238CB32]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>

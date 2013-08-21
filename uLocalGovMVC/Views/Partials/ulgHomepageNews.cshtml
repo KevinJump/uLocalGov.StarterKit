@@ -1,5 +1,4 @@
-@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using Eksponent.CropUp;
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @*Need to get all news on site ordered by date, promoted to the current site node, what about stickyness ?*@
 
 @{
@@ -12,6 +11,7 @@
 @if (allNews.Any())
 {
     <div class="news">
+		<h2>News</h2>
         <div id="carousel-news" class="carousel slide">
             <div class="carousel-inner">
             @foreach(IPublishedContent newsItem in allNews) 
@@ -32,13 +32,6 @@
                     {
                         imageAltText = mediaItem.Name;
                     }
-                    
-                    if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage"))
-                    {
-                        imageUrl = CropUp.GetUrl(imageUrl, new ImageSizeArguments{ CropAlias="homepagenews", CropMode=CropUpMode.BestFit });
-                    }
-
-                    
                 }
                 String first = @newsItem.IsFirst() ? "active" : ""; 
                 
@@ -65,5 +58,6 @@
                 <span class="icon-next"></span>
             </a>
         </div>
+		<a href="/news/">More...</a>
     </div>
 }   

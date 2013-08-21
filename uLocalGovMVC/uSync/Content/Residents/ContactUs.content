@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="934a8adb-bef9-4e0e-9964-5e1c171d642f" id="1189" nodeName="Contact Us" isDoc="" updated="2013-08-19T10:03:17.883Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="22" published="true">
+<ulgLandingPage guid="934a8adb-bef9-4e0e-9964-5e1c171d642f" id="1189" nodeName="Contact Us" isDoc="" updated="2013-08-21T12:31:13.9190138+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="22" published="true">
+  <umbracoNaviHide>1</umbracoNaviHide>
   <title>Contact Us</title>
   <bodyText><![CDATA[<p>all the ways you can contact us are around here somewhere</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

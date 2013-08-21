@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="5b33398d-16a6-4505-8afc-83beb5d68a41" id="1185" nodeName="What goes in my bin?" isDoc="" updated="2013-08-19T10:08:30.713Z" parentGUID="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+<ulgContentPage guid="5b33398d-16a6-4505-8afc-83beb5d68a41" id="1185" nodeName="What goes in my bin?" isDoc="" updated="2013-08-21T12:32:04.6519155+01:00" parentGUID="27404237-bb6f-4fa2-8eeb-cb0f65b4ecba" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>What goes in my bin</title>
   <bodyText><![CDATA[<p>Content here about what goes in a bin.</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[info-sign]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>1</featureInMenu>
+  <relatedIcon><![CDATA[question-sign]]></relatedIcon>
   <summary><![CDATA[<p>things that go into the bin.</p>]]></summary>
   <serviceAlert><![CDATA[109324DB-186E-4A4D-8446-5C073238CB32]]></serviceAlert>
   <relatedItems>

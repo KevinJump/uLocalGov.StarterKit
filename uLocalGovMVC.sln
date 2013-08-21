@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2012 for Web
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uLocalGovMVC", "uLocalGovMVC\uLocalGovMVC.csproj", "{DC9E12B1-401D-4EBD-B796-6B7CA800151C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uLocalGov.PackageActions", "uLocalGov.PackageActions\uLocalGov.PackageActions.csproj", "{A2B242F1-8FD7-42BF-A241-DA185D9988AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{DC9E12B1-401D-4EBD-B796-6B7CA800151C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9E12B1-401D-4EBD-B796-6B7CA800151C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC9E12B1-401D-4EBD-B796-6B7CA800151C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B242F1-8FD7-42BF-A241-DA185D9988AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B242F1-8FD7-42BF-A241-DA185D9988AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B242F1-8FD7-42BF-A241-DA185D9988AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B242F1-8FD7-42BF-A241-DA185D9988AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

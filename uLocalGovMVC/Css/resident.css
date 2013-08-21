@@ -4,10 +4,29 @@
 
 body { border-top: 3px solid blue; }
 
-ul.az {list-style:none}
-ul.az li {list-style:none;text-align:center}
-ul.az li a{font-size:1.8em;padding:1em;border:1px dashed #08c;display:block;float:left;margin:0 0.25em 0.5em 0.25em;width:0.8em}
-ul.az li a:hover, ul.az li a.active{background-color:#eeeeee;text-decoration:none}
+ul.az {
+	list-style:none;
+}
+ul.az li {
+	list-style:none;
+	text-align:center;
+}
+ul.az li a{
+	font-size:1.8em;
+	border:1px dashed #08c;
+	display:block;
+	float:left;
+	margin:0 0.1em 0.5em;
+	width: 1em;
+}
+ul.az li a:hover, ul.az li a.active{
+	background-color:#eeeeee;
+	text-decoration:none;
+}
+
+
+
+
 
 
 

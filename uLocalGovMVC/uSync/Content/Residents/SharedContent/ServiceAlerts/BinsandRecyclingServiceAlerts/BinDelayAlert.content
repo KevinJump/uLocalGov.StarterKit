@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgServiceAlert guid="109324db-186e-4a4d-8446-5c073238cb32" id="1181" nodeName="Bin Delay Alert" isDoc="" updated="2013-08-19T10:03:22.657Z" parentGUID="233b29bf-5528-48cd-9bca-9be6049914c7" nodeTypeAlias="ulgServiceAlert" templateAlias="" sortOrder="0" published="true">
+<ulgServiceAlert guid="109324db-186e-4a4d-8446-5c073238cb32" id="1181" nodeName="Bin Delay Alert" isDoc="" updated="2013-08-21T19:39:34.200401+01:00" parentGUID="233b29bf-5528-48cd-9bca-9be6049914c7" nodeTypeAlias="ulgServiceAlert" templateAlias="" sortOrder="1" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Snow delays Bin and Recycling Collections</title>
   <bodyText><![CDATA[<p>Due to recent heavy snowfalls, bin collections are running 1 day behind normal collection day schedule. <a href="#">see .... for more details about your collection</a>.</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="3a480cf8-e0c5-43d9-828e-eef7a37ee25f" id="1245" nodeName="Page Types" isDoc="" updated="2013-08-20T13:26:36.3978957+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
+<ulgContentPage guid="3a480cf8-e0c5-43d9-828e-eef7a37ee25f" id="1245" nodeName="Page Types" isDoc="" updated="2013-08-21T13:27:22.5146864+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Page Types (DocumentTypes)</title>
   <bodyText><![CDATA[<p>Each type of page within the starter kit is defined as a Document type – each Document Type defines what content fields make up a page, what page templates are used to render it and what the structure can be (what document types are allowed as children of each type).</p>
 <h3>Service Alerts</h3>
@@ -15,18 +16,17 @@
 <p>The majority of pages within the site are standard content pages. these pages have navigation, related items, contact details built in, the page content is then rendered in the centre of the page.</p>
 <h3>Contact Pages</h3>
 <p>All contact on the site is centralized into the contact pages, this allows for easy management and measurement of contact. For the starter kit the forms are not functional. You would place your own favourite form software in the gap.</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[file]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[file]]></relatedIcon>
   <summary><![CDATA[<p>Document types and what the do</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedItems>
     <links />
   </relatedItems>
-  <contact></contact>
+  <contact>F24E402D-0404-4C82-A835-E0B43D1D7D9F</contact>
 </ulgContentPage>

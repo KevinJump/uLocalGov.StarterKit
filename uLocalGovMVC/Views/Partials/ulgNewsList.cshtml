@@ -32,16 +32,13 @@
      if (String.IsNullOrEmpty(imageAltText)){
       imageAltText = mediaItem.Name;         
      }
-     if (!mediaItem.GetPropertyValue<bool>("doNotCropThisImage")){
-         imageUrl = CropUp.GetUrl(imageUrl,new ImageSizeArguments{ CropAlias="squarethumb", CropMode=CropUpMode.BestFit });
-     }
  
     }  
 	
  	<li class="media">
   
     @if(hasImage){
-        <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" class="media-object" /></a>
+        <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" class="media-object" width="150px" height="150px"/></a>
     } 
         <div class="media-body">
            

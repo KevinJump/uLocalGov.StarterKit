@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="69c0d268-f76e-4ccc-8cb7-1f3960b175f6" id="1246" nodeName="Packages" isDoc="" updated="2013-08-20T13:28:11.6483438+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="4" published="true">
+<ulgContentPage guid="69c0d268-f76e-4ccc-8cb7-1f3960b175f6" id="1246" nodeName="Packages" isDoc="" updated="2013-08-21T13:27:36.2164701+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="4" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Packages</title>
   <bodyText><![CDATA[<p>The uLocalGov starter kit, has been built with a few extra packages to show you what is possible, uLocalGov works with the following packages</p>
 <ul>
 <li>uComponents</li>
 <li>FamFamIcons</li>
 </ul>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[briefcase]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-  <featureInMenu>0</featureInMenu>
+  <featureInMenu>1</featureInMenu>
+  <relatedIcon><![CDATA[briefcase]]></relatedIcon>
   <summary><![CDATA[<p>other packages used in the starter kit</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedItems>
@@ -21,5 +21,5 @@
       <link title="Umbraco Packages" link="http://our.umbraco.org/projects" type="external" newwindow="0" />
     </links>
   </relatedItems>
-  <contact></contact>
+  <contact>F24E402D-0404-4C82-A835-E0B43D1D7D9F</contact>
 </ulgContentPage>

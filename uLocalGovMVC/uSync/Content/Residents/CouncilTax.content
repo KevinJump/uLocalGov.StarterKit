@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="09b88d91-9d56-48f6-9826-c0cfe6b85858" id="1192" nodeName="Council Tax" isDoc="" updated="2013-08-19T10:03:18.4Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="6" published="true">
+<ulgLandingPage guid="09b88d91-9d56-48f6-9826-c0cfe6b85858" id="1192" nodeName="Council Tax" isDoc="" updated="2013-08-21T12:23:30.8695289+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="7" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Council Tax</title>
   <bodyText><![CDATA[]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[credit-card]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[credit-card]]></relatedIcon>
   <summary><![CDATA[<p>Pay your council tax, discounts and exemptions </p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

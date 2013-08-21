@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="d829542f-6399-4c20-b8f6-c5ad8da9bc8f" id="1200" nodeName="Libraries" isDoc="" updated="2013-08-19T10:03:19.54Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
-  <title>Libraries</title>
-  <bodyText><![CDATA[]]></bodyText>
+<ulgLandingPage guid="d829542f-6399-4c20-b8f6-c5ad8da9bc8f" id="1200" nodeName="Libraries" isDoc="" updated="2013-08-21T13:09:20.8558191+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="5" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
+  <title>Libraries</title>
+  <bodyText><![CDATA[<p>Books, family histroy, computers and people going shushh! </p>]]></bodyText>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[book]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[book]]></relatedIcon>
   <summary><![CDATA[<p>Books, Computers and Family History</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

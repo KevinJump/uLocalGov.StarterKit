@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgLandingPage guid="775e4ae2-cf71-49f9-9a43-d6e9d105dece" id="1197" nodeName="Leisure, Parks and Events" isDoc="" updated="2013-08-19T10:03:19.067Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="3" published="true">
+<ulgLandingPage guid="775e4ae2-cf71-49f9-9a43-d6e9d105dece" id="1197" nodeName="Leisure, Parks and Events" isDoc="" updated="2013-08-21T12:23:30.7825239+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="4" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Leisure, Parks and Events</title>
   <bodyText><![CDATA[]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[group]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[group]]></relatedIcon>
   <summary><![CDATA[<p>Swimming, Gyms, parks and what's on</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>

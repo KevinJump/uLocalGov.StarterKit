@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgSystemPage guid="2daa2fbf-d641-407f-b7ea-c1a9f7d45da9" id="1180" nodeName="Site Map" isDoc="" updated="2013-08-19T10:03:21.037Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSiteMapPage" sortOrder="21" published="true">
+<ulgSystemPage guid="2daa2fbf-d641-407f-b7ea-c1a9f7d45da9" id="1180" nodeName="Site Map" isDoc="" updated="2013-08-21T12:31:21.8154654+01:00" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSystemPage" templateAlias="ulgSiteMapPage" sortOrder="21" published="true">
+  <umbracoNaviHide>1</umbracoNaviHide>
   <title>Site Map</title>
   <bodyText><![CDATA[]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <hideFromAZ>0</hideFromAZ>
+  <hideFromAZ>1</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
 </ulgSystemPage>
