@@ -1,5 +1,4 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using Eksponent.CropUp;
 @*Need to get all news on site ordered by date, promoted to the current site node, what about stickyness ?*@
 
 @{
@@ -15,33 +14,32 @@
 	
 
     @foreach (IPublishedContent newsItem in newsList)
-{
+    {
       
-        bool hasImage = false;
-        string imageUrl = String.Empty;
+        string imageUrl = "http://placehold.it/150x150";
         string imageAltText = String.Empty;
         DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
- if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
-      {
-       var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage")); 
-       hasImage = true;
-       imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
-      imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
-     
-  
-     if (String.IsNullOrEmpty(imageAltText)){
-      imageAltText = mediaItem.Name;         
-     }
- 
-    }  
+        
+        if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
+        {
+            var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage"));
+            if (mediaItem != null)
+            {
+                imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
+                imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
+
+                if (String.IsNullOrEmpty(imageAltText))
+                {
+                    imageAltText = mediaItem.Name;
+                }
+            }
+        }  
 	
  	<li class="media">
   
-    @if(hasImage){
         <a href="@newsItem.Url" class="pull-left"><img src="@imageUrl" alt="@imageAltText" class="media-object" width="150px" height="150px"/></a>
-    } 
+
         <div class="media-body">
-           
             <h4 class="media-heading"><small class="date">@String.Format("{0:dd/MM/yyyy}",articleDate)</small> <a href="@newsItem.Url">@newsItem.GetPropertyValue("title")</a></h4>
 			 <div class="media">
             <span class="articleContent"> @newsItem.GetPropertyValue("newsSummary") </span>

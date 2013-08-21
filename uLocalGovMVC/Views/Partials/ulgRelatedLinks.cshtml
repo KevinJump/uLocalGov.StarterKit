@@ -6,28 +6,29 @@
 *@
 
 @{
-    if ( CurrentPage.HasProperty("relatedItems") && (CurrentPage.relatedItems.Count() > 0) )
+    if ( CurrentPage.HasProperty("relatedItems") && ( CurrentPage.relatedItems.GetType() != typeof(string) ))
     {
-      <div class="related-items well">
-          <h2>@umbraco.library.GetDictionaryItem("Related")</h2>
-          <ul class="nav nav-list">
-              @foreach (var link in CurrentPage.relatedItems)
-              {
-                  string target = link.newwindow == "1" ? "target=\"_blank\"" : "" ;
-                  <li>
-                  @if (link.type == "internal")
-                  {
-                      <a href="@umbraco.library.NiceUrl(int.Parse(link.link))" @Html.Raw(target)>@link.title</a>
-                  }
-                  else
-                  {
-                      <a href="@link.link" @Html.Raw(target)>@link.title</a>
-
-                  }
-                  </li>
-              }
-          </ul>
-
-      </div>   
+        if ( CurrentPage.relatedItems.Count() > 0 ) 
+        {
+            <div class="related-items well">
+                <h2>@umbraco.library.GetDictionaryItem("Related")</h2>
+                <ul class="nav nav-list">
+                    @foreach (var link in CurrentPage.relatedItems)
+                    {
+                        string target = link.newwindow == "1" ? "target=\"_blank\"" : "" ;
+                        <li>
+                            @if (link.type == "internal")
+                            {
+                                <a href="@umbraco.library.NiceUrl(int.Parse(link.link))" @Html.Raw(target)>@link.title</a>
+                            }
+                            else
+                            {
+                                <a href="@link.link" @Html.Raw(target)>@link.title</a>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>   
+        }
     }
 }

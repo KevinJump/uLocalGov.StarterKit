@@ -17,22 +17,26 @@
             @foreach(IPublishedContent newsItem in allNews) 
             {
                 bool hasImage = false ; 
-                string imageUrl = String.Empty ; 
+                string imageUrl = "http://placehold.it/320x240" ; 
                 string imageAltText = String.Empty ;
                 DateTime articleDate = newsItem.GetPropertyValue<DateTime>("articleDate");
-                
-                if ( newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
+
+                if (newsItem.HasProperty("relatedImage") && newsItem.HasValue("relatedImage"))
                 {
                     var mediaItem = Umbraco.TypedMedia(newsItem.GetPropertyValue("relatedImage"));
-                    hasImage = true ; 
-                    imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
-                    imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
-
-                    if (String.IsNullOrEmpty(imageAltText))
+                    hasImage = true;
+                    if (mediaItem != null)
                     {
-                        imageAltText = mediaItem.Name;
+                        imageUrl = mediaItem.GetPropertyValue<string>("umbracoFile");
+                        imageAltText = mediaItem.GetPropertyValue<string>("alternativeText");
+
+                        if (String.IsNullOrEmpty(imageAltText))
+                        {
+                            imageAltText = mediaItem.Name;
+                        }
                     }
                 }
+                
                 String first = @newsItem.IsFirst() ? "active" : ""; 
                 
                 <div class="item @first">
