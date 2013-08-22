@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgVenuePage guid="6c256ee5-3bc4-4b2a-91c9-09cb1d0a6885" id="1199" nodeName="Clarkesville Park" isDoc="" updated="2013-08-19T10:03:19.39Z" parentGUID="ae863a9b-499b-43e1-8c98-7370ab0b75ef" nodeTypeAlias="ulgVenuePage" templateAlias="ulgVenuePage" sortOrder="0" published="true">
-  <title>Clarkesville Park</title>
-  <bodyText><![CDATA[]]></bodyText>
+<ulgVenuePage guid="6c256ee5-3bc4-4b2a-91c9-09cb1d0a6885" id="1199" nodeName="Clarkesville Park" isDoc="" updated="2013-08-22T04:23:47.0714878+01:00" parentGUID="ae863a9b-499b-43e1-8c98-7370ab0b75ef" nodeTypeAlias="ulgVenuePage" templateAlias="ulgVenuePage" sortOrder="0" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
+  <title>Clarkesville Park</title>
+  <bodyText><![CDATA[<p>A Park.</p>]]></bodyText>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <venueAddress><![CDATA[123, Clarkesville Road]]></venueAddress>
-  <venueLocation><![CDATA[38.28006190000001,-85.75996399999997,5]]></venueLocation>
+  <venueLocation><![CDATA[53.645708,-3.0101130000000467,13]]></venueLocation>
   <googleEventCalendarId></googleEventCalendarId>
-  <venueType><![CDATA[]]></venueType>
+  <venueType><![CDATA[Park]]></venueType>
   <venueImage><![CDATA[]]></venueImage>
   <imageCarousel><![CDATA[]]></imageCarousel>
 </ulgVenuePage>

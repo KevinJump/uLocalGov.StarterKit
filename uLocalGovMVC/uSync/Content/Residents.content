@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgHomepage guid="ff62208a-0459-4253-b06c-1871694c5cac" id="1177" nodeName="Residents" isDoc="" updated="2013-08-19T10:03:16.577Z" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" sortOrder="0" published="true">
+<ulgHomepage guid="ff62208a-0459-4253-b06c-1871694c5cac" id="1177" nodeName="Residents" isDoc="" updated="2013-08-22T03:55:06.8240952+01:00" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="ulgHomepage" templateAlias="ulgHomepage" sortOrder="0" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>uLocalGov MVC</title>
   <bodyText><![CDATA[<p>Welcome to the uLocalGov starter kit, this site has been designed to help you get an understanding of how umbraco could be used in a local goverment environment.</p>
-<p><a href="/{localLink:66112467-CFE9-439F-B489-5D7E94FA5F6D}" title="uLocalGov" class="btn btn-primary btn-lg">Learn More »</a></p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
+<p><a href="/uLocalgov/" title="uLocalGov" class="btn btn-primary btn-lg">Learn More »</a></p>]]></bodyText>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[]]></relatedIcon>
   <summary><![CDATA[<p>This is a summary</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <menuLength>6</menuLength>

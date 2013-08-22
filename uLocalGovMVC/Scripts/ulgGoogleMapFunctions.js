@@ -41,7 +41,7 @@ function AddVenueToGoogleMap() {
         // initialize
         var map = new google.maps.Map(document.getElementById('map_canvas'), options);
         //Add Marker to map
-        var image = '/img/mapicons/' + venueType.replace(" ","-") + '.png';
+        var image = '/img/mapicons/venue_' + venueType.replace(" ","-") + '.png';
         var shadow = '/img/mapicons/shadow.png';
         var venueMarker = new google.maps.Marker({
             position: latlng,
@@ -90,12 +90,12 @@ function AddVenuesToGoogleMap() {
 
 
         var lastinfowindow;
-
+		
         // initialize
         var map = new google.maps.Map(document.getElementById('map_canvas'), options);
         //loop through map points on the page
-        $('ul#venueList li.venueMapPoint').each(function (index) {
-
+        $('.venueMapPoint').each(function (index) {
+			
             var venueUrl = $(this).attr("data-venueUrl");
             var venueType = $(this).attr("data-venueType");
             var venueTitle = $(this).attr("data-venueTitle")
@@ -107,7 +107,7 @@ function AddVenuesToGoogleMap() {
 			
 		}
             //set marker type
-            var image = '/img/mapicons/' + venueType.replace(" ","-") + '.png';
+            var image = '/img/mapicons/venue_' + venueType.replace(" ","-") + '.png';
             var shadow = '/img/mapicons/shadow.png';
 
             // add marker to map
