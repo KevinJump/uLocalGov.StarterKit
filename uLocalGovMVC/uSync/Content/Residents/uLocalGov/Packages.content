@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="69c0d268-f76e-4ccc-8cb7-1f3960b175f6" id="1246" nodeName="Packages" isDoc="" updated="2013-08-21T13:27:36.2164701+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="4" published="true">
+<ulgContentPage guid="69c0d268-f76e-4ccc-8cb7-1f3960b175f6" id="1246" nodeName="Packages" isDoc="" updated="2013-08-22T05:06:44.6789185+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="5" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
   <title>Packages</title>
   <bodyText><![CDATA[<p>The uLocalGov starter kit, has been built with a few extra packages to show you what is possible, uLocalGov works with the following packages</p>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="272e9adc-ca55-447e-9dfb-238e14572316" id="1244" nodeName="Bootstrap" isDoc="" updated="2013-08-21T12:36:09.8999429+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
+<ulgContentPage guid="272e9adc-ca55-447e-9dfb-238e14572316" id="1244" nodeName="Bootstrap" isDoc="" updated="2013-08-22T04:52:52.23Z" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
   <title>Bootstrap / Icons</title>
   <bodyText><![CDATA[<p>The uLocalGov package has been built upon the latest version of <a href="http://getbootstrap.com">bootstrap</a> (v3). This allows for a simple grid layout and consistent look and feel across the site.</p>

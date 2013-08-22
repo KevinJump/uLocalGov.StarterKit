@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="b2be23ec-b5c5-4e4b-9b4e-1a93b841904a" id="1217" nodeName="Templates" isDoc="" updated="2013-08-21T13:27:29.4120809+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
+<ulgContentPage guid="b2be23ec-b5c5-4e4b-9b4e-1a93b841904a" id="1217" nodeName="Templates" isDoc="" updated="2013-08-22T04:52:52.187Z" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
   <title>Template Structure</title>
   <bodyText><![CDATA[<p>In Umbraco the templates control the layout and html used within the site, often you will have a template for each type of page your site has.</p>

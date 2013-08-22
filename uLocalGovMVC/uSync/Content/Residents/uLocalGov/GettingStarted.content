@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgContentPage guid="6f370315-2acc-477b-bb38-c4ca2dd6ef7a" id="1248" nodeName="Getting Started" isDoc="" updated="2013-08-22T05:07:52.4517949+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="0" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <title>Getting Started</title>
+  <bodyText><![CDATA[<p>The best way to understand the uLocalGov starter kit is to click about and look. this is the front end of hte website, but if you log on to the back end and look at the Templates and Partial Views you will get a sense for how most of the code works. </p>
+<h3>Configuration</h3>
+<p>the starter kit package works when installed but their are a couple of extra tweaks you can do inside umbraco to make it work betterer.</p>
+<h3>MVC</h3>
+<p>if you go look at the templates in the back end they will be empty. by default umbraco uses masterpages to build the templates, but this starter kit is built in MVC - change the <span style="line-height: 1.428571429;"><em>defaultRenderingEngine </em>setting in <em>config/umbracosettings.config</em> to Mvc to change umbraco to use Mvc. then you will be able to see the templates</span></p>
+<p><strong>&lt;defaultRenderingEngine&gt;Mvc&lt;/defaultRenderingEngine&gt;</strong></p>
+<h3>URLs</h3>
+<p>the first one is changing the way umbraco generates url's </p>
+<p>by default url's have the page name so this page is /getting-started.aspx - you can change this to /getting-started/ by changing the </p>
+<p><em>umbracoUseDirectoryUrls </em>setting in the <em>web.config</em> to true</p>
+<p><strong>&lt;add key="umbracoUseDirectoryUrls" value="true" /&gt;</strong></p>]]></bodyText>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <hideFromAZ>0</hideFromAZ>
+  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
+  <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[bolt]]></relatedIcon>
+  <summary><![CDATA[<p>Using the starter kit to see how it works.</p>]]></summary>
+  <serviceAlert><![CDATA[]]></serviceAlert>
+  <relatedItems>
+    <links />
+  </relatedItems>
+  <contact></contact>
+</ulgContentPage>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgContentPage guid="9fefe4cb-e9ea-4edb-abb9-fef11b37ef19" id="1243" nodeName="Partial Views" isDoc="" updated="2013-08-20T13:13:56.4094269+01:00" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+<ulgContentPage guid="9fefe4cb-e9ea-4edb-abb9-fef11b37ef19" id="1243" nodeName="Partial Views" isDoc="" updated="2013-08-22T04:52:52.45Z" parentGUID="66112467-cfe9-439f-b489-5d7e94fa5f6d" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="2" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
   <title>Partial Views</title>
   <bodyText><![CDATA[<p>When functionality is repeated across the site, it can be taken out of templates and moved into Partial Views – these partial views are repeatable chunks of code that can be placed within templates to achieve a specific goal.</p>
 <h3>Mega menu</h3>
@@ -30,14 +31,13 @@
 <p>The number of items in the straight to is controlled in the landing page</p>
 <p>Links are rendered in their Umbraco sort order – changing the order of nodes inside Umbraco changes this order</p>
 <p>The “Straight To” and ”More…” text is set in dictionary items. Allowing you to change it once throughout the site (and have it in welsh)</p>]]></bodyText>
-  <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-  <relatedIcon><![CDATA[cog]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
+  <relatedIcon><![CDATA[cog]]></relatedIcon>
   <summary><![CDATA[<p>Repeatable code used across the site</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <relatedItems>

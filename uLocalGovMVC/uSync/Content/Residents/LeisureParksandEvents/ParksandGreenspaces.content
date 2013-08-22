@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ulgVenueLandingPage guid="ae863a9b-499b-43e1-8c98-7370ab0b75ef" id="1198" nodeName="Parks and Greenspaces" isDoc="" updated="2013-08-22T04:23:13.2045507+01:00" parentGUID="775e4ae2-cf71-49f9-9a43-d6e9d105dece" nodeTypeAlias="ulgVenueLandingPage" templateAlias="ulgVenueHomepage" sortOrder="0" published="true">
+<ulgVenueLandingPage guid="ae863a9b-499b-43e1-8c98-7370ab0b75ef" id="1198" nodeName="Parks and Greenspaces" isDoc="" updated="2013-08-22T04:59:22.4746258+01:00" parentGUID="775e4ae2-cf71-49f9-9a43-d6e9d105dece" nodeTypeAlias="ulgVenueLandingPage" templateAlias="ulgVenueHomepage" sortOrder="0" published="true">
   <umbracoNaviHide>0</umbracoNaviHide>
   <title>Parks and Greenspaces</title>
   <bodyText><![CDATA[]]></bodyText>
@@ -9,8 +9,8 @@
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <summary><![CDATA[]]></summary>
+  <relatedIcon><![CDATA[map-marker]]></relatedIcon>
+  <summary><![CDATA[<p>where are all the parks? </p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
