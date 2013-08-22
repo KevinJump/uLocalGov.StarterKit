@@ -1,10 +1,29 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@*Need to get all news on site ordered by date, promoted to the current site node, what about stickyness ?*@
+@*
+  Basic Homepage news carousel, gets the last 5 items (by date) that are targeted for 
+  this type of section page (inc homepage), and displays them in a bootstrap carousel
 
+  you would want to include things like sticky news items, auto expiry etc.
+*@
+
+@*
+
+	Package Bug - this works but the starterKit Packaged content looses the newsLocation
+				 value on import, so we are using a simpler query to prove concepts 
+	
+    var allNews = Umbraco.TypedContentAtXPath("//ulgNewsItem")
+		.Where(x=>x.IsVisible() 
+				&& x.GetPropertyValue<DateTime>("articleDate") < DateTime.Now 
+				&& x.GetPropertyValue<string>("newsLocation").Split(new Char[]{','}, StringSplitOptions.RemoveEmptyEntries).Contains(Model.Content.Id.ToString()))
+		.OrderByDescending(x=>x.GetPropertyValue<DateTime>("articleDate")).Take(5);
+
+	*@
 @{
-    
-    var allNews = Umbraco.TypedContentAtXPath("//ulgNewsItem").Where(x=>x.IsVisible() && x.GetPropertyValue<DateTime>("articleDate") < DateTime.Now && x.GetPropertyValue<string>("newsLocation").Split(new Char[]{','}, StringSplitOptions.RemoveEmptyEntries).Contains(Model.Content.Id.ToString()) ).OrderByDescending(x=>x.GetPropertyValue<DateTime>("articleDate")).Take(5);
-  
+	
+	var allNews = Umbraco.TypedContentAtXPath("//ulgNewsItem")
+		.Where(x=>x.IsVisible() 
+			   && x.GetPropertyValue<DateTime>("articleDate") < DateTime.Now) 
+		.OrderByDescending(x=>x.GetPropertyValue<DateTime>("articleDate")).Take(5);
     
 }
 

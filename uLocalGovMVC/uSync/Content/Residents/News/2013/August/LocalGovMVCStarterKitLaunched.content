@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ulgNewsItem guid="5c8fcae8-0c94-433b-8b59-0d7c909c0a16" id="1247" nodeName="LocalGov MVC Starter Kit Launched" isDoc="" updated="2013-08-22T03:50:13.2593043+01:00" parentGUID="d427b592-d3ec-4577-afe4-ff811b465b52" nodeTypeAlias="ulgNewsItem" templateAlias="ulgNewsItemPage" sortOrder="2" published="true">
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <title>LocalGov Starterkit Launched</title>
+  <bodyText><![CDATA[<p>The Localgov starterkit<span> has been designed to help you get an understanding of how umbraco could be used in a local goverment environment.</span></p>
+<p>you can get a feel for how it works by browsing this site, reading <a href="/ulocalgov/">the documentation</a> and looking at the code in the back end</p>]]></bodyText>
+  <metaDescription></metaDescription>
+  <metaSubject><![CDATA[]]></metaSubject>
+  <metaRobots><![CDATA[]]></metaRobots>
+  <customCssClass></customCssClass>
+  <newsSummary>umbraco package for localgov sites</newsSummary>
+  <relatedImage>55DE1401-2E76-42DD-9657-33C60C240318</relatedImage>
+  <articleDate>2013-08-22T00:00:00</articleDate>
+  <newsLocation><![CDATA[FF62208A-0459-4253-B06C-1871694C5CAC]]></newsLocation>
+  <newsTopics><![CDATA[]]></newsTopics>
+</ulgNewsItem>
