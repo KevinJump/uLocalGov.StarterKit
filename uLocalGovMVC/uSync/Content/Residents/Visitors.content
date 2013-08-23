@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ulgSectionHomepage guid="b8d149b7-2583-4c3e-b0e0-8c8b4e0e2859" id="1218" nodeName="Visitors" isDoc="" updated="2013-08-18T20:46:16.867Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
-=======
-<ulgSectionHomepage guid="7ee6c677-3058-48f6-9af0-87cd813d54a3" id="1221" nodeName="Visitors" isDoc="" updated="2013-08-18T22:42:23.7240955+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
->>>>>>> reset of content and media files
+<ulgSectionHomepage guid="7ee6c677-3058-48f6-9af0-87cd813d54a3" id="1360" nodeName="Visitors" isDoc="" updated="2013-08-23T23:45:10.2164718+01:00" parentGUID="34f1c6a4-ac6d-4f6d-b941-ad09e7ad24c9" nodeTypeAlias="ulgSectionHomepage" templateAlias="ulgSectionHomepage" sortOrder="2" published="true">
   <title>Visitors</title>
   <bodyText><![CDATA[<p>Tourism / Visitors</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -16,7 +12,6 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
-  <serviceAlert><![CDATA[]]></serviceAlert>
   <menuLength></menuLength>
   <sectionName>Visitors</sectionName>
   <sectionStyle>/css/visitors.css</sectionStyle>

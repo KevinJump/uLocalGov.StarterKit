@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/LandingPage.content
+
 <ulgContentPage guid="9d281a8a-b724-4290-ad0a-2b3486e8093b" id="1215" nodeName="LandingPage" isDoc="" updated="2013-08-18T21:25:14.8564116+01:00" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
-=======
-<ulgContentPage guid="889a45ee-535f-4b11-a020-938f7c3821fa" id="1218" nodeName="ulg.LandingPage" isDoc="" updated="2013-08-18T22:44:54.3104588+01:00" parentGUID="3924c4f0-82fa-4884-a796-9461dd685308" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="3" published="true">
->>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgLandingPage.content
+
   <title>Landing Pages</title>
   <bodyText><![CDATA[<p>(ulg.LandingPage)</p>
 <p>Navigational Links</p>
@@ -18,19 +16,13 @@
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/LandingPage.content
-=======
   <serviceAlert><![CDATA[]]></serviceAlert>
->>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgLandingPage.content
   <relatedIcon><![CDATA[plane]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[<p>Naivgation elements</p>]]></summary>
-<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/LandingPage.content
-  <serviceAlert><![CDATA[]]></serviceAlert>
-=======
->>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgLandingPage.content
+
   <relatedItems>
     <links />
   </relatedItems>

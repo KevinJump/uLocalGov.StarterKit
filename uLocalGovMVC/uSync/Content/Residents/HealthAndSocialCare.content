@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ulgLandingPage guid="a446e522-4cd3-4a7c-992b-9fc696acbb56" id="1194" nodeName="Health and Social Care" isDoc="" updated="2013-08-18T20:47:33.523Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="16" published="true">
-  <title>Health and Social Care</title>
-=======
-<ulgLandingPage guid="1db424fe-954d-4f2e-890b-f680d05af6fe" id="1189" nodeName="Health and Social Care" isDoc="" updated="2013-08-18T22:42:49.7859371+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="9" published="true">
-  <title>Health &amp;amp;amp; Social Care</title>
->>>>>>> reset of content and media files
+<ulgLandingPage guid="1db424fe-954d-4f2e-890b-f680d05af6fe" id="1336" nodeName="Health and Social Care" isDoc="" updated="2013-08-23T23:41:03Z" parentGUID="34f1c6a4-ac6d-4f6d-b941-ad09e7ad24c9" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="10" published="true">
+  <title>Health &amp;amp;amp;amp; Social Care</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
   <metaDescription></metaDescription>
@@ -17,7 +12,6 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
-  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>

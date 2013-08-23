@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ContentPage.content
-<ulgContentPage guid="d5462492-df5f-4603-9553-b156092b4d93" id="1213" nodeName="Content Page" isDoc="" updated="2013-08-18T21:24:53.9592163+01:00" parentGUID="dca03626-df41-4d9d-8c0c-fdb5e9db0c91" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
-  <title>Content Page</title>
-=======
+
 <ulgContentPage guid="1fd16a17-fd68-4135-a9e9-62fa203feb31" id="1216" nodeName="ulg.ContentPage" isDoc="" updated="2013-08-18T22:44:48.5899289+01:00" parentGUID="3924c4f0-82fa-4884-a796-9461dd685308" nodeTypeAlias="ulgContentPage" templateAlias="ulgStandardPage" sortOrder="1" published="true">
   <title>DocType: ulg.ContentPage</title>
->>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgContentPage.content
   <bodyText><![CDATA[<p>Standard page of content</p>
 <p>This page is a ContentPage, as are all pages where there is just a need for some standard content. </p>
 <p>while for most pages of information the standard content page will be enough, there may be times when you need more functionality in a page. At this point you have a choice you can create a new template for a page or allow the editors to include Macro's in the page. a good example of an inline macro might be an address lookup control or something like displaying an image gallery from flickr. </p>
@@ -14,21 +10,12 @@
   <metaDescription></metaDescription>
   <metaSubject><![CDATA[]]></metaSubject>
   <metaRobots><![CDATA[]]></metaRobots>
-<<<<<<< HEAD:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ContentPage.content
   <relatedIcon><![CDATA[copy]]></relatedIcon>
   <hideFromAZ>0</hideFromAZ>
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[<p>A Standard page of content</p>]]></summary>
   <serviceAlert><![CDATA[]]></serviceAlert>
-=======
-  <serviceAlert><![CDATA[]]></serviceAlert>
-  <relatedIcon><![CDATA[]]></relatedIcon>
-  <hideFromAZ>0</hideFromAZ>
-  <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
-  <featureInMenu>0</featureInMenu>
-  <summary><![CDATA[]]></summary>
->>>>>>> reset of content and media files:uLocalGovMVC/uSync/Content/Residents/uLocalGov/DocumentTypes/ulgContentPage.content
   <relatedItems>
     <links />
   </relatedItems>

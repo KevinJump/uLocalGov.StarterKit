@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ulgServiceAlert guid="7848b344-4158-449f-94b2-c51f9bbe28b9" id="1181" nodeName="Bin Delay Alert" isDoc="" updated="2013-08-18T20:42:11.1826339+01:00" parentGUID="233b29bf-5528-48cd-9bca-9be6049914c7" nodeTypeAlias="ulgServiceAlert" templateAlias="" sortOrder="0" published="true">
-=======
 <ulgServiceAlert guid="7848b344-4158-449f-94b2-c51f9bbe28b9" id="1170" nodeName="Bin Delay Alert" isDoc="" updated="2013-08-18T22:45:14.0168695+01:00" parentGUID="cf2481fd-3bee-4d14-ab17-3045869dd74f" nodeTypeAlias="ulgServiceAlert" templateAlias="" sortOrder="0" published="true">
->>>>>>> reset of content and media files
   <title>Snow delays Bin and Recycling Collections</title>
   <bodyText><![CDATA[<p>Due to recent heavy snowfalls, bin collections are running 1 day behind normal collection day schedule. <a href="#">see .... for more details about your collection</a>.</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>

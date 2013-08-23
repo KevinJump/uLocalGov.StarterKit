@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ulgNewsList guid="c3f43e3d-d549-480a-9ed3-d86a5e918ebf" id="1201" nodeName="News" isDoc="" updated="2013-08-18T21:01:16.257Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="23" published="true">
-=======
-<ulgNewsList guid="42aaafab-64c3-4ead-94fe-c1ade074115a" id="1208" nodeName="News" isDoc="" updated="2013-08-18T22:43:44.2013196+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="18" published="true">
->>>>>>> reset of content and media files
+<ulgNewsList guid="42aaafab-64c3-4ead-94fe-c1ade074115a" id="1341" nodeName="News" isDoc="" updated="2013-08-23T23:41:03.393Z" parentGUID="34f1c6a4-ac6d-4f6d-b941-ad09e7ad24c9" nodeTypeAlias="ulgNewsList" templateAlias="ulgNewsListPage" sortOrder="15" published="true">
   <title>News</title>
   <bodyText><![CDATA[<p>This is the news homepage</p>]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -16,5 +12,4 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
-  <serviceAlert><![CDATA[]]></serviceAlert>
 </ulgNewsList>

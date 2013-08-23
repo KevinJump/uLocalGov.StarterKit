@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ulgLandingPage guid="264806cc-622e-435f-b1e3-7db1bc074ee1" id="1208" nodeName="Planning" isDoc="" updated="2013-08-18T20:46:17.163Z" parentGUID="ff62208a-0459-4253-b06c-1871694c5cac" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="14" published="true">
-=======
-<ulgLandingPage guid="20b3a2ed-b60c-4907-b558-e73451ebffe2" id="1196" nodeName="Planning" isDoc="" updated="2013-08-18T22:43:38.5627739+01:00" parentGUID="7cc6c2ab-fe30-4eb9-84f8-34b7f40705d8" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="16" published="true">
->>>>>>> reset of content and media files
+<ulgLandingPage guid="20b3a2ed-b60c-4907-b558-e73451ebffe2" id="1348" nodeName="Planning" isDoc="" updated="2013-08-23T23:41:03.927Z" parentGUID="34f1c6a4-ac6d-4f6d-b941-ad09e7ad24c9" nodeTypeAlias="ulgLandingPage" templateAlias="ulgLandingPage" sortOrder="18" published="true">
   <title>Planning</title>
   <bodyText><![CDATA[]]></bodyText>
   <umbracoNaviHide>0</umbracoNaviHide>
@@ -16,7 +12,6 @@
   <alternativeAZEntries><![CDATA[]]></alternativeAZEntries>
   <featureInMenu>0</featureInMenu>
   <summary><![CDATA[]]></summary>
-  <serviceAlert><![CDATA[]]></serviceAlert>
   <mainItemCount></mainItemCount>
   <menuItemCount></menuItemCount>
 </ulgLandingPage>
